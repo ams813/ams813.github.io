@@ -2,24 +2,18 @@
 layout: post
 title:  "Over Nine Days"
 date:   2011-01-01
-categories: jekyll update
+categories: project
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Tasked with publishing a zine in graduate school, fellow designer Jessica Karle and I wanted to  tap into the tradition of zines’ subcultures. Over nine days, we set out to learn as much as we could about the arenas of chess, beer, and guns. 
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+We documented, inquired, interpreted, and experimented—just not always in that order. We studied pop culture references in movies, attended tournaments and competitions, and visited facilities and shows. We engaged with Grandmasters, brewmasters, rangemasters, and others far more experienced than us in the extended Baltimore area. 
 
-Jekyll also offers powerful support for code snippets:
+Our zine is a visualization of vernacular that tells our own experience through the stories of those we met. Our zine reveals how, especially as designers, we grasp for a wider understanding of the world around us.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+![alt text](/a/img/01.jpg)
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+<img src="a/img/01.jpg">
+Inspired by the use of classification in field guides, for each activity, we recorded our hours of exposure to the topic and a list of vocabulary we learned.
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+<img src="a/img/01.jpg">
+Caption: Printing offset on newsprint, we had to account for low-quality paper, absorbency issues, and a limited color palette to fit our budget. We chose imagery and icons that would shine in just black ink and were conservative with type size and weight.
