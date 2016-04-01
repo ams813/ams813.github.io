@@ -1,0 +1,43 @@
+---
+layout: post
+title:  Building a home for a national real estate brokerage
+subtitle:  Coldwell Banker
+date:   2014-08-01
+categories:   project
+short-description:   "While NRT is the largest residential real estate brokerage in the nation, its franchised Coldwell Banker online presence was spread across 17 regional desktop websites. Losing competition to aggregator websites and other brokerages, NRT wanted to focus its resources, traffic, SEO, and local content into a single website with a superior property search."
+role: Project definition, user experience, design concept & system, usability testing, digital style guide
+---
+
+National Realty Trust (NRT), the largest U.S. residential real estate brokerage, operated a network of 17 separate brokerage websites for its regional Coldwell Banker companies. While known for its trusted agents and extensive footprint in metropolitan areas, NRT’s property-search experience had fallen short to large online aggregators and other brokerages.
+
+In order to better serve its users and agents, unify the presentation of its brand, and ensure better extensibility and governance, NRT ambitiously aimed to consolidate its separate websites into a single, responsive destination and best-of-breed experience in online home-buying.
+
+We set out to build a web-app experience that would serve both agents and homebuyers, by providing the quickest and easiest path to relevant results. While HTML-prototyping and designing and coding over 20 templates, we worked closely with home-buyers, agents, and the NRT Web Services team to ensure the new experience felt intuitive, accounted for all property data scenarios, and could be implemented into a custom back-end.
+
+Image(s): Zone homepage (design 1, 2, 3, mobile
+
+<p class="caption sans-s-bold">Powerful localization proved our strongest demonstration of personalization. Coldwellbankerhomes.com geolocated users by IP address, cookies, or search history to land them in an experience that felt local and specific to their search. We placed the search front-and-center to put nothing in the user’s way from finding their dream home. Background photography and page content were tailored to the user’s regional zone. A modernized color palette brought Coldwell Banker into the 21st century.</p>
+
+Image: HBIB drawer (design 1, 2)
+
+<p class="caption sans-s-bold">A drawer with recently viewed and saved properties and searches drove return visitors directly to properties and search results of interest.</p>
+
+Image: Autocomplete wireframe
+
+<p class="caption sans-s-bold">An example of the complex user-experience thinking we lent to the project. This wireframe illustrates different scenarios for autocompleting search box queries.</p>
+
+Image(s): Search results desktop animated search (live site)
+
+<p class="caption sans-s-bold">After conducting a competitive analysis and testing with users, we landed on a search results experience that truly synced the property list with a map, so that as you navigated one, the other adapted. On larger screens, users wouldn’t have to choose between property specifics and relative proximity, and could filter properties easily without leaving results. We chose the Whitney type family as a new brand typeface for its friendliness, onscreen legibility, and its clarity in densely packed metadata.</p>
+
+Image(s): Search results small screens
+
+<p class="caption sans-s-bold">On smaller screens, users would toggle between a list and map view, but could still access all property metadata, search filters, and map tools.</p>
+
+Image: Property detail (design desktop, design mobile)
+
+<p class="caption sans-s-bold">The property detail page put photos front and center, but was also flexible to account for varying availability of photo assets, maps, and agent information. By featuring agents and quick contact forms to request a viewing, we looked to facilitate a personal connection with a real individual.</p>
+
+Image(s): Agent profile
+
+<p class="caption sans-s-bold">Agent biographies shined through well-structured, consistent content that also emphasized regional expertise.</p>

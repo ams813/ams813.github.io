@@ -81,6 +81,9 @@ layout: default
         <span class="post-meta">{{ post.date | date: "%Y"}}</span>
       {% endif %}
       {% if post.categories contains "article" %}
+        <span class="post-meta">{{ post.date | date: "%-m/%-d/%y"}}</span>
+      {% endif %}
+      {% if post.categories contains "podcast" %}
         <span class="post-meta">{{ post.date | date: "%-m/%y"}}</span>
       {% endif %}
         <span class="post-meta">{{ post.categories }}</span>

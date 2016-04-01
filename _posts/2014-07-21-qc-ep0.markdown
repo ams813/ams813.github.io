@@ -1,0 +1,24 @@
+---
+layout: post
+title:  My wheelie is long enough
+subtitle:  Packing for travel
+source: "Quirks & Compulsions"
+source-url: http://www.quirksandcompulsions.com/1
+date:   2014-07-21
+categories:   podcast
+---
+
+* Origin Story: [Patrick’s Packing List](https://github.com/pmarsceill/packing-list/blob/master/packing-list.md)
+* Luggage options
+  * Looking cool vs. utility
+  * Short vs.long trips
+  * To check or not to check?
+* Packing methods
+  * Rolling vs. folding
+  * Ironing clothes pre-packing or post-unpacking
+  * How do you pack a suit or blazer?
+  * Are garment bags a trap? Spoiler alert: yes.
+* Dealing with dirty laundry
+  * Eliminating cross-contamination
+* Unpacking upon arrival at destination
+* Unpacking upon return home

@@ -1,0 +1,29 @@
+---
+layout: post
+title:  Prepping an educational company to score higher with customers
+subtitle:  Kaplan Test Prep
+date:   2013-01-01
+categories:   project
+short-description:   In appealing to a wide range of test-prepping audiences, Kaplan Test Prep had developed a complex series of product offerings. Its website needed to better guide customers to understand its products, find the right prep for them, and proceed effortlessly through an online checkout process.
+role: User experience, design concept & system, digital style guide
+---
+
+As a world leader in test prep, Kaplan has been helping students succeed on exams and get into their choice schools for more than 70 years. Kaplan had invested significant energy in developing a suite of online, offline, and hybrid products specific to its varying audiences, but its wide array of offerings bewildered customers. Despite its higher-score guarantee and free practice tests, Kaplan risked losing customers with a confusing online experience.
+
+Kaplan needed a new site structure and extensible presentation of its products that could extend across audiences and business units (pre-college, grad, health, bar review). Happy Cog was tasked with helping students make a more informed buying decision and reducing barriers to purchase. We brought thoughtfulness to copy, refreshed the site to align with recent brand work, and improved functionality so Kaplan could illustrate its role as a helpful study partner.
+
+Images: Wizard (design step 1, step 2, step 3, step 4)
+
+<p class="caption sans-s-bold">A multi-step wizard presented the most suitable prep option for customers based on their type of test, test date, and how they like to study. For in-person prep, customers would view schedules before proceeding to purchase.<p>
+
+Images: Schedule (template)
+
+<p class="caption sans-s-bold">Customers could narrow their prep options by how, when, and where they like to study. We introduced Facit as a new brand typeface to make content approachable and easy to scan.</p>
+
+Image: PDP
+
+<p class="caption sans-s-bold">Detail pages outline product benefits and tightly integrate video assets to improve customer understanding of branded product names.</p>
+
+Images: Cart (design) / checkout (review & submit design)
+
+<p class="caption sans-s-bold">A streamlined cart and checkout flow clearly list items being purchased with corresponding metadata, as well as surface add-ons to supplement studying. Pastel colors supplement the brand palette to call out options with limited availability or promotions.</p>
