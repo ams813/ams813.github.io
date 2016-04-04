@@ -1,6 +1,4 @@
-/**
- * Reset some basic elements
- */
+// Resets
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -9,14 +7,11 @@ dl, dd, ol, ul, figure {
 }
 
 
-
-/**
- * Basic styling
- */
+// Basic styling
 body {
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    font-size: $base-font-size;
+    font-weight: $base-font-weight;
     color: $text-color;
-    background-color: $background-color;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -25,6 +20,9 @@ body {
     font-kerning: normal;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: $base-font-weight;
+}
 
 
 /**
@@ -56,12 +54,6 @@ figure > img {
     display: block;
 }
 
-figcaption {
-    font-size: $small-font-size;
-}
-
-
-
 /**
  * Lists
  */
@@ -77,30 +69,20 @@ li {
 }
 
 
-
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: $base-font-weight;
-}
-
-
-
 /**
  * Links
  */
 a {
-    color: $brand-color;
-    text-decoration: none;
+    color: $link-color;
+    text-decoration: underline;
 
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
+    //&:visited {
+        //color: darken($brand-color, 15%);
+    //}
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: $link-hover-color;
+        text-decoration: none;
     }
 }
 
@@ -110,8 +92,8 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
+    color: $black;
+    border-left: 4px solid $black;
     padding-left: $spacing-unit / 2;
     font-size: 18px;
     letter-spacing: -1px;
@@ -130,7 +112,7 @@ blockquote {
 pre,
 code {
     font-size: 15px;
-    border: 1px solid $grey-color-light;
+    border: 1px solid $black;
     border-radius: 3px;
     background-color: #eef;
 }
@@ -200,7 +182,7 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+            fill: $black;
         }
     }
 }

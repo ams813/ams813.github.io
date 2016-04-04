@@ -5,17 +5,15 @@ layout: default
 <div class="home">
 
   <div class="header">
-    <h1 class="page-heading">Aura Seltzer</h1>
-
-    <p class="serif-l">I&lsquo;m a designer making content both beautiful and approachable, busy crafting systems and experiences for the web.</p>
+    <p class="serif-l">I’m a designer making content both beautiful and approachable, busy crafting systems and experiences for the web.</p>
 
     <p class="sans-s-bold">But wait, there's <a href="#">more</a>.
 
     <div class="about">
       <div class="bio">
-        <p class="serif-m">I’m interested in the intersection between the designs we create, the content we produce, and the systems that power both. My work celebrates typographic detail and complex layers of information. Rumor has it, I’m also a grammar stickler with an exacting eye—an absent comma I can’t unsee.</p>
-        <p class="serif-m">Since 2012, I’ve worked at <a href="http://happycog.com/">Happy Cog</a>, where I design custom, responsive websites for clients like Ben &amp; Jerry's, Coldwell Banker, and Harvard University. My responsibilities span from conducting research and gathering requirements to modeling content and conceptualizing design solutions.</p>
-        <p class="serif-m">I earned an MFA in Graphic Design from Maryland Institute College of Art and BA in Communication Design from the University of Pennsylvania.</p>
+        <p class="serif-s">I’m interested in the intersection between the designs we create, the content we produce, and the systems that power both. My work celebrates typographic detail and complex layers of information. Rumor has it, I’m also a grammar stickler with an exacting eye—an absent comma I can’t unsee.</p>
+        <p class="serif-s">Since 2012, I’ve worked at <a href="http://happycog.com/">Happy Cog</a>, where I design custom, responsive websites for clients like Ben &amp; Jerry's, Coldwell Banker, and Harvard University. My responsibilities span from conducting research and gathering requirements to modeling content and conceptualizing design solutions.</p>
+        <p class="serif-s">I earned an MFA in Graphic Design from Maryland Institute College of Art and BA in Communication Design from the University of Pennsylvania.</p>
       </div>
       <div class="speaking">
         <h2 class="sans-m-bold">Speaking &amp; teaching</h2>
@@ -28,7 +26,7 @@ layout: default
             <span class="sans-s">Institute of Contemporary Art, University of Pennsylvania, Philadelphia, PA</span><br>
             <span class="sans-s">2015</span>
           </li>
-          <li><span class="sans-s-bold">Speaker</span><span class="sans-s-italic">“All Together Now: Content &amp; Collaboration in a Responsive Redesign”</span><br>
+          <li><span class="sans-s-bold">Speaker</span><a class="sans-s-italic" href="http://www.slideshare.net/Saraboettcher/all-together-now-content-collaboration-in-a-responsive-redesign">“All Together Now: Content &amp; Collaboration in a Responsive Redesign”</a><br>
             <span class="sans-s">Confab Central, Minneapolis, MN</span><br>
             <span class="sans-s">2014</span>
           </li>
@@ -49,11 +47,11 @@ layout: default
       <div class="topics">
         <h2 class="sans-m-bold">Let's talk more about</h2>
         <ul>
-          <li>Typefaces, new or old, for print or web</li>
-          <li><span class="sans-s-italic">West Wing</span>, <span class="sans-s-italic">The Wire</span>, or your TV show of choice</li>
-          <li>My latest experiments with sous vide and breadmaking, and recipes you stand by</li>
-          <li>Tennis rivalries in the Open era</li>
-          <li>Walking routes in Philadelphia</li>
+          <li class="sans-s">Typefaces, new or old, for print or web</li>
+          <li class="sans-s"><span class="sans-s-italic">West Wing</span>, <span class="sans-s-italic">The Wire</span>, or your TV show of choice</li>
+          <li class="sans-s">My latest experiments with sous vide and breadmaking, and recipes you stand by</li>
+          <li class="sans-s">Tennis rivalries in the Open era</li>
+          <li class="sans-s">Walking routes in Philadelphia</li>
         </ul>
       </div>
       <div class="interviews">
@@ -69,14 +67,15 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="serif-m-italic">{{ post.subtitle}}
-        <h2>
+        <span class="post-meta-subtitle">{{ post.subtitle}}</span>
+        <h2 class="sans-m-bold">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
         <p class="serif-s">{{ post.short-description }}</p>
       {% if post.source %}
-        <p class="sans-s-bold gray">Published on <a href="{{ post.source-url }}">{{ post.source }}</a></p>
+        <p class="post-meta-source">Published on <a href="{{ post.source-url }}">{{ post.source }}</a></p>
       {% endif %}
+      <span class="post-meta-category">{{ post.categories }}</span>
       {% if post.categories contains "project" %}
         <span class="post-meta">{{ post.date | date: "%Y"}}</span>
       {% endif %}
@@ -86,7 +85,6 @@ layout: default
       {% if post.categories contains "podcast" %}
         <span class="post-meta">{{ post.date | date: "%-m/%y"}}</span>
       {% endif %}
-        <span class="post-meta">{{ post.categories }}</span>
       </li>
     {% endfor %}
   </ul>

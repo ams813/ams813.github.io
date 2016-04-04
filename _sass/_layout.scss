@@ -2,8 +2,8 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    border-top: 5px solid $gray;
+    border-bottom: 1px solid $gray;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -20,7 +20,7 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $gray;
     }
 }
 
@@ -47,7 +47,7 @@
         top: 9px;
         right: $spacing-unit / 2;
         background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        border: 1px solid $gray;
         border-radius: 5px;
         text-align: right;
 
@@ -65,7 +65,7 @@
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: $gray;
                 }
             }
         }
@@ -98,7 +98,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 1px solid $gray;
     padding: $spacing-unit 0;
 }
 
@@ -115,7 +115,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: $gray;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -171,8 +171,55 @@
     padding: $spacing-unit 0;
 }
 
-.page-heading {
-    font-size: 20px;
+.post-list {
+  li:nth-of-type(1) {
+    h2 a {
+      color: #40071f;
+    }
+  }
+  li:nth-of-type(2) {
+    h2 a {
+      color: #480720;
+    }
+  }
+  li:nth-of-type(3) {
+    h2 a {
+      color: #510721;
+    }
+  }
+  li:nth-of-type(3) {
+    h2 a {
+      color: #580723;
+    }
+  }
+
+}
+
+.post-meta {
+  @extend .sans-s;
+  color: $gray;
+}
+
+.post-meta-source {
+  @extend .sans-s-bold;
+  color: $gray;
+  a {
+    color: $gray;
+    &:hover {
+      color: $text-color;
+    }
+  }
+}
+
+.post-meta-category {
+  @extend .sans-s-bold;
+  color: $text-color;
+  text-transform: capitalize;
+  margin-right: 5px;
+}
+
+.post-meta-subtitle {
+  @extend .serif-m-italic;
 }
 
 .post-list {
@@ -184,15 +231,6 @@
     }
 }
 
-.post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
-}
-
-.post-link {
-    display: block;
-    font-size: 24px;
-}
 
 
 
