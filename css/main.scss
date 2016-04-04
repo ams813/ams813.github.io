@@ -21,6 +21,8 @@ $link-color: $raspberry;
 $link-hover-color: $eggplant;
 $background-color: $white;
 
+$spacing-unit-small: 6px;
+
 // Type styles
 
 %dolly {
@@ -92,18 +94,12 @@ $background-color: $white;
 .sans-m-bold {
   @extend %fort;
   font-weight: bold;
-  font-size: 20px;
-  line-height: 33px;
+  font-size: 16px;
+  line-height: 20px;
   //@include media-query() {
     //font-size: 20px;
     //line-height: 33px;
   //}
-  a {
-    text-decoration: none;
-    &:hover {
-      color: $link-hover-color;
-    }
-  }
 }
 
 .sans-s-bold {
@@ -183,43 +179,6 @@ $on-laptop:        800px;
         @content;
     }
 }
-
-
-
-// Page-level styles
-
-.header {
-  background-color: $cream;
-}
-
-.post-list {
-  li {
-    border-bottom: 1px solid rgba(0,0,0,.12);
-  }
-}
-
-.speaking, .topics, .interviews {
-  ul {
-      list-style-type: none;
-      margin-left: 0;
-      li {
-        line-height: 10px;
-        .sans-s-bold {
-          padding-right: 5px;
-        }
-        a {
-          font-style: normal;
-          color: $text-color;
-          &:hover {
-            color: $link-color;
-          }
-        }
-      }
-  }
-}
-
-
-
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)

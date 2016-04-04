@@ -18,8 +18,8 @@ layout: default
       <div class="speaking">
         <h2 class="sans-m-bold">Speaking &amp; teaching</h2>
         <ul>
-          <li><span class="sans-s-bold">Instructor</span><span class="sans-s-italic">Typography II</span><br>
-            <span class="sans-s">Maryland Institute College of Art, Baltimore MD</span><br>
+          <li><span class="sans-s-bold">Instructor</span><span class="sans-s-italic">Typography II</span>
+            <span class="sans-s">Maryland Institute College of Art, Baltimore MD</span>
             <span class="sans-s">2016</span>
           </li>
           <li><span class="sans-s-bold">Panelist</span><span class="sans-s-italic">Undergraduate Fine Arts Alumni Career Panel</span><br>
@@ -67,23 +67,23 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta-subtitle">{{ post.subtitle}}</span>
-        <h2 class="sans-m-bold">
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+          <span class="post-meta-subtitle">{{ post.subtitle}}</span>
+          <h2 class="sans-l-bold">{{ post.title }}</h2>
+        </a>
         <p class="serif-s">{{ post.short-description }}</p>
       {% if post.source %}
         <p class="post-meta-source">Published on <a href="{{ post.source-url }}">{{ post.source }}</a></p>
       {% endif %}
-      <span class="post-meta-category">{{ post.categories }}</span>
+      <a href="#" class="post-meta-category">{{ post.categories }}</a>
       {% if post.categories contains "project" %}
-        <span class="post-meta">{{ post.date | date: "%Y"}}</span>
+        <span class="post-meta-date">{{ post.date | date: "%Y"}}</span>
       {% endif %}
       {% if post.categories contains "article" %}
-        <span class="post-meta">{{ post.date | date: "%-m/%-d/%y"}}</span>
+        <span class="post-meta-date">{{ post.date | date: "%-m/%-d/%y"}}</span>
       {% endif %}
       {% if post.categories contains "podcast" %}
-        <span class="post-meta">{{ post.date | date: "%-m/%y"}}</span>
+        <span class="post-meta-date">{{ post.date | date: "%-m/%y"}}</span>
       {% endif %}
       </li>
     {% endfor %}
