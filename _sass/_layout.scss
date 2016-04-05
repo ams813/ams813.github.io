@@ -170,11 +170,16 @@
 //Post list
 
 .post-list {
+    margin-top: $spacing-xl;
     margin-left: 0;
     list-style: none;
     > li {
-        margin-bottom: $spacing-unit;
+        padding-bottom: $spacing-l;
         border-bottom: 1px solid rgba(0,0,0,.12);
+      }
+    > li:last-of-type {
+        border-bottom: none;
+        padding-bottom: 0;
     }
 }
 
@@ -220,7 +225,11 @@
 .post-meta-subtitle {
   @extend .serif-m-italic;
   display: block;
-  margin-bottom: $spacing-unit-small;
+}
+
+.post-short-description {
+  @extend .serif-s;
+  margin-bottom: $spacing-s;
 }
 
 .post-meta-source {
@@ -239,11 +248,13 @@
   color: $text-color;
   text-transform: capitalize;
   margin-right: 5px;
+  display: inline-block;
 }
 
 .post-meta-date {
   @extend .sans-s;
   color: $gray;
+  display: inline-block;
 }
 
 

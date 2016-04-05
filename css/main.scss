@@ -21,7 +21,17 @@ $link-color: $raspberry;
 $link-hover-color: $eggplant;
 $background-color: $white;
 
-$spacing-unit-small: 6px;
+.spacing-xs > * + * { margin-top: 3px; }
+.spacing-s > * + * { margin-top: 6px; }
+.spacing-m > * + * { margin-top: 10px; }
+.spacing-l > * + * { margin-top: 24px; }
+.spacing-xl > * + * { margin-top: 30px; }
+$spacing-xs: 3px;
+$spacing-s: 6px;
+$spacing-m: 10px;
+$spacing-l: 24px;
+$spacing-xl: 30px;
+
 
 // Type styles
 

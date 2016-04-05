@@ -64,32 +64,33 @@ layout: default
 
   </div> <!-- end header -->
 
-  <ul class="post-list">
+  <ul class="post-list spacing-l">
     {% for post in site.posts %}
-      <li>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+      <li class="spacing-m">
+        <a class="post-link spacing-s" href="{{ post.url | prepend: site.baseurl }}">
           <span class="post-meta-subtitle">{{ post.subtitle}}</span>
           <h2 class="sans-l-bold">{{ post.title }}</h2>
         </a>
-        <p class="serif-s">{{ post.short-description }}</p>
-      {% if post.source %}
-        <p class="post-meta-source">Published on <a href="{{ post.source-url }}">{{ post.source }}</a></p>
-      {% endif %}
-      <a href="#" class="post-meta-category">{{ post.categories }}</a>
-      {% if post.categories contains "project" %}
-        <span class="post-meta-date">{{ post.date | date: "%Y"}}</span>
-      {% endif %}
-      {% if post.categories contains "article" %}
-        <span class="post-meta-date">{{ post.date | date: "%-m/%-d/%y"}}</span>
-      {% endif %}
-      {% if post.categories contains "podcast" %}
-        <span class="post-meta-date">{{ post.date | date: "%-m/%y"}}</span>
-      {% endif %}
+        <div class="spacing-xs">
+          {% if post.short-description %}
+          <p class="post-short-description">{{ post.short-description }}</p>
+          {% endif %}
+          {% if post.source %}
+          <p class="post-meta-source">Published on <a href="{{ post.source-url }}">{{ post.source }}</a></p>
+          {% endif %}
+          <p class="post-meta-category"><a href="#">{{ post.categories }}</a></p>
+          {% if post.categories contains "project" %}
+          <p class="post-meta-date">{{ post.date | date: "%Y"}}</p>
+          {% endif %}
+          {% if post.categories contains "article" %}
+          <p class="post-meta-date">{{ post.date | date: "%-m/%-d/%y"}}</p>
+          {% endif %}
+          {% if post.categories contains "podcast" %}
+          <p class="post-meta-date">{{ post.date | date: "%-m/%y"}}</p>
+          {% endif %}
+        </div>
       </li>
     {% endfor %}
   </ul>
 
 </div>
-
-
-<!-- | date: "%b %-d, %Y" -->
