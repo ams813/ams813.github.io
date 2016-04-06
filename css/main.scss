@@ -3,10 +3,28 @@
 ---
 @charset "utf-8";
 
+// Width of the content area
+$content-width:    1108px;
+
+// Media query mixin
+@mixin breakpoint($device) {
+    @media screen and (min-width: $device) {
+        @content;
+    }
+}
+
+// Media queries
+$q-small: 500px;
+$q-medium: 700px;
+$q-large: 900px;
+$on-palm: 600px;
+$on-laptop: 800px;
+
+
 // Variables
 $base-font-weight: 400;
 $base-line-height: 1.5;
-$spacing-unit:     30px; // delete this later //
+$spacing-unit: 25px; // same as gutter
 
 $black: #212121;
 $black-lt: rgba(0,0,0,.5);
@@ -21,118 +39,128 @@ $link-color: $raspberry;
 $link-hover-color: $eggplant;
 $background-color: $white;
 
-.spacing-xs > * + * { margin-top: 6px; }
-.spacing-s > * + * { margin-top: 8px; }
-.spacing-m > * + * { margin-top: 12px; }
-.spacing-l > * + * { margin-top: 20px; }
-.spacing-xl > * + * { margin-top: 25px; }
-.spacing-xxl > * + * { margin-top: 30px; }
 $spacing-xs: 6px;
 $spacing-s: 8px;
 $spacing-m: 12px;
 $spacing-l: 20px;
 $spacing-xl: 25px;
 $spacing-xxl: 30px;
+$spacing-xxxl: 45px;
+$spacing-xxxxl: 60px;
+
+
+.spacing-xs > * + * { margin-top: 6px; }
+.spacing-s > * + * { margin-top: 8px; }
+.spacing-m > * + * { margin-top: 12px; }
+.spacing-l > * + * { margin-top: 20px; }
+.spacing-xl > * + * { margin-top: 25px; }
+.spacing-xxl > * + * { margin-top: 30px; }
+.spacing-l-xl-at-small > * + * {
+  margin-top: $spacing-l;
+  @include breakpoint($q-small) {
+    margin-top: $spacing-xl;
+  }
+}
 
 
 // Type styles
 
-%dolly {
+@mixin dolly {
   font-family: "Dolly Pro";
   font-style: normal;
   font-weight: normal;
 }
 
-%fort {
+@mixin fort {
   font-family: "Fort";
   font-style: normal;
   font-weight: normal;
 }
 
 .serif-l {
-  @extend %dolly;
+  @include dolly;
   font-size: 21px;
   line-height: 28px;
-  //@include media-query() {
+  //@include breakpoint() {
     //font-size: 28px;
     //line-height: 40px;
   //}
 }
 
 .serif-m-italic {
-  @extend %dolly;
+  @include dolly;
   font-style: italic;
   font-size: 17px;
   line-height: 20px;
-  //@include media-query() {
+  //@include breakpoint() {
     //font-size: 20px;
     //line-height: 30px;
   //}
 }
 
 .serif-s {
-  @extend %dolly;
+  @include dolly;
   font-size: 15px;
   line-height: 24px;
   //letter-spacing: 1em;
-  //@include media-query() {
+  //@include breakpoint() {
     //font-size: 18px;
     //line-height: 30px;
   //}
 }
 
 .serif-xs {
-  @extend %dolly;
+  @include dolly;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: .02em;
   //letter-spacing: 1em;
-  //@include media-query() {
+  //@include breakpoint() {
     //font-size: 18px;
     //line-height: 30px;
   //}
 }
 
 .sans-xl-bold {
-  @extend %fort;
+  @include fort;
   font-weight: bold;
   font-size: 36px;
   //line-height: ;
-  //@include media-query() {
+  //@include breakpoint() {
     //font-size: 36px;
     //line-height: ;
   //}
 }
 
 .sans-l-bold {
-  @extend %fort;
+  @include fort;
   font-weight: bold;
   font-size: 20px;
   line-height: 20px;
-  //@include media-query() {
+  //@include breakpoint() {
     //font-size: 28px;
     //line-height: 33px;
   //}
 }
 
 .sans-m-bold {
-  @extend %fort;
+  @include fort;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  //@include media-query() {
+  //@include breakpoint() {
     //font-size: 20px;
     //line-height: 33px;
   //}
 }
 
 .sans-s-bold {
-  @extend %fort;
+  @include fort;
   font-weight: bold;
   font-size: 12px;
   line-height: 16px;
   //letter-spacing: 1em;
-  //@include media-query() {
+  //@include breakpoint() {
     //font-size: 14px;
     //line-height: 20px;
   //}
@@ -146,63 +174,40 @@ $spacing-xxl: 30px;
 }
 
 .sans-s-italic {
-  @extend %fort;
+  @include fort;
   font-style: italic;
   font-size: 12px;
   line-height: 16px;
-  //@include media-query() {
+  //@include breakpoint() {
     //font-size: 14px;
     //line-height: 20px;
   //}
 }
 
 .sans-s {
-  @extend %fort;
+  @include fort;
   font-size: 12px;
   line-height: 16px;
   //letter-spacing: 1em;
-  //@include media-query() {
+  //@include breakpoint() {
     //font-size: 14px;
     //line-height: 20px;
   //}
 }
 
 .sans-xs-bold-all-caps {
-  @extend %fort;
+  @include fort;
   font-weight: bold;
   font-size: 11px;
   line-height: 20px;
   text-transform: uppercase;
   letter-spacing: .07em;
-  //@include media-query() {
+  //@include breakpoint() {
     //font-size: 12px;
     //line-height: 20px;
   //}
 }
 
-
-
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)

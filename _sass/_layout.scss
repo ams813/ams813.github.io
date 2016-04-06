@@ -2,10 +2,58 @@
 
 .bio-header {
   margin: 0 -9999rem;
-  padding: 0.25rem 9999rem;
-  padding-top: $spacing-xxl;
-  padding-bottom: $spacing-xxl;
+  padding: $spacing-xxl 9999rem 1px;
   background-color: $cream;
+  @include breakpoint($q-small) {
+    padding-top: $spacing-xxxl;
+  }
+  @include breakpoint($q-medium) {
+    padding-top: $spacing-xxxxl;
+  }
+  @include breakpoint($q-large) {
+    margin-top: $spacing-l;
+    &:before {
+      content: '';
+      background-color: #ffffff;
+      width: $spacing-l;
+      height: 500px;
+      display: block;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
+    &:after {
+      content: '';
+      background-color: #ffffff;
+      width: $spacing-l;
+      height: 500px;
+      display: block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+  }
+
+ }
+
+.link-to-bio {
+  margin-bottom: $spacing-xxl;
+}
+
+.about {
+  display: none;
+  padding-bottom: $spacing-xxl;
+  @include breakpoint($q-small) {
+    padding-bottom: $spacing-xxxl;
+  }
+}
+
+.show-less {
+  display: none;
+}
+
+.display {
+  display: block;
 }
 
 .speaking, .topics, .interviews {
@@ -54,9 +102,12 @@
     margin-left: 0;
     list-style: none;
     > li {
+      border-bottom: 1px solid rgba(0,0,0,.12);
+      padding-bottom: $spacing-l;
+      @include breakpoint($q-small) {
         padding-bottom: $spacing-xl;
-        border-bottom: 1px solid rgba(0,0,0,.12);
       }
+    }
     > li:last-of-type {
         border-bottom: none;
         padding-bottom: 0;
@@ -109,6 +160,10 @@
 
 .post-short-description {
   margin-bottom: $spacing-s;
+  display: none;
+  @include breakpoint($q-medium) {
+    display: block;
+  }
 }
 
 .post-meta-source {
@@ -194,7 +249,7 @@
     width:         calc(45% - (#{$spacing-unit} / 2));
 }
 
-@include media-query($on-laptop) {
+@include breakpoint($on-laptop) {
     .footer-col-1,
     .footer-col-2 {
         width: -webkit-calc(50% - (#{$spacing-unit} / 2));
@@ -207,7 +262,7 @@
     }
 }
 
-@include media-query($on-palm) {
+@include breakpoint($on-palm) {
     .footer-col {
         float: none;
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
@@ -227,7 +282,7 @@
     letter-spacing: -1px;
     line-height: 1;
 
-    @include media-query($on-laptop) {
+    @include breakpoint($on-laptop) {
         font-size: 36px;
     }
 }
@@ -239,21 +294,21 @@
 
     h2 {
         font-size: 32px;
-        @include media-query($on-laptop) {
+        @include breakpoint($on-laptop) {
             font-size: 28px;
         }
     }
 
     h3 {
         font-size: 26px;
-        @include media-query($on-laptop) {
+        @include breakpoint($on-laptop) {
             font-size: 22px;
         }
     }
 
     h4 {
         font-size: 20px;
-        @include media-query($on-laptop) {
+        @include breakpoint($on-laptop) {
             font-size: 18px;
         }
     }
@@ -300,7 +355,7 @@
         }
     }
 
-    @include media-query($on-palm) {
+    @include breakpoint($on-palm) {
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;

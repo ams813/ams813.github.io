@@ -6,15 +6,15 @@ layout: default
 
   <div class="bio-header spacing-xl">
     <p class="serif-l">I’m a designer making content both beautiful and approachable, busy crafting systems and experiences for the web.</p>
-    <p class="sans-s-bold">But wait, there's <a href="#">more</a>.
+    <p class="sans-s-bold link-to-bio">But wait, there's <a href="#" class="show-more">more</a><a href="#" class="show-less">less</a>.
     <div class="about spacing-l">
       <div class="bio spacing-s">
         <p class="serif-s">I’m interested in the intersection between the designs we create, the content we produce, and the systems that power both. My work celebrates typographic detail and complex layers of information. Rumor has it, I’m also a grammar stickler with an exacting eye—an absent comma I can’t unsee.</p>
         <p class="serif-s">Since 2012, I’ve worked at <a href="http://happycog.com/">Happy Cog</a>, where I design custom, responsive websites for clients like Ben &amp; Jerry's, Coldwell Banker, and Harvard University. My responsibilities span from conducting research and gathering requirements to modeling content and conceptualizing design solutions.</p>
         <p class="serif-s">I earned an MFA in Graphic Design from Maryland Institute College of Art and BA in Communication Design from the University of Pennsylvania.</p>
       </div>
-      <div class="speaking spacing-l">
-        <div class="spacing-xs">
+      <div class="speaking">
+        <div class="spacing-s">
           <h2 class="sans-m-bold">Speaking &amp; teaching</h2>
           <ul class="spacing-xs">
             <li><span class="sans-s-bold">Instructor</span><span class="sans-s-italic">Typography II</span>
@@ -44,8 +44,8 @@ layout: default
           </ul>
         </div>
       </div>
-      <div class="topics spacing-l">
-        <div class="spacing-xs">
+      <div class="topics">
+        <div class="spacing-s">
           <h2 class="sans-m-bold">Let's talk more about</h2>
           <ul class="spacing-xs">
             <li class="sans-s">Typefaces, new or old, for print or web</li>
@@ -56,8 +56,8 @@ layout: default
           </ul>
         </div>
       </div>
-      <div class="interviews spacing-l">
-        <div class="spacing-xs">
+      <div class="interviews">
+        <div class="spacing-s">
           <h2 class="sans-m-bold">Selected interviews</h2>
           <ul class-"spacing-xs">
             <li><a class="sans-s-bold" href="http://ladiesintech.com/podcast-aura-seltzer/">Ladies in Tech</a><br><span class="sans-s">2014</span></li>
@@ -68,7 +68,7 @@ layout: default
 
   </div> <!-- end header -->
 
-  <ul class="post-list spacing-xl">
+  <ul class="post-list spacing-l-xl-at-small">
     {% for post in site.posts %}
       <li class="spacing-m">
         <a class="post-link spacing-s" href="{{ post.url | prepend: site.baseurl }}">
@@ -98,3 +98,16 @@ layout: default
   </ul>
 
 </div>
+
+<script>
+  $( ".show-more" ).click(function() {
+    $( ".about" ).slideToggle(700,"easeInOutSine");
+    $( ".show-more").hide();
+    $( ".show-less").show();
+  });
+  $( ".show-less" ).click(function() {
+    $( ".about" ).slideToggle(700,"easeInOutSine");
+    $( ".show-more").show();
+    $( ".show-less").hide();
+  });
+</script>
