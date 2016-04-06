@@ -21,7 +21,7 @@ Eventually, I was able to expand my arguments to work up to higher word and page
 
 The thing is, I haven’t been able to turn off the faucet since.
 
-##My Basecamp reality check
+## My Basecamp reality check
 
 In the world of Basecamp, I often need to describe in writing design mock-ups, UI components, and/or the logic supporting a system. Our written correspondence with clients can be simple and straightforward: We uploaded the work here. We addressed your feedback X, Y, Z. This is our agenda for the kickoff meeting. Other times, what I’m trying to communicate may warrant more explanation, e.g. We recommend delivering static wireframes instead of HTML wireframes for the following reasons, etc.
 
@@ -31,7 +31,7 @@ Drafting Basecamp messages involves achieving the right balance between writing 
 2. **Embed hierarchy.** Breaking up your writing into multiple paragraphs and using more headings will make your message easier to scan and digest.
 3. **Edit down to the essence.** Empathize with your audience by being selective with your points and getting straight to them. Less can be more if you include just the right amount of detail.
 
-##Start a conversation
+## Start a conversation
 
 In admitting I overwrite, I have finally acknowledged that: A) Not everyone who is willing to read what I write is willing to read everything I have to say, and B) Overwriting doesn’t necessarily eliminate the possibility of there being follow-up questions.
 

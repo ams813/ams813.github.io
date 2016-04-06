@@ -8,7 +8,7 @@ date:   2014-09-03
 categories:   podcast
 ---
 
-## Favorites
+##  Favorites
 * What are the qualities we look for in sandwich?
 * Favorite types of bread
 * Favorite ingredients
@@ -16,7 +16,7 @@ categories:   podcast
 * Favorite sandwich makers
 * Sandwich making process
 
-## Technique
+##  Technique
 * Toasting: bread vs. sandwich
 * Hot lettuce is disgusting
 * Hot tomatoes are disgusting
@@ -24,7 +24,7 @@ categories:   podcast
 * What is cringe worthy
 * Mixing the meats
 
-## Clarifications
+##  Clarifications
 * Hoagie vs. sub vs. sandwich vs. wrap vs. low-carb lettuce “wrap”
 * Club sandwiches—why?
 * Breakfast sandwiches
@@ -33,7 +33,7 @@ categories:   podcast
 
 BONUS: Bahn Mi. Try it. You'll like it.
 
-## Referenced Vendors
+##  Referenced Vendors
 * [Sarcone's Bakery](http://www.sarconesbakery.com/)
 * [Liscio's Bakery](http://lisciosbakery.com/)
 * [Hershel's East Side Deli](http://www.yelp.com/biz/hershels-east-side-deli-philadelphia)

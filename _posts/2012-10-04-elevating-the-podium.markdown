@@ -17,23 +17,23 @@ While I sat back and wondered if there was room (in the already-saturated space)
 
 So, if you’ve ever spoken at a conference and/or are fortunate enough to do so in the future, as your potential future listener, here are five thoughts to guide you.
 
-##The perfect speaker is an imperfect one.
+## The perfect speaker is an imperfect one.
 
 It should, perhaps, go without saying… please don’t read from a script. Remember, you’re the expert. Relax. Instead of thinking of your presentation as one that comes with all the pressures of public speaking, just think of it as sharing something you know boatloads about with a group of your peers.
 
-##It should be about ideas, not tools.
+## It should be about ideas, not tools.
 
 If there’s one thing designers are good at—it’s following the Internet, and there’s already plenty of information about the latest tools and software there. Tools are merely instruments that help us accomplish a task, but tools can’t think, so expand on your approaches and point of view. Take a stance. Investigate a single area deeply, and share your unique perspective on that narrow topic.
 
-##What we do is difficult. Say so.
+## What we do is difficult. Say so.
 
 Working with clients isn’t always a breeze, and neither is creating an accomplished piece of work every time. Creative freedom can be an illusion when you’re working in a client services business. These are simple truths, but ones that speakers often omit from presentations. Conferences don’t have to be about best-case scenarios. Reassure me that I’m not alone when I hit a snag in a project. Talk about your own challenges. Acknowledge the difficulty of our profession, and provide tips and strategies for ameliorating pain points (and avoiding them entirely). We can all learn from each other’s missteps.
 
-##Structure has a sweet spot.
+## Structure has a sweet spot.
 
 Today, I’m going to talk to you about A, B, and C. For A… This is where you’ll lose me. Presentations require structure, but there’s a balance to their construction. Treating your talk like an outline will ruin all surprises from the outset. Instead of being plain and predictable, spice up your delivery with a story or metaphor. By introducing an engaging narrative as bookends for your presentation, you’ll keep your audience invested in what you have to say and leave them thinking after you’ve finished.
 
-##It’s design, right?
+## It’s design, right?
 
 By virtue of the aforementioned beast, if you’re presenting at a design conference, there will be audience members who care about design. For all the time you put into shaping your content, you owe it to yourself to also put time into shaping its container: your slides. Visual aids can enhance your presentation significantly by serving up an additional layer of meaning on top of what you’re saying. Aim for clear hierarchy and exemplary typography. If you’re not confident with your design chops, ask a friend or coworker with typographic and/or illustrational skills.
 

@@ -15,7 +15,7 @@ Today’s most useful web type specimens go beyond making text look beautiful; t
 
 No matter where you are in your process, these four objectives will help you get the most out of type specimens from foundries, begin crafting your own type specimens, and use both to make confident typographic decisions in your work.
 
-##Use considered, inspiring content
+## Use considered, inspiring content
 
 Before the days of the web, specimens were printed on pages, typically bound together in a book. Many early specimens set their fonts using Latin text, like the opening remarks of Cicero’s Catiline Orations: *“Quo usque tandem abutere, Catilina, patientia nostra?”* Printers and type designers also relied on alphabetized uppercase and lowercase character sets, which enabled viewers to examine a font’s letterforms without getting caught up in meaning.
 
@@ -33,7 +33,7 @@ Codepen iframe
 
 <p class="caption">Here’s how we might start playing around with <em>The Bun Shop</em> site’s typography. We’ll try out Alpha Echo for a big, spunky header, and De Walpergen’s Pica for the menu text.</p>
 
-##Survey styling options extensively (and practically)
+## Survey styling options extensively (and practically)
 
 After you get a feel for a specimen’s content, assess how that specimen demonstrates the various settings of a typeface. You’ll have already looked at the shapes of the letterforms in the context of some real-ish content, so it’s now time to pay attention to the use cases for which you *haven’t* tested.
 
@@ -52,7 +52,7 @@ Codepen iframe
 
 <p class="caption">De Walpergen’s Pica feels even more refined with these additional glyphs in play, contrasting well with the heading’s grit. However, the additional glyphs do add to the weight of the page.</p>
 
-##Examine type at a variety of appropriate sizes
+## Examine type at a variety of appropriate sizes
 
 Chances are, your design won’t call for only one size of type. Using a range of type sizes enhances hierarchy and carries the eye through your content, and specimens can help you assess whether a font is appropriate at the sizes your design needs.
 
@@ -66,12 +66,12 @@ With many specimens today, size may not be presented at distinct values or seque
 
 Whether a specimen is laid out as a waterfall or alternates sizes across its design, it’s the range of sizes that’s worth studying. Some typefaces are constructed explicitly for legibility at small sizes and others decidedly for display purposes — good specimens impart this by example.
 
-##Preview your final output in different settings
+## Preview your final output in different settings
 
 Study your specimens in every context you care about. You want to ensure your users benefit from all the effort you’ve put into type selection, no matter how they view your design. Load them up on different devices. Point a service like [Browserstack](http://www.browserstack.com/) to them. Are glyphs still legible? Are shapes and weights consistent, and distinct enough from one another?
 This can be hard to judge, because some specimens are presented as raster graphics or SVGs. If the specimen is a raster graphic, alternate browser views are crucial to managing expectations for quality and legibility. SVGs are scalable, crisp, resolution-independent, and their text can be tailored with CSS. But, on top of [limited cross-browser support](http://caniuse.com/#feat=svg-fonts), this unaliased file format often puts forward an idealized state of the letterforms.
 
-##Exercises
+## Exercises
 
 Practice looking at — and making — specimens with some of these more nuanced goals in mind. Imagine that instead of a burger joint, you’re considering typefaces for a personal blog: a serifed typeface for the headers, and a sans for the body text. [Try our first example on CodePen](http://practice.typekit.com/lesson/getting-the-most-out-of-type-specimens/#example1), changing the fonts and the text. What sizes will you try out? How many different styles and weights? What text will you use to evoke the fonts' sensibilities?
 

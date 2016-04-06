@@ -11,7 +11,7 @@ In early 2014, I resolved to cook more frequently and expand my skills. Putting 
 
 Having endured a butter-less childhood (I’m the daughter of a cardiologist), I chose recipes that not only sounded delectable, but also called for ingredients and techniques I had never tried before. In the process of learning to brown butter, sous vide steak, perfect my omelet technique, and craft a solid curry whose smell lingered in my apartment for weeks, I couldn’t help but recognize the parallels between how successful recipes are structured and how I gather, document, and track requirements for websites.
 
-##How to read a recipe
+## How to read a recipe
 
 When cooking from a recipe, chef Anne Burrell indirectly taught me, you should first read the whole thing through. Then do all the prep work, so that once you begin cooking, you can work calmly and efficiently. You don’t want to get halfway through a recipe before realizing your pancakes won’t be quite as fluffy without baking powder on hand.
 
@@ -19,18 +19,18 @@ In the case of the web, requirements are the ingredients. They dictate what a si
 
 Many recipes are cushioned with narrative to encourage you to try a particular dish: *This minestrone is a celebration of spring, perfect for when you’ve spent months indoors.* Narrative provides helpful context and intention, but shouldn’t prescribe execution. That’s the job of the recipe directions, or specification. A specification provides an idea of how you’ll put the requirements together for a successful output.
 
-##Not more than you can chew
+## Not more than you can chew
 
 Through my cooking escapades, there were times I intentionally left out fully prepped ingredients, or muddled the math when scaling a recipe, because I didn’t have enough space in my bowl/pot/etc. In some cases, recipes indicate the number of servings intended for a completed dish, but this might not be enough to know how much you’re really making.
 
 Taking on more than you can carry out is an equally slippery slope in building websites. Without a more precise sense of the scale of work, it’s difficult to budget for the project or properly allocate resources. Before writing your specification or beginning design, make sure your work has a fixed scope. This can be a number of templates or pages, a list of modules, number of hours to devote, or rounds of revisions to provide. Before you begin cooking, you need to know whether you’re baking a single profiterole or the [world’s largest croquembouche sculpture](http://www.hotelchatter.com/files/1425/Croquembouche_5.jpg).
 
-##Taking stock
+## Taking stock
 
 I have also made the mistake of beginning a recipe just before dinnertime only to realize too late that I took on a three-hour endeavor. Some recipes list prep and cook times to help set expectations and aid planning. These times are especially important if a recipe has multiple stages: *Let the custard set and chill in the refrigerator for three hours before moving on to the next step.* When planning out your cook time, it’s unrealistic to expect you can finish the recipe more quickly and still create something tasty—especially if there are a set number of required, contingent steps.
 
 Similarly, you can try to cut corners with your website project, but not without compromising the final product. Having a handle on prerequisites, contingencies, and a sense of how the work effort should ebb, flow, and overlap will make sure you set appropriate expectations in your project plan (and fight off client hanger halfway through the project).
 
-##Taste as you go
+## Taste as you go
 
 Lastly, the best chefs taste, adjust, and season as they cook. You might need to reconcile spice levels, adjust proportions of ingredients, or keep a dish in the oven a little longer if the temperature is a few degrees off. As you work through your project, don’t be afraid to adjust both your requirements and specification. Documenting requirements ensures you don’t add unanticipated ingredients or change what you’re making, but maintaining a clear record for how those requirements evolve is more important. So long as you stay faithful to your ingredients, scope, and timing, you’ll cook up a site you’re proud to serve.

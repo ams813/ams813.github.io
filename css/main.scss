@@ -50,6 +50,7 @@ $spacing-xxxl: 45px;
 $spacing-xxxxl: 60px;
 
 
+.spacing-xxs > * + * { margin-top: 2px; }
 .spacing-xs > * + * { margin-top: 6px; }
 .spacing-s > * + * { margin-top: 8px; }
 .spacing-m > * + * { margin-top: 12px; }
@@ -109,6 +110,17 @@ $spacing-xxxxl: 60px;
   }
 }
 
+.serif-s-italic {
+  @include dolly;
+  font-size: 17px;
+  line-height: 28px;
+  font-style: italic;
+  @include breakpoint($q-medium) {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
 .serif-xs {
   @include dolly;
   font-size: 12px;
@@ -133,8 +145,8 @@ $spacing-xxxxl: 60px;
 .sans-l-bold {
   @include fort;
   font-weight: bold;
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 21px;
+  line-height: 23px;
   @include breakpoint($q-medium) {
     font-size: 28px;
     line-height: 33px;
@@ -213,6 +225,10 @@ $spacing-xxxxl: 60px;
   h3 {
     @extend .sans-m-bold;
     margin-bottom: $spacing-xxs;
+  }
+
+  h2 + h3 {
+    margin-top: $spacing-m;
   }
 
   p {

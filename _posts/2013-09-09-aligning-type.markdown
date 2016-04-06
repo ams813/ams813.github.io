@@ -13,7 +13,7 @@ An industry-leading newspaper can lose credibility if its website is significant
 
 Your goal is to craft a beautiful website that effortlessly extends a brand’s visual vocabulary and serves as a flexible entity over time on the web. To establish this brand recognition and start the visual inquiry for your design, one reliable approach is to choose a typographic palette that supports (and even amplifies) that brand’s personality.
 
-##Designing a visual system from scratch
+## Designing a visual system from scratch
 
 It’s likely you’ll encounter a situation where your client (or your own company) has no design guidelines to share with you. You’ll be building the system upon which future designs will rely. So, where should you start?
 
@@ -39,7 +39,7 @@ There’s no better way to test your options than with content. Not some lorem i
 
 One way to evaluate this is to hierarchically map out all of your content needs, from h1 down to captions, and assign typographic styles to each. Then, ask yourself: independent of layout, does the rhythm of the palette feel right for the brand? When you’re building your type system, consistency in the tone of your voice across the palette will set a stable ground for your content.
 
-##Sealing the cracks: Working with existing guidelines
+## Sealing the cracks: Working with existing guidelines
 
 If you *are* given any guidelines to shepherd your exploration, it’s imperative to recognize that while brands live across medium, the same guidelines simply cannot—particularly if they were originally intended for print. You’ll have a benchmark for comparison (and therefore a leg up on starting from scratch), but there’s no magical mouse maneuver to translate print-oriented guidelines to the screen.
 
@@ -47,21 +47,21 @@ You might realize that you’ll need to tweak the dictated color palette for bet
 
 Finding a typeface that evokes the sentiment of your brand *and* meets your site’s design and technical needs will seal these cracks in your client’s visual guidelines. Whether your brand-dictated typeface has a web font available or a comparable replacement, ask yourself a few questions to help evaluate whether your choice is suitable for the brand on the web.
 
-###Does the web version offer the weights and styles you’ll need in order to add hierarchy to your text?
+### Does the web version offer the weights and styles you’ll need in order to add hierarchy to your text?
 
 Knowing you have enough variety to play with will keep you from developing a system that feels monotonous, and help you avoid sticky design situations—like realizing the italic isn’t a true italic halfway through your page designs.
 
-###Is the web version adequately hinted for use at a range of sizes?
+### Is the web version adequately hinted for use at a range of sizes?
 
 The fine details and delicate curves of your print-dictated typeface may be difficult to replicate in pixels, leaving the reader with an uncomfortable onscreen reading experience. If there’s too much contrast between thick and thin strokes, your typeface may deteriorate at smaller settings—restricting its use to headlines. The opposite can also be true; your typeface may read effortlessly at 16px but appear crude and cumbersome at 42px.
 
 Finding a web family that distinguishes display from text and/or caption (like Typekit’s [Chaparral Pro](https://typekit.com/search/fonts?query=chaparral+pro), [Freight](https://typekit.com/search/fonts?query=freight), and [PT Sans](https://typekit.com/search/fonts?query=pt+sans)) can help ensure you have access to the right font for your scale. But, finding families with higher x-heights and more open letterforms will make letters more identifiable at *all* sizes, save page weight, and also make fine-tuning styling across your scale easier.
 
-###Does the typeface render well and similarly across browsers and devices?
+### Does the typeface render well and similarly across browsers and devices?
 
 Since your type will be the vehicle for constructing a consistent brand, you’ll want to make sure that the typefaces are themselves consistent across viewing environments. Cross-browser testing tools and Typekit’s browser samples will give you a realistic picture of how the type renders—a competitive advantage against working solely in Photoshop. Also, [setting fallback fonts](http://blog.typekit.com/2011/03/24/type-study-choosing-fallback-fonts/) that align with your choices can reinforce your brand’s voice as you account for older browsers, or aim to deliver thinner pages at certain screen sizes.
 
-##At the root of it
+## At the root of it
 
 Just as you conduct research at the beginning of each web project, visual design merits a thorough examination of your site’s brand. Guidelines merely serve as a place to start. You’ll explore a world of aesthetics and interactions for your users that goes far beyond deciding between a bifold and trifold brochure. Your exploration boils down to creating a typographic palette that successfully evokes your brand’s personality and simultaneously serves the needs of your content.
 

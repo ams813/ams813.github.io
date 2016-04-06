@@ -11,15 +11,15 @@ Choosing a type palette goes beyond considering aesthetics, legibility, browser 
 
 If you’re working client-side and are trying to evaluate whether a palette will break your bank, here are some nuances that will help ensure both your chosen fonts and license fit your project needs.
 
-##But first, your budget
+## But first, your budget
 
 Your webfont budget (even if that’s zero) is like any other business requirement—reasonable and justified, so long as it’s made known early in the project (ideally before any formal graphic design begins). Consider how costs may run across years, and whether the fonts will be used for any subdomains. For some licensing, using webfonts across a lot of small sites can be more expensive than the sum of their usage on a single domain.
 
-##And second, your pageviews
+## And second, your pageviews
 
 No matter how your fonts will be loaded onto your site, most often, your cost will be based on pageviews. A pageview is a request to load a single page on your site—this includes hitting refresh, as well as navigating away then returning to the original page. Each [foundry](http://en.wikipedia.org/wiki/Type_foundry) and webfont service has its own formula for translating pageviews to a licensing fee, but pageviews—and therefore costs—can rack up quickly. It’s important to understand your current and future traffic, and how they may drive the cost of your webfonts.
 
-##To self-host or host through a service
+## To self-host or host through a service
 
 There are currently two main methods to serve fonts on your site: host the files yourself, or host them through a webfont service. Neither option is outright “better” than the other—each carries its own pros and cons.
 
@@ -33,7 +33,7 @@ In many cases, both of these options—but more often hosting solutions—requir
 
 In terms of which option is cheaper, hosting solutions can often mean a lower price, because there is less risk involved for foundries if they know exactly where the fonts will be used. But, it’s really dependent on your traffic, the number of fonts you’re looking to license, the foundry, and how each company structures its fee schedules.
 
-##Fee schedules
+## Fee schedules
 
 If you’re unsure how to host your fonts, figuring out your available payment methods may sway you one way or the other. For each typeface you’re interested in, you can expect one of the following fee schedules:
 
@@ -42,7 +42,7 @@ If you’re unsure how to host your fonts, figuring out your available payment m
 * **Pay as you go**—you buy a bucket of pageviews per font style to use over time. When you run out, you purchase more. Because more cumulative pageviews drive higher costs, this model is best suited for lower-trafficked sites and situations where you’re creating a new site from scratch and are unsure of your projected traffic. Paying as you go also makes more sense for websites that have a significant range in traffic depending on the time of year. For example, if you’re an organization known for running a conference in June, but otherwise your traffic is quite low, you’d be better off only paying for the pageviews you actually use—not at the rate of your highest-trafficked month. Schools with application-cycle rushes might also find paying as you go a more cost-effective option. This type of fee schedule is offered by [Linotype](http://www.linotype.com/) and [MyFonts](http://www.myfonts.com/), to name a few.
 * **Free**—you download your font styles or host them with a service free of charge. It’s hard not to argue with free, especially if like in the case of [Google Fonts](https://www.google.com/fonts), your fonts would be served from a CDN. Free fonts are budget-friendly, though perhaps at another type of cost to you. When hosting elsewhere and not paying for a service, companies have no legal obligation to continue offering your font (or their service as a whole). Secondly, in general, the design quality of free fonts is lower than those that have been carefully designed (and in some cases even drawn specifically for the web); you may end up finding issues with certain letters, kerning pairs, or hinting, forcing you to restart your search.
 
-##The metric is the model
+## The metric is the model
 
 I’d be remiss to end this post without taking a step back to point out that despite the nuances listed above, at their core, the majority of services today are heavily reliant on the same model. The webfont-delivery industry is not the first to base value on a single impression—think billboards, TV commercials, even stock photography. By revolving so closely around the pageview, there is a perceived correlation between the number of hits on a site and the value the fonts contribute. This assumes not only that every website wants to shoot for the highest traffic possible, but also suggests that pageviews are the most important metric for your site.
 

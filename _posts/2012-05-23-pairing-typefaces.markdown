@@ -11,7 +11,7 @@ Pairing typefaces is much like choosing flavors at an ice cream shop. We approac
 
 Let me rip off the bandaid quickly: there are no clear formulas for pairing typefaces. There are no absolute rights and wrongs. But, this is good news. Without formulas, you can create beautiful surprises so your websites won’t look exactly like the one you have open in your browser three tabs over. Don’t worry, there are some techniques that will help make this process less daunting. Let’s walk through four methods for pairing typefaces. I’ll share some tips, define some terms, and suggest some Typekit pairings along the way.
 
-##The power of superfamilies
+## The power of superfamilies
 
 One of the simplest techniques for combining typefaces is to pair typefaces that belong to the same superfamily. Superfamilies — also known as type systems — are extended type families. They contain a large set of weights and widths and typically span different type classifications (e.g., there may be both a sans serif and a serif). Superfamilies also sometimes contain families that are meant to be used at specific sizes, such as caption, subhead, and display. Superfamilies can provide an extensive typographic palette for designs. Because designers build each font with the same proportions and structure, each font works in harmony with the others and can stand out at the same time.
 
@@ -23,7 +23,7 @@ Image
 
 Freight Sans and Freight Text each come equipped with six weights with corresponding italics. They were built with the same chiseled edges, cap height, x-height (the height of the lowercase letters typically illustrated by the letter x), and baseline. Because each was designed with the other in mind, text occupies the same line length and height no matter which face is used; this means either can take the lead as a headline and you can mix them together seamlessly.
 
-##Looking for look alikes
+## Looking for look alikes
 
 A second method for pairing typefaces is to choose typefaces that have similar physical attributes. Similar typefaces can establish a consistent tone for your content. This strategy requires a careful balance. You’ll want to look for typefaces that are similar enough to create visual uniformity but not too similar that there is an uncanny resemblance. With too many similarities, readers won’t be able to tell your typefaces apart, and their eyes will focus on the slight differences between letterforms instead of on your writing. That’d be a total bummer.
 
@@ -47,7 +47,7 @@ Image
 
 <p class="caption">Letters set in Rooney and Skolar reveal that the two typefaces are a good match.</p>
 
-##Bump up the contrast
+## Bump up the contrast
 
 Choosing typefaces that are not similar is another approach to pairing typefaces. Pairing with contrast can reinforce visual hierarchy, eliminate monotony, and add balance to the overall page. Too much contrast can be jarring, so opt for just a few points of difference. Many successful pairs feature a serif typeface with a sans serif typeface or an outspoken voice with a neutral one. You can mix big and small, light and dark, round and sharp. Try everything, but make sure to designate distinct roles for each face — headline, body copy, caption, etc. Doing so will enable readers to deduce order of importance on the page so they’ll know what to read first (and last).
 
@@ -65,7 +65,7 @@ Image
 
 <p class="caption">Letters set in FF Meta Serif and Urbana illustrate contrast. The two typefaces make a balanced but dynamic pair.</p>
 
-##The rest is history
+## The rest is history
 
 One last technique for pairing typefaces is to focus on the backstory of each typeface — the context for its creation. You can combine typefaces that were informed by the same tool, output medium, historic era, or concept. For example, you can pair typefaces that were both inspired by calligraphic brushwork, were both designed for low-resolution printers, were both designed in the early 1900s, or were both conceived to address legibility. More specifically, Old Style serif typefaces typically go well with humanist sans serifs despite being years apart, because both were inspired by the pen. Here is one example of how we might visualize that pairing using [Dederon Sans](https://typekit.com/fonts/dederon-sans-web?utm_source=typekit-blog&utm_medium=blog&utm_content=blog120523&utm_campaign=education) and [Minion](https://typekit.com/fonts/minion-pro?utm_source=typekit-blog&utm_medium=blog&utm_content=blog120523&utm_campaign=education).
 
