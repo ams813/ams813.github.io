@@ -27,6 +27,11 @@ layout: default
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
+
   </div>
+
+  {% if page.source %}
+  <p class="sans-s-bold post-meta-source">Published on <a href="{{ page.source-url }}">{{ page.source }}</a></p>
+  {% endif %}
 
 </article>

@@ -289,6 +289,19 @@
     margin-bottom: $spacing-l;
 }
 
+.post .post-meta-source {
+  @extend .sans-s-bold;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  padding-top: $spacing-s;
+  margin-bottom: $spacing-m;
+  a {
+    color: $gray;
+    &:hover {
+      color: $link-hover-color;
+    }
+  }
+}
+
 
 /*
 
