@@ -10,6 +10,7 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $black: #212121;
+$black-lt: rgba(0,0,0,.5);
 $gray: #797878;
 $eggplant: #140c1b;
 $raspberry: #730728;
@@ -24,13 +25,15 @@ $background-color: $white;
 .spacing-xs > * + * { margin-top: 3px; }
 .spacing-s > * + * { margin-top: 6px; }
 .spacing-m > * + * { margin-top: 10px; }
-.spacing-l > * + * { margin-top: 24px; }
-.spacing-xl > * + * { margin-top: 30px; }
+.spacing-l > * + * { margin-top: 16px; }
+.spacing-xl > * + * { margin-top: 24px; }
+.spacing-xxl > * + * { margin-top: 30px; }
 $spacing-xs: 3px;
 $spacing-s: 6px;
 $spacing-m: 10px;
-$spacing-l: 24px;
-$spacing-xl: 30px;
+$spacing-l: 16px;
+$spacing-xl: 24px;
+$spacing-xxl: 30px;
 
 
 // Type styles
@@ -79,6 +82,18 @@ $spacing-xl: 30px;
   //}
 }
 
+.serif-xs {
+  @extend %dolly;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: .02em;
+  //letter-spacing: 1em;
+  //@include media-query() {
+    //font-size: 18px;
+    //line-height: 30px;
+  //}
+}
+
 .sans-xl-bold {
   @extend %fort;
   font-weight: bold;
@@ -104,7 +119,7 @@ $spacing-xl: 30px;
 .sans-m-bold {
   @extend %fort;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
   //@include media-query() {
     //font-size: 20px;
@@ -126,7 +141,6 @@ $spacing-xl: 30px;
     color: $text-color;
     text-decoration: underline;
     &:hover {
-      text-decoration: none;
       color: $link-color;
     }
   }
@@ -159,7 +173,8 @@ $spacing-xl: 30px;
   font-weight: bold;
   font-size: 12px;
   line-height: 20px;
-  //letter-spacing: 2em;
+  text-transform: uppercase;
+  letter-spacing: .07em;
   //@include media-query() {
     //font-size: 12px;
     //line-height: 20px;

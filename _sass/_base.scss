@@ -1,4 +1,5 @@
 // Resets
+
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -8,6 +9,11 @@ dl, dd, ol, ul, figure {
 
 
 // Basic styling
+
+html, body {
+  overflow-x: hidden;
+}
+
 body {
     font-size: $base-font-size;
     font-weight: $base-font-weight;
@@ -25,41 +31,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/**
- * Set `margin-bottom` to maintain vertical rhythm
+// Images
 
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
-}*/
-
-
-
-/**
- * Images
- */
 img {
     max-width: 100%;
     vertical-align: middle;
 }
 
 
+//Figures
 
-/**
- * Figures
- */
 figure > img {
     display: block;
 }
 
-/**
- * Lists
- */
-ul, ol {
-    margin-left: $spacing-unit;
-}
+// Lists
 
 li {
     > ul,
@@ -68,29 +54,20 @@ li {
     }
 }
 
+//Links
 
-/**
- * Links
- */
 a {
     color: $link-color;
     text-decoration: underline;
-
-    //&:visited {
-        //color: darken($brand-color, 15%);
-    //}
-
     &:hover {
         color: $link-hover-color;
-        text-decoration: none;
     }
 }
 
 
 
-/**
- * Blockquotes
- */
+// Blockquotes
+
 blockquote {
     color: $black;
     border-left: 4px solid $black;
@@ -106,9 +83,8 @@ blockquote {
 
 
 
-/**
- * Code formatting
- */
+// Code formatting
+
 pre,
 code {
     font-size: 15px;
@@ -134,9 +110,8 @@ pre {
 
 
 
-/**
- * Wrapper
- */
+//Wrapper
+
 .wrapper {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
@@ -156,11 +131,9 @@ pre {
 
 
 
-/**
- * Clearfix
- */
-%clearfix {
+//Clearfix
 
+%clearfix {
     &:after {
         content: "";
         display: table;
@@ -170,19 +143,21 @@ pre {
 
 
 
-/**
- * Icons
- */
-.icon {
+// Icons
 
+.icon {
     > svg {
         display: inline-block;
         width: 16px;
         height: 16px;
         vertical-align: middle;
-
         path {
-            fill: $black;
+            fill: $gray;
+        }
+        &:hover {
+          path {
+            fill: $link-hover-color;
+          }
         }
     }
 }

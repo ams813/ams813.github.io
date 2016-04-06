@@ -1,31 +1,12 @@
 <footer class="site-footer">
 
-  <div class="wrapper">
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-    </div>
-
+  <div class="wrapper spacing-xs">
+    <p class="copyright">&copy; 2016 <a href="mailto:{{ site.email }}">Aura Seltzer</a></p>
+    <p class="colophon">Featuring <a href="http://www.webtype.com/font/fort-family/">Fort</a> and <a href="http://www.webtype.com/font/dolly-pro-family/">Dolly</a>. Managed with <a href="https://jekyllrb.com/">Jekyll</a>.</p>
+    <ul class="social-media-list">
+      <li><a href="https://twitter.com/auraseltzer"><span class="icon">{% include icon-twitter.svg %}</span></a></li>
+      <li><a href="https://www.linkedin.com/in/auraseltzer"><span class="icon">{% include icon-linkedin.svg %}</span></a></li>
+    </ul>
   </div>
 
 </footer>
