@@ -13,28 +13,28 @@ It’s encouraging that clients are invested in their content. But, being invest
 
 We’ve run into [several common questions](http://www.newyorker.com/humor/daily-shouts/f-a-q-s-about-f-a-q-s) when addressing FAQs as a business requirement, so what better way to address them than create our own FAQs. Hopefully, this Q&A will help guide you (the client) or you (the project team) toward determining whether FAQs are an appropriate solution for your redesign.
 
-##Purpose
+## Purpose
 
-###Should we have a page on our website solely devoted to answering common questions?
+### Should we have a page on our website solely devoted to answering common questions?
 It depends. If the answers you plan to include are merely a repetition of information that lives elsewhere on the site, then first consider evaluating that content’s accessibility and clarity. FAQs can quickly become fallbacks for users once they exhaust their search, and we don’t want to reinforce this behavior by not attempting to fix our base-level content first. Introducing an FAQs page may not necessarily alleviate the volume of inquiries either, but it can hopefully increase the baseline knowledge of your audience and therefore the quality of your interactions.
 
-##Location
+## Location
 
-###Where should our FAQs live in the structure of the new site?
+### Where should our FAQs live in the structure of the new site?
 FAQs are often placed as part of a global “help” section and many times can stand alone, but on top of this, think of how FAQs can support your existing content and be served up in the experience at points where users’ questions arise. Offering a specific product? Why not pull in common questions in the context of the description. Your contact page is another example of such a place, where surfacing specific FAQs can serve as a final attempt to help users find the answers they need on their own.
 
-##Writing & Structure
+## Writing & Structure
 
-###How should we write and organize the answers to our FAQ?
+### How should we write and organize the answers to our FAQ?
 
 Keep the style of writing short, conversational, and consistent with your voice and tone. Cross-link to existing content and applicable resources when available. Write questions from the perspective of your audience—being mindful of industry-specific jargon and where examples may clarify use cases. Group them with thematic headlines so it’s easier to find the relevant topic. You may also organize your questions to mirror chronological steps in a process (e.g. applying to college) or to build by the frequency or complexity of the question.
 
-##Presentation
+## Presentation
 
-###How should we style our FAQs content?
+### How should we style our FAQs content?
 There are a few design patterns that can aid findability on your FAQs page and across your site: (1) A table of contents with anchor links can give users a preview of questions before having to scroll the full length of the page. (2) Accordions that only show the questions are quick to scan and hide answers until users know they are relevant. (3) Off-screen panels can also keep answers out of view and maintain a cleaner presentation of questions. (4) Annotated keywords and tooltips provide a layer of explanation in the context of where questions may arise. (5) Functionality like filtering and search let your users narrow the displayed questions by topic or find a specific keyword in the text. Whichever pattern you choose, make sure it lends itself across screen sizes and is applied consistently.
 
-##Updates
+## Updates
 
-###How often should we update our FAQs?
+### How often should we update our FAQs?
 Aim to revisit your FAQs every quarter. Re-identify and prioritize your most frequently asked questions, looking for ways that they can be answered in your existing site content before adding them to your FAQs list. Incorporate new questions and missing details as needed, remove outdated information, and add any alternate keywords that have surfaced in recent conversations with your users. By looking at your data quarterly, you’ll be able to note calendar-driven trends in the information users seek, better anticipate questions they’ll have over the upcoming months, and reinforce for users that you care about answering their ongoing questions.
