@@ -21,14 +21,14 @@ $link-color: $raspberry;
 $link-hover-color: $eggplant;
 $background-color: $white;
 
-.spacing-xs > * + * { margin-top: 5px; }
-.spacing-s > * + * { margin-top: 10px; }
+.spacing-xs > * + * { margin-top: 6px; }
+.spacing-s > * + * { margin-top: 8px; }
 .spacing-m > * + * { margin-top: 12px; }
 .spacing-l > * + * { margin-top: 20px; }
 .spacing-xl > * + * { margin-top: 25px; }
 .spacing-xxl > * + * { margin-top: 30px; }
-$spacing-xs: 5px;
-$spacing-s: 10px;
+$spacing-xs: 6px;
+$spacing-s: 8px;
 $spacing-m: 12px;
 $spacing-l: 20px;
 $spacing-xl: 25px;
@@ -51,7 +51,7 @@ $spacing-xxl: 30px;
 
 .serif-l {
   @extend %dolly;
-  font-size: 20px;
+  font-size: 21px;
   line-height: 28px;
   //@include media-query() {
     //font-size: 28px;
@@ -129,8 +129,8 @@ $spacing-xxl: 30px;
 .sans-s-bold {
   @extend %fort;
   font-weight: bold;
-  font-size: 11px;
-  line-height: 14px;
+  font-size: 12px;
+  line-height: 16px;
   //letter-spacing: 1em;
   //@include media-query() {
     //font-size: 14px;
@@ -148,8 +148,8 @@ $spacing-xxl: 30px;
 .sans-s-italic {
   @extend %fort;
   font-style: italic;
-  font-size: 11px;
-  line-height: 14px;
+  font-size: 12px;
+  line-height: 16px;
   //@include media-query() {
     //font-size: 14px;
     //line-height: 20px;
@@ -158,8 +158,8 @@ $spacing-xxl: 30px;
 
 .sans-s {
   @extend %fort;
-  font-size: 11px;
-  line-height: 14px;
+  font-size: 12px;
+  line-height: 16px;
   //letter-spacing: 1em;
   //@include media-query() {
     //font-size: 14px;
