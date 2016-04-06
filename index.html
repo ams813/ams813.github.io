@@ -72,25 +72,25 @@ layout: default
     {% for post in site.posts %}
       <li class="spacing-m">
         <a class="post-link spacing-s" href="{{ post.url | prepend: site.baseurl }}">
-          <span class="post-meta-subtitle">{{ post.subtitle}}</span>
+          <span class="serif-m-italic post-meta-subtitle">{{ post.subtitle}}</span>
           <h2 class="sans-l-bold">{{ post.title }}</h2>
         </a>
         <div class="spacing-xs">
           {% if post.short-description %}
-          <p class="post-short-description">{{ post.short-description }}</p>
+          <p class="serif-s post-short-description">{{ post.short-description }}</p>
           {% endif %}
           {% if post.source %}
-          <p class="post-meta-source">Published on <a href="{{ post.source-url }}">{{ post.source }}</a></p>
+          <p class="sans-s-bold post-meta-source">Published on <a href="{{ post.source-url }}">{{ post.source }}</a></p>
           {% endif %}
-          <p class="post-meta-category"><a href="#">{{ post.categories }}</a></p>
+          <p class="sans-s-bold post-meta-category"><a href="#">{{ post.categories }}</a></p>
           {% if post.categories contains "project" %}
-          <p class="post-meta-date">{{ post.date | date: "%Y"}}</p>
+          <p class="sans-s post-meta-date">{{ post.date | date: "%Y"}}</p>
           {% endif %}
           {% if post.categories contains "article" %}
-          <p class="post-meta-date">{{ post.date | date: "%-m/%-d/%y"}}</p>
+          <p class="sans-s post-meta-date">{{ post.date | date: "%-m/%-d/%y"}}</p>
           {% endif %}
           {% if post.categories contains "podcast" %}
-          <p class="post-meta-date">{{ post.date | date: "%-m/%y"}}</p>
+          <p class="sans-s post-meta-date">{{ post.date | date: "%-m/%y"}}</p>
           {% endif %}
         </div>
       </li>

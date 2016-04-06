@@ -97,23 +97,21 @@
 
 .post-link {
     text-decoration: none;
+    transition: all 0.4s ease;
     &:hover {
       color: $link-hover-color !important;
     }
 }
 
 .post-meta-subtitle {
-  @extend .serif-m-italic;
   display: block;
 }
 
 .post-short-description {
-  @extend .serif-s;
   margin-bottom: $spacing-s;
 }
 
 .post-meta-source {
-  @extend .sans-s-bold;
   color: $gray;
   a {
     color: $gray;
@@ -124,7 +122,6 @@
 }
 
 .post-meta-category {
-  @extend .sans-s-bold;
   color: $text-color;
   text-transform: capitalize;
   margin-right: 5px;
@@ -132,7 +129,6 @@
 }
 
 .post-meta-date {
-  @extend .sans-s;
   color: $gray;
   display: inline-block;
 }
@@ -145,7 +141,6 @@
 }
 
 .copyright {
-  @extend .sans-xs-bold-all-caps;
   color: $gray;
   a {
     color: $gray;
@@ -156,7 +151,6 @@
 }
 
 .colophon {
-  @extend .serif-xs;
   color: $gray;
   a {
     color: $gray;
