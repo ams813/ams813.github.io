@@ -15,16 +15,16 @@ Image: Finished site (scroll)
 
 Image: Sketch iterations
 
-<p class="caption sans-s-bold">With few assets other than the faces themselves, I jumped straight into sketching content ideas in the context of layout. Within our condensed timeline, we decided to keep the site constrained to a single page to feature controlled, art-directed outcomes and beautifully set type.</p>
+<p class="caption">With few assets other than the faces themselves, I jumped straight into sketching content ideas in the context of layout. Within our condensed timeline, we decided to keep the site constrained to a single page to feature controlled, art-directed outcomes and beautifully set type.</p>
 
 Image: Animation of the type scaler working
 
-<p class="caption sans-s-bold">A type scaler illustrates what to expect at different sizes depending on the rendering environment. I wrote new bios for each face to describe their characteristics.</p>
+<p class="caption">A type scaler illustrates what to expect at different sizes depending on the rendering environment. I wrote new bios for each face to describe their characteristics.</p>
 
 Image: Essay selection
 
-<p class="caption sans-s-bold">Edited by Nick Sherman, my feature essay that dives into how screens render type, historical references, and features common to the faces’ construction. Typeset with RE typefaces, the essay also demonstrates the typographic control users can expect from the series.</p>
+<p class="caption">Edited by Nick Sherman, my feature essay that dives into how screens render type, historical references, and features common to the faces’ construction. Typeset with RE typefaces, the essay also demonstrates the typographic control users can expect from the series.</p>
 
 Image: Detail of the paired specimens
 
-<p class="caption sans-s-bold">To showcase the faces in a variety of potential moods and applications, I designed HTML specimens that paired each RE typeface with larger-set accompaniments from Font Bureau’s Webtype catalog.</p>
+<p class="caption">To showcase the faces in a variety of potential moods and applications, I designed HTML specimens that paired each RE typeface with larger-set accompaniments from Font Bureau’s Webtype catalog.</p>

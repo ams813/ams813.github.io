@@ -19,7 +19,7 @@ Typekit offers several superfamilies in its collection. [FF Dax](https://typekit
 
 Image
 
-<p class="caption sans-s-bold">Letters of Freight Sans Pro and Freight Text, when overlaid, show similar structure.</p>
+<p class="caption">Letters of Freight Sans Pro and Freight Text, when overlaid, show similar structure.</p>
 
 Freight Sans and Freight Text each come equipped with six weights with corresponding italics. They were built with the same chiseled edges, cap height, x-height (the height of the lowercase letters typically illustrated by the letter x), and baseline. Because each was designed with the other in mind, text occupies the same line length and height no matter which face is used; this means either can take the lead as a headline and you can mix them together seamlessly.
 
@@ -39,13 +39,13 @@ Below, I’ve paired [Apolline STD](https://typekit.com/fonts/apolline-std?utm_s
 
 Image
 
-<p class="caption sans-s-bold">Letters set in Apolline and Calluna show how the two typefaces are too similar to be paired.</p>
+<p class="caption">Letters set in Apolline and Calluna show how the two typefaces are too similar to be paired.</p>
 
 But, if we look at [Rooney](https://typekit.com/fonts/rooney-web?utm_source=typekit-blog&utm_medium=blog&utm_content=blog120523&utm_campaign=education) and [Skolar](https://typekit.com/fonts/skolar-web?utm_source=typekit-blog&utm_medium=blog&utm_content=blog120523&utm_campaign=education), we can see how pairing with look alikes can be seamless and also add pep to the page. Skolar is grittier with its sharp edges, but thick strokes and similar letter widths make this pairing work well. Also, notice how I’ve selected two typefaces with diagonally-protruding “ears” on the lowercase <em>g</em>. It’s all about the details with this technique.
 
 Image
 
-<p class="caption sans-s-bold">Letters set in Rooney and Skolar reveal that the two typefaces are a good match.</p>
+<p class="caption">Letters set in Rooney and Skolar reveal that the two typefaces are a good match.</p>
 
 ##Bump up the contrast
 
@@ -57,13 +57,13 @@ The first pairing below features [Brandon Grotesque](https://typekit.com/fonts/b
 
 Image
 
-<p class="caption sans-s-bold">Letters set in Brandon Grotesque and Proxima Nova exhibit how there is not enough contrast between the two typefaces.</p>
+<p class="caption">Letters set in Brandon Grotesque and Proxima Nova exhibit how there is not enough contrast between the two typefaces.</p>
 
 On the other hand, [FF Meta Serif](https://typekit.com/fonts/ff-meta-serif-web-pro?utm_source=typekit-blog&utm_medium=blog&utm_content=blog120523&utm_campaign=education) and [Urbana](https://typekit.com/fonts/urbana?utm_source=typekit-blog&utm_medium=blog&utm_content=blog120523&utm_campaign=education) nicely contrast condensed, illustrative lettering with cleaner curves and angles.
 
 Image
 
-<p class="caption sans-s-bold">Letters set in FF Meta Serif and Urbana illustrate contrast. The two typefaces make a balanced but dynamic pair.</p>
+<p class="caption">Letters set in FF Meta Serif and Urbana illustrate contrast. The two typefaces make a balanced but dynamic pair.</p>
 
 ##The rest is history
 
@@ -71,7 +71,7 @@ One last technique for pairing typefaces is to focus on the backstory of each ty
 
 Image
 
-<p class="caption sans-s-bold">Letters set in Dederon Sans and Minion reveal their shared inspiration.</p>
+<p class="caption">Letters set in Dederon Sans and Minion reveal their shared inspiration.</p>
 
 With this historic method, it’s important to be mindful of anachronism and to acknowledge the historic likelihood of a typeface appearing in a particular context. Because this strategy is more research-focused than visual, it is not mutually exclusive with the preceding methods. Feel free to examine typographic anatomy, look for similarity or contrast, and experiment with hierarchy just like you would with the preceding techniques. It will only make your pairings stronger.
 

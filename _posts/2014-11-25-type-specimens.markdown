@@ -21,7 +21,7 @@ Before the days of the web, specimens were printed on pages, typically bound tog
 
 Image
 
-<p class="caption sans-s-bold">William Caslon’s first specimen from 1734 shows self-named Caslon set in the Latin text from Cicero’s Catiline Orations.</p>
+<p class="caption">William Caslon’s first specimen from 1734 shows self-named Caslon set in the Latin text from Cicero’s Catiline Orations.</p>
 
 Latin text, pangrams, and sequential alphabet sets still pervade the language of web specimens today. But these approaches are misguided for our needs; *we should want to read a specimen’s content*. After all, we’re looking to select typefaces that encourage our users to do the same. We shouldn’t make decisions in the context of unrealistic typesetting expectations.
 
@@ -31,7 +31,7 @@ Styling meaningful, relevant content may mean you’ll have to devise at least a
 
 Codepen iframe
 
-<p class="caption sans-s-bold">Here’s how we might start playing around with *The Bun Shop* site’s typography. We’ll try out Alpha Echo for a big, spunky header, and De Walpergen’s Pica for the menu text.</p>
+<p class="caption">Here’s how we might start playing around with <em>The Bun Shop</em> site’s typography. We’ll try out Alpha Echo for a big, spunky header, and De Walpergen’s Pica for the menu text.</p>
 
 ##Survey styling options extensively (and practically)
 
@@ -42,6 +42,7 @@ Keeping with our burger theme, let’s say *The Bun Shop*’s chef also posts re
 Be judicious when unlocking extra features for more styling options. Just because a glyph, style, or weight is available [doesn’t mean you have to use it](http://blog.typekit.com/2013/10/09/on-weights-styles/) — or require that your users load it. You can still show off savvy typography without compromising your site’s performance.
 
 When surveying your styling options (especially as browsers [slowly gain support for OpenType features](http://caniuse.com/font-feature)), consider these details for more typographic control on the web:
+
 * **The full repertoire of a face’s weights, widths, italics, glyphs:** Have certain characters been omitted? If you know you’ll need a certain glyph and can’t find it in the specimen, foundries often offer a full list for you to double-check.
 * **Renderings of a variety of letter combinations:** Has the designer used certain combinations of letters continuously or accounted for a variety of scenarios? Are ligatures available for less-than-ideal pairs?
 * **An acknowledgment of capitals and/or small-caps:** Does the typeface offer both? If you’re planning to apply the font beyond discrete, one-word phrases, or you’re alternating all-caps text with lowercase, be sure to examine how text looks when it is set in all capitals. Are the characters legible across sizes? Does spacing feel natural or forced?
@@ -49,7 +50,7 @@ When surveying your styling options (especially as browsers [slowly gain support
 
 Codepen iframe
 
-<p class="caption sans-s-bold">De Walpergen’s Pica feels even more refined with these additional glyphs in play, contrasting well with the heading’s grit. However, the additional glyphs do add to the weight of the page.</p>
+<p class="caption">De Walpergen’s Pica feels even more refined with these additional glyphs in play, contrasting well with the heading’s grit. However, the additional glyphs do add to the weight of the page.</p>
 
 ##Examine type at a variety of appropriate sizes
 
@@ -59,7 +60,7 @@ When it comes to presenting type at different sizes, many specimens lay out a fo
 
 Codepen iframe
 
-<p class="caption sans-s-bold">By laying out De Walpergen’s Pica in a waterfall of sizes, we can get a sense for how much space the same line of text occupies as it scales up. And we can gauge how the type size feels: the text becomes difficult to read when the font is set smaller than 14px; setting the font at larger sizes accentuates the letterforms’ old punches and “inkiness” on screen.</p>
+<p class="caption">By laying out De Walpergen’s Pica in a waterfall of sizes, we can get a sense for how much space the same line of text occupies as it scales up. And we can gauge how the type size feels: the text becomes difficult to read when the font is set smaller than 14px; setting the font at larger sizes accentuates the letterforms’ old punches and “inkiness” on screen.</p>
 
 With many specimens today, size may not be presented at distinct values or sequenced as a waterfall from largest to smallest setting. Stacked lines of justified text might alternate with more random sizes to create a more balanced visual design. This approach places emphasis on the overall gestalt of the layout and can give a better sense of how a variety of text sizes will interact. You can easily build your own justified, stacked specimens on the web with a plugin like [FitText.js](http://fittextjs.com/), or with [CSS viewport units](http://css-tricks.com/viewport-sized-typography/), which allow us to create scalable headlines that fit the width of their parent elements.
 

@@ -17,8 +17,8 @@ Images: Zine shots from portfolio
 
 Image: Zine detail shot of hours of exposure
 
-<p class="caption sans-s-bold">Inspired by the use of classification in field guides, for each activity, we recorded our hours of exposure to the topic and a list of vocabulary we learned.</p>
+<p class="caption">Inspired by the use of classification in field guides, for each activity, we recorded our hours of exposure to the topic and a list of vocabulary we learned.</p>
 
 Images: Production
 
-<p class="caption sans-s-bold">Printing offset on newsprint, we had to account for low-quality paper, absorbency issues, and a limited color palette to fit our budget. We chose imagery and icons that would shine in just black ink and were conservative with type size and weight.</p>
+<p class="caption">Printing offset on newsprint, we had to account for low-quality paper, absorbency issues, and a limited color palette to fit our budget. We chose imagery and icons that would shine in just black ink and were conservative with type size and weight.</p>

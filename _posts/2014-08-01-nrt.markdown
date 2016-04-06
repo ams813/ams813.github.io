@@ -16,28 +16,28 @@ We set out to build a web-app experience that would serve both agents and homebu
 
 Image(s): Zone homepage (design 1, 2, 3, mobile
 
-<p class="caption sans-s-bold">Powerful localization proved our strongest demonstration of personalization. Coldwellbankerhomes.com geolocated users by IP address, cookies, or search history to land them in an experience that felt local and specific to their search. We placed the search front-and-center to put nothing in the user’s way from finding their dream home. Background photography and page content were tailored to the user’s regional zone. A modernized color palette brought Coldwell Banker into the 21st century.</p>
+<p class="caption">Powerful localization proved our strongest demonstration of personalization. Coldwellbankerhomes.com geolocated users by IP address, cookies, or search history to land them in an experience that felt local and specific to their search. We placed the search front-and-center to put nothing in the user’s way from finding their dream home. Background photography and page content were tailored to the user’s regional zone. A modernized color palette brought Coldwell Banker into the 21st century.</p>
 
 Image: HBIB drawer (design 1, 2)
 
-<p class="caption sans-s-bold">A drawer with recently viewed and saved properties and searches drove return visitors directly to properties and search results of interest.</p>
+<p class="caption">A drawer with recently viewed and saved properties and searches drove return visitors directly to properties and search results of interest.</p>
 
 Image: Autocomplete wireframe
 
-<p class="caption sans-s-bold">An example of the complex user-experience thinking we lent to the project. This wireframe illustrates different scenarios for autocompleting search box queries.</p>
+<p class="caption">An example of the complex user-experience thinking we lent to the project. This wireframe illustrates different scenarios for autocompleting search box queries.</p>
 
 Image(s): Search results desktop animated search (live site)
 
-<p class="caption sans-s-bold">After conducting a competitive analysis and testing with users, we landed on a search results experience that truly synced the property list with a map, so that as you navigated one, the other adapted. On larger screens, users wouldn’t have to choose between property specifics and relative proximity, and could filter properties easily without leaving results. We chose the Whitney type family as a new brand typeface for its friendliness, onscreen legibility, and its clarity in densely packed metadata.</p>
+<p class="caption">After conducting a competitive analysis and testing with users, we landed on a search results experience that truly synced the property list with a map, so that as you navigated one, the other adapted. On larger screens, users wouldn’t have to choose between property specifics and relative proximity, and could filter properties easily without leaving results. We chose the Whitney type family as a new brand typeface for its friendliness, onscreen legibility, and its clarity in densely packed metadata.</p>
 
 Image(s): Search results small screens
 
-<p class="caption sans-s-bold">On smaller screens, users would toggle between a list and map view, but could still access all property metadata, search filters, and map tools.</p>
+<p class="caption">On smaller screens, users would toggle between a list and map view, but could still access all property metadata, search filters, and map tools.</p>
 
 Image: Property detail (design desktop, design mobile)
 
-<p class="caption sans-s-bold">The property detail page put photos front and center, but was also flexible to account for varying availability of photo assets, maps, and agent information. By featuring agents and quick contact forms to request a viewing, we looked to facilitate a personal connection with a real individual.</p>
+<p class="caption">The property detail page put photos front and center, but was also flexible to account for varying availability of photo assets, maps, and agent information. By featuring agents and quick contact forms to request a viewing, we looked to facilitate a personal connection with a real individual.</p>
 
 Image(s): Agent profile
 
-<p class="caption sans-s-bold">Agent biographies shined through well-structured, consistent content that also emphasized regional expertise.</p>
+<p class="caption">Agent biographies shined through well-structured, consistent content that also emphasized regional expertise.</p>

@@ -16,10 +16,10 @@ We set out to streamline, prioritize, and integrate the Extension School’s tex
 
 Image: Sitemap pg. 5
 
-<p class="caption sans-s-bold">Informed by my content audit, I developed a site structure and list of corresponding templates, and mapped templates and content types to site pages.</p>
+<p class="caption">Informed by my content audit, I developed a site structure and list of corresponding templates, and mapped templates and content types to site pages.</p>
 
 Image: Design concept: Academics, Academics tool open
 
-<p class="caption sans-s-bold">My selected design concept combined the University’s neutral palette with bold, professional typography. The Academics page presents all the ways students can learn through the School. A “What are you interested in?” tool used keyword search to surface options by area of interest. Concept revisions and design system by Dana Pavlichko.</p>
+<p class="caption">My selected design concept combined the University’s neutral palette with bold, professional typography. The Academics page presents all the ways students can learn through the School. A “What are you interested in?” tool used keyword search to surface options by area of interest. Concept revisions and design system by Dana Pavlichko.</p>
 
 To vet our work and prepare for the School’s in-house implementation, I ran remote usability testing sessions of our design comps. Once the designs were revised, I drafted a document to summarize the site’s content model, taxonomy, custom Drupal panels, and recommendations for configuring back-end fields.

@@ -39,6 +39,7 @@ $link-color: $raspberry;
 $link-hover-color: $eggplant;
 $background-color: $white;
 
+$spacing-xxs: 3px;
 $spacing-xs: 6px;
 $spacing-s: 8px;
 $spacing-m: 12px;
@@ -122,7 +123,8 @@ $spacing-xxxxl: 60px;
 .sans-xl-bold {
   @include fort;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 24px;
+  line-height: 28px;
   @include breakpoint($q-medium) {
     font-size: 36px;
   }
@@ -198,6 +200,103 @@ $spacing-xxxxl: 60px;
   letter-spacing: .07em;
 }
 
+// post markdown classes
+
+.post {
+  h1 { @extend .sans-xl-bold; }
+
+  h2 {
+    @extend .sans-l-bold;
+    margin-bottom: $spacing-s;
+  }
+
+  h3 {
+    @extend .sans-m-bold;
+    margin-bottom: $spacing-xxs;
+  }
+
+  p {
+    @extend .serif-s;
+    margin-bottom: $spacing-s;
+    strong {
+      font-family: "Fort", Arial, Helvetica, sans-serif;
+      font-weight: bold;
+    }
+    &.caption {
+      @extend .sans-s-bold;
+      em {
+        font-weight: normal;
+        font-style: normal;
+      }
+    }
+  }
+
+  p + h2 {
+    margin-top: $spacing-l;
+  }
+
+  p + h3 {
+    margin-top: $spacing-m;
+  }
+
+  p + ol, p + ul {
+    margin-top: $spacing-m;
+  }
+
+  ol, ul {
+    @extend .sans-s;
+    list-style-type: none;
+    margin-bottom: $spacing-m;
+    li {
+      margin-bottom: $spacing-s;
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  ul {
+    li:before {
+    	content: "-";
+      color: rgba(0,0,0,0.3);
+      font-weight: bold;
+      display: inline-block;
+      margin-left: -10px;
+    	width: 10px;
+    }
+    li {
+      padding-left: 10px;
+    }
+  }
+
+  ol {
+    li {
+      counter-increment: step-counter;
+      position: relative;
+      margin-left: 0;
+      padding-left: 30px;
+      &:before {
+        content: counter(step-counter);
+        color: $gray;
+        font-weight: bold;
+        width: 20px;
+        text-align: right;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+    }
+  }
+
+  ol + h2, ul + h2 {
+    margin-top: $spacing-l;
+  }
+
+  ol + h3, ul + h3 {
+    margin-top: $spacing-m;
+  }
+
+}
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)

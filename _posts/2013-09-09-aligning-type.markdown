@@ -25,13 +25,13 @@ If that voice is husky and intellectual, look at durable faces like [Acuta](http
 
 Image
 
-<p class="caption sans-s-bold">JetBlue applies FF Din on its site’s most important labels, flight information, and pricing to create visual consistency with the brand’s logotype. They save page weight by relying on Arial for microcopy, paragraph text, and form styles.</p>
+<p class="caption">JetBlue applies FF Din on its site’s most important labels, flight information, and pricing to create visual consistency with the brand’s logotype. They save page weight by relying on Arial for microcopy, paragraph text, and form styles.</p>
 
 You may find that using a single (super)family’s weights, widths, and styles—along with introducing color and scale to further hierarchize your content—can be enough to convey your brand’s voice. Working within a restricted palette automatically introduces brand consistency, making every piece of content feel like it’s coming from the same mouthpiece. [JetBlue](http://www.jetblue.com/#/) built its recent redesign around FF DIN (served via Typekit), which lends itself to friendly, clear labels that emphasize UI. Meanwhile, [McSweeney’s](http://www.mcsweeneys.net/tendency) uses Adobe Garamond to evoke the site’s publishing roots while nodding to the innate humor of using a traditional print face with such emphasis on the web.
 
 Image
 
-<p class="caption sans-s-bold">McSweeney’s fills its hierarchical needs with [Adobe Garamond Pro‘s](https://typekit.com/fonts/adobe-garamond-pro) regular and italic, letter-spaced uppercase, and a restrained link style. Ornamental dividers section the content and emphasize the site’s bookish feel.</p>
+<p class="caption">McSweeney’s fills its hierarchical needs with <a href="https://typekit.com/fonts/adobe-garamond-pro">Adobe Garamond Pro‘s</a> regular and italic, letter-spaced uppercase, and a restrained link style. Ornamental dividers section the content and emphasize the site’s bookish feel.</p>
 
 Some typefaces may not have enough flexibility to handle all of your content, or your brand may have multiple voices, each warranting its own treatment—and that’s totally fine, too. In its most simple manifestation, you could find one typeface to serve for your headlines and another for your body copy. But it’s important to exercise restraint. Beware of creating overly complex systems, whose patterns can be difficult for users to decipher and may add unnecessary page weight to your site.
 

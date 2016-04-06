@@ -16,12 +16,12 @@ Like a chef builds depth of flavor, the new identity relies on subtle layering a
 
 Image: Home, and with start our planner animating  (and small screens?)
 
-<p class="caption sans-s-bold">Lead generation could happen at any step in the process—whether browsing food menus or filtering venues. Ultimately, the redesign would prove its worth if the new site could both survey offerings and drive leads.</p>
+<p class="caption">Lead generation could happen at any step in the process—whether browsing food menus or filtering venues. Ultimately, the redesign would prove its worth if the new site could both survey offerings and drive leads.</p>
 
 Image: Venue Detail
 
-<p class="caption sans-s-bold">In order to establish an ongoing relationship with customers, the site needed to be detailed and comprehensive, so its own planners could use the site as a selling tool.</p>
+<p class="caption">In order to establish an ongoing relationship with customers, the site needed to be detailed and comprehensive, so its own planners could use the site as a selling tool.</p>
 
 Image: Occasions
 
-<p class="caption sans-s-bold">Photography plays a critical role in positioning Garces Events as a caterer for all occasions, so we equipped the Garces team with guidelines to balance action and still shots, event styling and food presentation, and showing a human touch without seeming overly posed.</p>
+<p class="caption">Photography plays a critical role in positioning Garces Events as a caterer for all occasions, so we equipped the Garces team with guidelines to balance action and still shots, event styling and food presentation, and showing a human touch without seeming overly posed.</p>

@@ -27,11 +27,9 @@ In the world of Basecamp, I often need to describe in writing design mock-ups, U
 
 Drafting Basecamp messages involves achieving the right balance between writing enough to explain the necessary points but not so much that the reader can’t possibly absorb all the details (or doesn’t even try to). To help achieve this balance, I’ve come up with three self-directives to cure my overwriting habits, and for you to do the same:
 
-<ol>
-  <li>Write how you speak.<br>When you write like you’re talking straight to the reader, you’ll write more honestly and in a tone that your audience will understand. Embrace conjunctions, and leave awkward transitional phrases behind.</li>
-  <li>Embed hierarchy.<br>Breaking up your writing into multiple paragraphs and using more headings will make your message easier to scan and digest.</li>
-  <li>Edit down to the essence.<br>Empathize with your audience by being selective with your points and getting straight to them. Less can be more if you include just the right amount of detail.</li>
-</ol>
+1. **Write how you speak.** When you write like you’re talking straight to the reader, you’ll write more honestly and in a tone that your audience will understand. Embrace conjunctions, and leave awkward transitional phrases behind.
+2. **Embed hierarchy.** Breaking up your writing into multiple paragraphs and using more headings will make your message easier to scan and digest.
+3. **Edit down to the essence.** Empathize with your audience by being selective with your points and getting straight to them. Less can be more if you include just the right amount of detail.
 
 ##Start a conversation
 

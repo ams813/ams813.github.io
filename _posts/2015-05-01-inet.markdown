@@ -14,28 +14,28 @@ The Institute needed a responsive website that would showcase its seven years of
 
 Image: Template map
 
-<p class="caption sans-s-bold">Following an audit of the Institute’s content and analytics, I developed a content model and site structure that drove the organization of the Institute’s wealth of content. The new site structure made clear what the Institute is, the educational materials it offers, and the topical breadth it covers. From the site structure, I derived a list of templates for us to design and code.</p>
+<p class="caption">Following an audit of the Institute’s content and analytics, I developed a content model and site structure that drove the organization of the Institute’s wealth of content. The new site structure made clear what the Institute is, the educational materials it offers, and the topical breadth it covers. From the site structure, I derived a list of templates for us to design and code.</p>
 
 Image: Taxonomy workshop
 
-<p class="caption sans-s-bold">We worked collaboratively with the Institute’s staff and research fellows to derive our taxonomy.</p>
+<p class="caption">We worked collaboratively with the Institute’s staff and research fellows to derive our taxonomy.</p>
 
 Image: Wireframes
 
-<p class="caption sans-s-bold">Annotated wireframes spoke to content hierarchy, showed how the content model and 20+ content types would display on the front-end, and documented requirements for the back-end build.</p>
+<p class="caption">Annotated wireframes spoke to content hierarchy, showed how the content model and 20+ content types would display on the front-end, and documented requirements for the back-end build.</p>
 
 Image(s): Homepage, About, Ideas & Papers, Video, Community, Events
 
-<p class="caption sans-s-bold">Resetting expectations called for a brand refresh. The design system was a hat tip to the Institute's independent rhythm and scholarly roots. A clean, predominantly warm and neutral palette strayed from beloved blues of think tanks and research nonprofits. Dense levels of text and thick rules kept elements well-structured.</p>
+<p class="caption">Resetting expectations called for a brand refresh. The design system was a hat tip to the Institute's independent rhythm and scholarly roots. A clean, predominantly warm and neutral palette strayed from beloved blues of think tanks and research nonprofits. Dense levels of text and thick rules kept elements well-structured.</p>
 
 Image(s): Blog, Blog Article
 
-<p class="caption sans-s-bold">Across the site, we relied on black-and-white photography to keep a unified, editorial look. Color photos were incorporated selectively to highlight features and video content.</p>
+<p class="caption">Across the site, we relied on black-and-white photography to keep a unified, editorial look. Color photos were incorporated selectively to highlight features and video content.</p>
 
 Image(s): Experts, Notable Profile
 
-<p class="caption sans-s-bold">By elevating subject-matter experts and closely connecting individuals to their research, the website could become the go-to place for finding a comprehensive selection of a person’s papers and perspectives.</p>
+<p class="caption">By elevating subject-matter experts and closely connecting individuals to their research, the website could become the go-to place for finding a comprehensive selection of a person’s papers and perspectives.</p>
 
 Image(s): Topic Landing, Topic Detail, Explore Drawer
 
-<p class="caption sans-s-bold">A taxonomy of topics—big-picture, broad economics concepts that described an area of the Institute’s focus—threaded through the site’s content, but were also given spaces to frame work and add context.</p>
+<p class="caption">A taxonomy of topics—big-picture, broad economics concepts that described an area of the Institute’s focus—threaded through the site’s content, but were also given spaces to frame work and add context.</p>

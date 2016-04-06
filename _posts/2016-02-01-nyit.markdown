@@ -12,8 +12,8 @@ NYIT is a global, dynamic, and forward-thinking university with five (soon to be
 
 Images: Homepage (design)
 
-<p class="caption sans-s-bold">My selected design concept adopted the logo’s square and use of Times New Roman in creative ways. Research assets and photography took the spotlight, and different planes intersected and layered to simulate the energy of ideas. Illustrations, the addition of a monospaced font, and touches of animation kept the approach youthful.</p>
+<p class="caption">My selected design concept adopted the logo’s square and use of Times New Roman in creative ways. Research assets and photography took the spotlight, and different planes intersected and layered to simulate the energy of ideas. Illustrations, the addition of a monospaced font, and touches of animation kept the approach youthful.</p>
 
 Image: Homepage mobile (design)
 
-<p class="caption sans-s-bold">We designed for small screens at the same time as large to help focus on readability and content priority. The feature area served as a way to quickly change the tone of the page.</p>
+<p class="caption">We designed for small screens at the same time as large to help focus on readability and content priority. The feature area served as a way to quickly change the tone of the page.</p>

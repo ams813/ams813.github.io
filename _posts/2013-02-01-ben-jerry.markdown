@@ -18,16 +18,16 @@ Images:  Homepage (animate to show open state of the flavor finder)
 
 Image: Sketches
 
-<p class="caption sans-s-bold">We worked quickly and iteratively. We brainstormed, generated low-fidelity ideas, and vetted sketches with the client team to make sure we were on track.</p>
+<p class="caption">We worked quickly and iteratively. We brainstormed, generated low-fidelity ideas, and vetted sketches with the client team to make sure we were on track.</p>
 
 Image: Flavor Detail
 
-<p class="caption sans-s-bold">We wanted customers not just to be able to locate flavors and information, but celebrate the stories behind them. We looked for page-specific opportunities to bake in sharing opportunities and feature user-created content. If Ben & Jerry’s fans could play a more inherent role in the content on the site, they would feel as connected to the brand there as they do on social networks.</p>
+<p class="caption">We wanted customers not just to be able to locate flavors and information, but celebrate the stories behind them. We looked for page-specific opportunities to bake in sharing opportunities and feature user-created content. If Ben & Jerry’s fans could play a more inherent role in the content on the site, they would feel as connected to the brand there as they do on social networks.</p>
 
 Image: Contact FAQ (mobile?)
 
-<p class="caption sans-s-bold">Using a marriage of predictive content and smart UX, a contact form anticipates fan needs and questions.</p>
+<p class="caption">Using a marriage of predictive content and smart UX, a contact form anticipates fan needs and questions.</p>
 
 Vimeo video
 
-<p class="caption sans-s-bold">Throughout our engagement, we worked closely with Ben & Jerry’s internal design department, web development team, and CMS partner.</p>
+<p class="caption">Throughout our engagement, we worked closely with Ben & Jerry’s internal design department, web development team, and CMS partner.</p>

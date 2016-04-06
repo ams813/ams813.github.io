@@ -16,24 +16,24 @@ With this responsive redesign, we set out to turn talented, diverse prospects in
 
 Image: Annotated wireframes (Home, Admissions, Academics)
 
-<p class="caption sans-s-bold">Wireframes for key pages of the site used realish content and established a set of reusable modules. Paper wireframes made sharing easier among a distributed project team.</p>
+<p class="caption">Wireframes for key pages of the site used realish content and established a set of reusable modules. Paper wireframes made sharing easier among a distributed project team.</p>
 
 Image: Homepage (design), Admissions (design), Financial Aid (design)
 
-<p class="caption sans-s-bold">Even though there was only one true homepage in the consolidated site structure, we still gave emphasis to landing pages for the Admissions and Financial Aid Offices. Working with a strict palette of Arial and Georgia challenged us to inject life into two frequently-used, neutral-voiced fonts.</p>
+<p class="caption">Even though there was only one true homepage in the consolidated site structure, we still gave emphasis to landing pages for the Admissions and Financial Aid Offices. Working with a strict palette of Arial and Georgia challenged us to inject life into two frequently-used, neutral-voiced fonts.</p>
 
 Image: Two video designs (design one, two)
 
-<p class="caption sans-s-bold">In this robust video catalog, short vignettes of students sharing stories about their lives at Harvard would give prospectives a sense of what the College is really like.</p>
+<p class="caption">In this robust video catalog, short vignettes of students sharing stories about their lives at Harvard would give prospectives a sense of what the College is really like.</p>
 
 Image: NPC (design, template)
 
-<p class="caption sans-s-bold">Tools like a Net Price Calculator, required by law, needed to be responsified, straightforward, and helpful to underscore Harvard’s affordability. A year after launch, 40% more students applied with a fee waiver, implying that they felt more comfortable with the availability of financial aid.</p>
+<p class="caption">Tools like a Net Price Calculator, required by law, needed to be responsified, straightforward, and helpful to underscore Harvard’s affordability. A year after launch, 40% more students applied with a fee waiver, implying that they felt more comfortable with the availability of financial aid.</p>
 
 Image: Admitted Students (design)
 
-<p class="caption sans-s-bold">A password-protected area for admitted students featured the applicant’s academic and extracurricular interests (from the Common Application) to make the experience feel relevant and personal. More vibrant, celebratory colors and Freight Sans also enhanced the section.</p>
+<p class="caption">A password-protected area for admitted students featured the applicant’s academic and extracurricular interests (from the Common Application) to make the experience feel relevant and personal. More vibrant, celebratory colors and Freight Sans also enhanced the section.</p>
 
 Image: Implementation Google Doc, sitemap template layouts
 
-<p class="caption sans-s-bold">We collaborated with the Harvard team to map our 26 templates to all site pages and capture page-by-page requirements for the Drupal build. Diagrams illustrated high-level layouts of each template.</p>
+<p class="caption">We collaborated with the Harvard team to map our 26 templates to all site pages and capture page-by-page requirements for the Drupal build. Diagrams illustrated high-level layouts of each template.</p>
