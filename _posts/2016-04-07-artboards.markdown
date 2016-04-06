@@ -43,11 +43,12 @@ If your new artboard overlaps another (duplicating doesn’t pay mind to where e
 
 What happens when your art falls beyond the frame of an artboard? Moving assets across artboards requires a little Photoshop finesse, so keep in mind the following:
 
-* Moving a layer from artboard to artboard on the canvas will automatically relocate that layer to the top of the new-home-artboard’s folder in the Layers panel
+* Moving a layer from artboard to artboard on the canvas will automatically relocate that layer to the top of the new-home-artboard’s folder in the Layers panel.
 * Turning off layer auto-selection in the tool options bar will help you keep track of any layer(s) you’re moving.
 * Avoid reordering layers across artboards using just the Layers panel. Doing so can change the relative position of your artwork if the artboards aren’t the same size.
-* Moving a layer off your artboard area will automatically relocate the layer to the top of your Layers panel, outside of any artboard folder. You can prevent this auto-nesting by clicking the artboard-shaped icon in your Layers panel right next to the lock..
-Exporting
+* Moving a layer off your artboard area will automatically relocate the layer to the top of your Layers panel, outside of any artboard folder. You can prevent this auto-nesting by clicking the artboard-shaped icon in your Layers panel right next to the lock.
+
+##Exporting
 
 Lastly, when you’re ready to export your work, rather than save the entire file for web, you’ll need to export each artboard individually. While this sounds time consuming, specifying your Quick Export settings can speed up this process immensely.
 

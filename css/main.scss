@@ -21,17 +21,17 @@ $link-color: $raspberry;
 $link-hover-color: $eggplant;
 $background-color: $white;
 
-.spacing-xs > * + * { margin-top: 3px; }
-.spacing-s > * + * { margin-top: 6px; }
-.spacing-m > * + * { margin-top: 10px; }
-.spacing-l > * + * { margin-top: 16px; }
-.spacing-xl > * + * { margin-top: 24px; }
+.spacing-xs > * + * { margin-top: 5px; }
+.spacing-s > * + * { margin-top: 10px; }
+.spacing-m > * + * { margin-top: 12px; }
+.spacing-l > * + * { margin-top: 20px; }
+.spacing-xl > * + * { margin-top: 25px; }
 .spacing-xxl > * + * { margin-top: 30px; }
-$spacing-xs: 3px;
-$spacing-s: 6px;
-$spacing-m: 10px;
-$spacing-l: 16px;
-$spacing-xl: 24px;
+$spacing-xs: 5px;
+$spacing-s: 10px;
+$spacing-m: 12px;
+$spacing-l: 20px;
+$spacing-xl: 25px;
 $spacing-xxl: 30px;
 
 
@@ -51,8 +51,8 @@ $spacing-xxl: 30px;
 
 .serif-l {
   @extend %dolly;
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 20px;
+  line-height: 28px;
   //@include media-query() {
     //font-size: 28px;
     //line-height: 40px;
@@ -62,7 +62,7 @@ $spacing-xxl: 30px;
 .serif-m-italic {
   @extend %dolly;
   font-style: italic;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 20px;
   //@include media-query() {
     //font-size: 20px;
@@ -72,8 +72,8 @@ $spacing-xxl: 30px;
 
 .serif-s {
   @extend %dolly;
-  font-size: 14px;
-  line-height: 22px;
+  font-size: 15px;
+  line-height: 24px;
   //letter-spacing: 1em;
   //@include media-query() {
     //font-size: 18px;
@@ -107,7 +107,7 @@ $spacing-xxl: 30px;
 .sans-l-bold {
   @extend %fort;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 20px;
   //@include media-query() {
     //font-size: 28px;
@@ -118,7 +118,7 @@ $spacing-xxl: 30px;
 .sans-m-bold {
   @extend %fort;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
   //@include media-query() {
     //font-size: 20px;
@@ -129,7 +129,7 @@ $spacing-xxl: 30px;
 .sans-s-bold {
   @extend %fort;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 11px;
   line-height: 14px;
   //letter-spacing: 1em;
   //@include media-query() {
@@ -148,7 +148,7 @@ $spacing-xxl: 30px;
 .sans-s-italic {
   @extend %fort;
   font-style: italic;
-  font-size: 10px;
+  font-size: 11px;
   line-height: 14px;
   //@include media-query() {
     //font-size: 14px;
@@ -158,7 +158,7 @@ $spacing-xxl: 30px;
 
 .sans-s {
   @extend %fort;
-  font-size: 10px;
+  font-size: 11px;
   line-height: 14px;
   //letter-spacing: 1em;
   //@include media-query() {
@@ -170,7 +170,7 @@ $spacing-xxl: 30px;
 .sans-xs-bold-all-caps {
   @extend %fort;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 11px;
   line-height: 20px;
   text-transform: uppercase;
   letter-spacing: .07em;
