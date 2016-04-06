@@ -66,13 +66,13 @@ $spacing-xxxxl: 60px;
 // Type styles
 
 @mixin dolly {
-  font-family: "Dolly Pro";
+  font-family: "Dolly Pro", "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: normal;
 }
 
 @mixin fort {
-  font-family: "Fort";
+  font-family: "Fort", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
 }
@@ -81,10 +81,10 @@ $spacing-xxxxl: 60px;
   @include dolly;
   font-size: 21px;
   line-height: 28px;
-  //@include breakpoint() {
-    //font-size: 28px;
-    //line-height: 40px;
-  //}
+  @include breakpoint($q-medium) {
+    font-size: 28px;
+    line-height: 40px;
+  }
 }
 
 .serif-m-italic {
@@ -92,21 +92,20 @@ $spacing-xxxxl: 60px;
   font-style: italic;
   font-size: 17px;
   line-height: 20px;
-  //@include breakpoint() {
-    //font-size: 20px;
-    //line-height: 30px;
-  //}
+  @include breakpoint($q-medium) {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 .serif-s {
   @include dolly;
   font-size: 15px;
   line-height: 24px;
-  //letter-spacing: 1em;
-  //@include breakpoint() {
-    //font-size: 18px;
-    //line-height: 30px;
-  //}
+  @include breakpoint($q-medium) {
+    font-size: 18px;
+    line-height: 30px;
+  }
 }
 
 .serif-xs {
@@ -114,22 +113,19 @@ $spacing-xxxxl: 60px;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: .02em;
-  //letter-spacing: 1em;
-  //@include breakpoint() {
-    //font-size: 18px;
-    //line-height: 30px;
-  //}
+  @include breakpoint($q-medium) {
+    font-size: 18px;
+    line-height: 30px;
+  }
 }
 
 .sans-xl-bold {
   @include fort;
   font-weight: bold;
   font-size: 36px;
-  //line-height: ;
-  //@include breakpoint() {
-    //font-size: 36px;
-    //line-height: ;
-  //}
+  @include breakpoint($q-medium) {
+    font-size: 36px;
+  }
 }
 
 .sans-l-bold {
@@ -137,10 +133,10 @@ $spacing-xxxxl: 60px;
   font-weight: bold;
   font-size: 20px;
   line-height: 20px;
-  //@include breakpoint() {
-    //font-size: 28px;
-    //line-height: 33px;
-  //}
+  @include breakpoint($q-medium) {
+    font-size: 28px;
+    line-height: 33px;
+  }
 }
 
 .sans-m-bold {
@@ -148,10 +144,10 @@ $spacing-xxxxl: 60px;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  //@include breakpoint() {
-    //font-size: 20px;
-    //line-height: 33px;
-  //}
+  @include breakpoint($q-medium) {
+    font-size: 20px;
+    line-height: 33px;
+  }
 }
 
 .sans-s-bold {
@@ -159,11 +155,10 @@ $spacing-xxxxl: 60px;
   font-weight: bold;
   font-size: 12px;
   line-height: 16px;
-  //letter-spacing: 1em;
-  //@include breakpoint() {
-    //font-size: 14px;
-    //line-height: 20px;
-  //}
+  @include breakpoint($q-medium) {
+    font-size: 14px;
+    line-height: 20px;
+  }
   a {
     color: $text-color;
     text-decoration: underline;
@@ -178,21 +173,20 @@ $spacing-xxxxl: 60px;
   font-style: italic;
   font-size: 12px;
   line-height: 16px;
-  //@include breakpoint() {
-    //font-size: 14px;
-    //line-height: 20px;
-  //}
+  @include breakpoint($q-medium) {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
 
 .sans-s {
   @include fort;
   font-size: 12px;
   line-height: 16px;
-  //letter-spacing: 1em;
-  //@include breakpoint() {
-    //font-size: 14px;
-    //line-height: 20px;
-  //}
+  @include breakpoint($q-medium) {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
 
 .sans-xs-bold-all-caps {
@@ -202,10 +196,6 @@ $spacing-xxxxl: 60px;
   line-height: 20px;
   text-transform: uppercase;
   letter-spacing: .07em;
-  //@include breakpoint() {
-    //font-size: 12px;
-    //line-height: 20px;
-  //}
 }
 
 
