@@ -8,7 +8,9 @@ layout: default
       {% if page.subtitle  %}
       <span class="serif-s-italic post-meta-subtitle">{{ page.subtitle}}</span>
       {% endif %}
-      <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+      <div class="post-title">
+        <h1 itemprop="name headline">{{ page.title }}</h1>
+      </div>
     <div>
       <p class="post-meta-category"><a href="#">{{ page.categories }}</a></p>
       {% if page.categories contains "project" %}

@@ -13,13 +13,15 @@ The Institute for New Economic Thinking, a nonpartisan research and education no
 
 The Institute needed a responsive website that would showcase its seven years of work, and make that work accessible to audiences across expertise levels. Our goal was to establish the Institute as the go-to source for new perspectives on economic issues.
 
-<img src="http://placehold.it/770x513?text=template+map">
+<div class="fig-with-cap">
+  <figure><img src="http://placehold.it/770x513?text=template+map"></figure>
+  <figcaption class="caption">Following an audit of the Institute’s content and analytics, I developed a content model and site structure that drove the organization of the Institute’s wealth of content. The new site structure made clear what the Institute is, the educational materials it offers, and the topical breadth it covers. From the site structure, I derived a list of templates for us to design and code.</figcaption>
+</div>
 
-<p class="caption">Following an audit of the Institute’s content and analytics, I developed a content model and site structure that drove the organization of the Institute’s wealth of content. The new site structure made clear what the Institute is, the educational materials it offers, and the topical breadth it covers. From the site structure, I derived a list of templates for us to design and code.</p>
-
-<img src="http://placehold.it/770x513?text=taxonomy+workshop">
-
-<p class="caption">We worked collaboratively with the Institute’s staff and research fellows to derive our taxonomy.</p>
+<div class="fig-with-cap">
+  <figure><img src="http://placehold.it/770x513?text=taxonomy+workshop"></figure>
+  <figcaption class="caption">We worked collaboratively with the Institute’s staff and research fellows to derive our taxonomy.</figcaption>
+</div>
 
 Image: Wireframes
 

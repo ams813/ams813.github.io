@@ -16,7 +16,7 @@
       content: '';
       background-color: #ffffff;
       width: $spacing-l;
-      height: 500px;
+      height: 1500px;
       display: block;
       position: absolute;
       left: 0px;
@@ -26,12 +26,15 @@
       content: '';
       background-color: #ffffff;
       width: $spacing-l;
-      height: 500px;
+      height: 1500px;
       display: block;
       position: absolute;
       right: 0px;
       top: 0px;
     }
+  }
+  @include breakpoint($q-xxxlarge) {
+    padding-top: $spacing-vl;
   }
   .serif-l {
     @include breakpoint($q-small) {
@@ -47,6 +50,9 @@
   margin-bottom: $spacing-xxl;
   @include breakpoint($q-xlarge) {
     margin-bottom: $spacing-xxxxl;
+  }
+  @include breakpoint($q-xxxlarge) {
+    margin-bottom: $spacing-vl;
   }
   a {
     color: $text-color;
@@ -82,6 +88,9 @@
     border-bottom: 1px solid rgba(0,0,0,.12);
     margin-bottom: $spacing-xxl;
   }
+  @include breakpoint($q-xxxlarge) {
+    margin-bottom: $spacing-xl;
+  }
 }
 
 .speaking, .topics, .interviews {
@@ -109,6 +118,13 @@
   }
 }
 
+.speaking {
+  @include breakpoint($q-xxxlarge) {
+    width: 50%;
+    float: left;
+  }
+}
+
 .topics {
   ul {
     li:before {
@@ -126,6 +142,11 @@
   @include breakpoint($q-large) {
     width: 50%;
     float: left;
+  }
+  @include breakpoint($q-xxxlarge) {
+    float: right;
+    width: 45%;
+    margin-left: 5%;
   }
 }
 
@@ -159,7 +180,7 @@
         padding-bottom: $spacing-m;
       }
       @include breakpoint($q-xlarge) {
-        padding-bottom: $spacing-l;
+        padding-bottom: $spacing-xl;
       }
       @extend %clearfix;
     }
@@ -227,6 +248,9 @@
   @include breakpoint($q-xlarge) {
     width: 77%;
   }
+  @include breakpoint($q-xxxlarge) {
+    width: 72%;
+  }
 }
 
 .post-meta-source { // same as sans-s-bold except stays small at $q-medium
@@ -274,10 +298,16 @@ p.back-link {
   }
   @include breakpoint($q-medium) {
     padding-bottom: $spacing-l;
+    margin-left: -9px;
   }
   @include breakpoint($q-xlarge) {
     font-size: 14px;
     line-height: 20px;
+  }
+  @include breakpoint($q-xxxlarge) {
+    position: absolute;
+    top: 40px;
+    left: 50px;
   }
 }
 
@@ -393,8 +423,13 @@ p.back-link {
         top: 0px;
       }
     }
-   .post-title, .post-meta-subtitle {
-     color: $link-color;
+    .post-meta-subtitle {
+      @include breakpoint($q-xxxlarge) {
+        margin-top: $spacing-xxxl;
+      }
+    }
+    .post-title, .post-meta-subtitle {
+      color: $link-color;
     }
     .post-title {
       padding-bottom: $spacing-m;
@@ -402,6 +437,17 @@ p.back-link {
       margin-bottom: $spacing-xs;
       @include breakpoint($q-small) {
         padding-bottom: $spacing-l;
+      }
+      @include breakpoint($q-xlarge) {
+        padding-bottom: $spacing-xxl;
+      }
+      h1 {
+        @include breakpoint($q-small) {
+          width: 80%;
+        }
+        @include breakpoint($q-xxxlarge) {
+          width: 75%;
+        }
       }
     }
     .post-meta-category { // same as sans-s-bold except stays small at $q-medium
@@ -483,19 +529,12 @@ p.back-link {
       font-family: "Fort", Arial, Helvetica, sans-serif;
       font-weight: bold;
     }
-    &.caption {
-      @extend .sans-s-bold;
-      em {
-        font-weight: normal;
-        font-style: normal;
-      }
-      @include breakpoint($q-medium) {
-        width: 80%;
-        margin-bottom: $spacing-l;
-      }
-      @include breakpoint($q-large) {
-        width: 90%;
-      }
+  }
+  .caption {
+    @extend .sans-s-bold;
+    em {
+      font-weight: normal;
+      font-style: normal;
     }
   }
 
@@ -589,17 +628,55 @@ p.back-link {
       margin-top: $spacing-xl;
       margin-bottom: $spacing-xl;
     }
-    @include breakpoint($q-large) {
-      p {
+    @include breakpoint($q-xlarge) {
+      margin-top: $spacing-xxxl;
+    }
+    p {
+      @include breakpoint($q-large) {
         width: 90%;
       }
-    }
-    img {
-      margin-top: $spacing-s;
-      @include breakpoint($q-medium) {
-        margin-bottom: $spacing-s;
+      @include breakpoint($q-xlarge) {
+        width: 80%;
+      }
+      @include breakpoint($q-xxxlarge) {
+        width: 70%;
       }
     }
+}
+
+.fig-with-cap {
+  clear: left;
+  position: relative;
+  figure {
+    margin-top: $spacing-l;
+    margin-bottom: $spacing-s;
+    @include breakpoint($q-medium) {
+      margin-top: $spacing-xl;
+      margin-bottom: $spacing-m;
+    }
+    @include breakpoint($q-xxxlarge) {
+      width: 70%;
+    }
+  }
+  .caption {
+    @include breakpoint($q-medium) {
+      width: 80%;
+      margin-bottom: $spacing-l;
+    }
+    @include breakpoint($q-large) {
+      width: 90%;
+    }
+    @include breakpoint($q-xlarge) {
+      width: 80%;
+    }
+    @include breakpoint($q-xxxlarge) {
+      width: 28%;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      margin-bottom: -6px;
+    }
+  }
 }
 
 .post .post-meta-source {
@@ -618,7 +695,7 @@ p.back-link {
   }
 }
 
-p.caption + .project-credits {
+.caption + .project-credits {
   margin-top: $spacing-l;
   @include breakpoint($q-medium) {
     margin-top: $spacing-xl;
@@ -637,6 +714,9 @@ p.caption + .project-credits {
   }
   p + ul {
     margin-top: $spacing-xxs;
+    @include breakpoint($q-xlarge) {
+      margin-top: $spacing-s;
+    }
   }
   ul li {
     margin-bottom: 0;
@@ -645,6 +725,10 @@ p.caption + .project-credits {
     @include breakpoint($q-medium) {
       font-size: 12px;
       line-height: 16px;
+    }
+    @include breakpoint($q-xlarge) {
+      font-size: 14px;
+      line-height: 20px;
     }
   }
   .collaborators {
@@ -667,7 +751,7 @@ p.caption + .project-credits {
 
 .site-footer {
   padding-top: $spacing-m;
-  @include breakpoint($q-large) {
+  @include breakpoint($q-medium) {
     padding-top: $spacing-xxl;
   }
 }

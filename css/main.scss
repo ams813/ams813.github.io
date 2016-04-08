@@ -4,7 +4,7 @@
 @charset "utf-8";
 
 // Width of the content area
-$content-width:    1108px;
+$content-width:    1158px;
 
 // Media query mixin
 @mixin breakpoint($device) {
@@ -18,7 +18,8 @@ $q-small: 500px;
 $q-medium: 700px;
 $q-large: 800px;
 $q-xlarge: 900px;
-$q-xxlarge: 1100px;
+$q-xxlarge: 1000px;
+$q-xxxlarge: 1100px;
 
 // Variables
 $base-font-weight: 400;
@@ -47,6 +48,7 @@ $spacing-xl: 25px;
 $spacing-xxl: 30px;
 $spacing-xxxl: 45px;
 $spacing-xxxxl: 60px;
+$spacing-vl: 80px;
 
 
 .spacing-xxs > * + * {
@@ -64,22 +66,28 @@ $spacing-xxxxl: 60px;
 .spacing-l > * + * { margin-top: 20px; }
 .spacing-xl > * + * { margin-top: 25px; }
 .spacing-xxl > * + * { margin-top: 30px; }
-.spacing-l-xl-at-small > * + * {
+.spacing-l-xl-at-small > * + * { // used in the post list
   margin-top: $spacing-l;
   @include breakpoint($q-small) {
     margin-top: $spacing-xl;
   }
+  @include breakpoint($q-xlarge) {
+    margin-top: $spacing-xxl;
+  }
 }
-.spacing-l-xl-at-large > * + * {
+.spacing-l-xl-at-large > * + * { // used in about
   margin-top: $spacing-l;
   @include breakpoint($q-large) {
     margin-top: $spacing-xl;
   }
 }
-.spacing-xxs-s-at-medium > * + * {
+.spacing-xxs-s-at-medium > * + * { // used in post header subtitle
   margin-top: $spacing-xxs;
   @include breakpoint($q-medium) {
     margin-top: $spacing-s;
+  }
+  @include breakpoint($q-xlarge) {
+    margin-top: $spacing-m;
   }
 }
 
@@ -118,6 +126,10 @@ $spacing-xxxxl: 60px;
   @include breakpoint($q-xlarge) {
     font-size: 18px;
     line-height: 30px;
+  }
+  @include breakpoint($q-xxxlarge) {
+    font-size: 19px;
+    line-height: 32px;
   }
 }
 
@@ -160,6 +172,10 @@ $spacing-xxxxl: 60px;
   line-height: 15px;
   text-transform: uppercase;
   letter-spacing: .07em;
+  @include breakpoint($q-xlarge) {
+    font-size: 13px;
+    line-height: 20px;
+  }
 }
 
 .sans-s {
@@ -235,6 +251,7 @@ $spacing-xxxxl: 60px;
   }
   @include breakpoint($q-xlarge) {
     font-size: 36px;
+    line-height: 40px;
   }
 }
 
