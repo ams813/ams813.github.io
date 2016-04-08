@@ -7,7 +7,7 @@ layout: default
   <div class="bio-header spacing-xl">
     <p class="serif-l">I’m a designer making content both beautiful and approachable, busy crafting systems and experiences for the web.</p>
     <p class="sans-s-bold link-to-bio">But wait, there's <a href="#" class="show-more">more</a><a href="#" class="show-less">less</a>.
-    <div class="about spacing-l">
+    <div class="about spacing-l-xl-at-large">
       <div class="bio spacing-s">
         <p class="serif-s">I’m interested in the intersection between the designs we create, the content we produce, and the systems that power both. My work celebrates typographic detail and complex layers of information. Rumor has it, I’m also a grammar stickler with an exacting eye—an absent comma I can’t unsee.</p>
         <p class="serif-s">Since 2012, I’ve worked at <a href="http://happycog.com/">Happy Cog</a>, where I design custom, responsive websites for clients like Ben &amp; Jerry's, Coldwell Banker, and Harvard University. My responsibilities span from conducting research and gathering requirements to modeling content and conceptualizing design solutions.</p>
@@ -80,11 +80,11 @@ layout: default
           <p class="serif-s post-short-description">{{ post.short-description }}</p>
           {% endif %}
           {% if post.source %}
-          <p class="sans-s-bold post-meta-source">Published on <a href="{{ post.source-url }}">{{ post.source }}</a></p>
+          <p class="post-meta-source">Published on <a href="{{ post.source-url }}">{{ post.source }}</a></p>
           {% endif %}
-          <p class="sans-s-bold post-meta-category"><a href="#">{{ post.categories }}</a></p>
+          <p class="post-meta-category"><a href="#">{{ post.categories }}</a></p>
           {% if post.categories contains "project" %}
-          <p class="sans-s post-meta-date">{{ post.date | date: "%Y"}}</p>
+          <p class="post-meta-date">{{ post.date | date: "%Y"}}</p>
           {% endif %}
           {% if post.categories contains "article" %}
           <p class="sans-s post-meta-date">{{ post.date | date: "%-m/%-d/%y"}}</p>

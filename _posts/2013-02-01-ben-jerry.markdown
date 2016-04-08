@@ -1,5 +1,6 @@
 ---
 layout: post
+short-name: bj
 title:  Helping a global brand celebrate its euphoric flavors
 subtitle:  "Ben & Jerry's"
 date:   2013-02-01
@@ -31,27 +32,3 @@ Image: Contact FAQ (mobile?)
 Vimeo video
 
 <p class="caption">Throughout our engagement, we worked closely with Ben & Jerry’s internal design department, web development team, and CMS partner.</p>
-
-<div class="project-credits spacing-m">
-  <p class="sans-s-bold post-meta-source">Designed at <a href="http://happycog.com/">Happy Cog</a></p>
-  <div>
-    <p class="sans-xs-bold-all-caps">Live site</p>
-    <p class="sans-s"><a href="http://benjerry.com/">benjerry.com</a></p>
-  </div>
-  <div class="collaborators">
-    <p class="sans-xs-bold-all-caps">Collaborators</p>
-    <ul class="spacing-xxs">
-      <li class="sans-s-italic"><a class="sans-s-bold" href="http://www.chriscashdollar.com/">Chris Cashdollar</a> Project definition, creative direction</li>
-      <li class="sans-s-italic"><a class="sans-s-bold" href="http://sophieshepherd.com/">Sophie Shepherd</a> Project definition, architecture &amp; user experience</li>
-      <li class="sans-s-italic"><a class="sans-s-bold" href="https://twitter.com/allisin">Allison Fegel</a> Project management, project definition</li>
-      <li class="sans-s-italic"><a class="sans-s-bold" href="http://www.stephaniehay.com/">Stephanie Hay</a> Content strategy</li>
-    </ul>
-  </div>
-  <div>
-    <p class="sans-xs-bold-all-caps">Published elsewhere</p>
-    <ul>
-      <li>Happy Cog, <a href="http://happycog.com/work/benjerrys">“A Responsive Design System for a Frozen Dreamland”</a></li>
-      <li>Crush &amp; Lovely, <a href="http://crushlovely.com/project-stories/benjerry/">“Vermont&rsquo;s Finest”</a></li>
-    </ul>
-  </div>
-</div>

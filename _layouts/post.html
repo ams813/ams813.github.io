@@ -3,25 +3,25 @@ layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header spacing-xs">
+  <header class="post-header spacing-xxs-s-at-medium">
+    <p class="back-link">< <a href="/../../index.html">Back</a></p>
       {% if page.subtitle  %}
-      <span class="serif-m-italic post-meta-subtitle">{{ page.subtitle}}</span>
+      <span class="serif-s-italic post-meta-subtitle">{{ page.subtitle}}</span>
       {% endif %}
       <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    </a>
     <div>
-      <p class="sans-s-bold post-meta-category"><a href="#">{{ page.categories }}</a></p>
+      <p class="post-meta-category"><a href="#">{{ page.categories }}</a></p>
       {% if page.categories contains "project" %}
-      <p class="sans-s post-meta-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%Y" }}</time></p>
+      <p class="post-meta-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%Y" }}</time></p>
       {% endif %}
       {% if page.categories contains "article" %}
-      <p class="sans-s post-meta-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-m/%-d/%y" }}</time></p>
+      <p class="post-meta-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-m/%-d/%y" }}</time></p>
       {% endif %}
       {% if page.categories contains "podcast" %}
-      <p class="sans-s post-meta-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-m/%y" }}</time></p>
+      <p class="post-meta-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-m/%y" }}</time></p>
       {% endif %}
       {% if page.role %}
-      <span class="sans-s-italic post-meta-role">{{ page.role }}</span>
+      <p class="post-meta-role">{{ page.role }}</p>
       {% endif %}
     </div>
 
@@ -32,8 +32,12 @@ layout: default
 
   </div>
 
+  {% if page.categories contains "project" %}
+    {% include project-credits.html %}
+  {% endif %}
+
   {% if page.source %}
-  <p class="sans-s-bold post-meta-source">Published on <a href="{{ page.source-url }}">{{ page.source }}</a></p>
+  <p class="post-meta-source">Published on <a href="{{ page.source-url }}">{{ page.source }}</a></p>
   {% endif %}
 
 </article>

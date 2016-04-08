@@ -10,7 +10,7 @@
   @include breakpoint($q-medium) {
     padding-top: $spacing-xxxxl;
   }
-  @include breakpoint($q-large) {
+  @include breakpoint($q-xxlarge) {
     margin-top: $spacing-l;
     &:before {
       content: '';
@@ -33,15 +33,30 @@
       top: 0px;
     }
   }
+  .serif-l {
+    @include breakpoint($q-small) {
+      width: 85%;
+    }
+    @include breakpoint($q-medium) {
+      width: 75%;
+    }
+  }
  }
 
 .link-to-bio {
   margin-bottom: $spacing-xxl;
+  @include breakpoint($q-xlarge) {
+    margin-bottom: $spacing-xxxxl;
+  }
+  a {
+    color: $text-color;
+  }
 }
 
 .about {
   display: none;
   padding-bottom: $spacing-xxl;
+  @extend %clearfix;
   @include breakpoint($q-small) {
     padding-bottom: $spacing-xxxl;
   }
@@ -55,12 +70,29 @@
   display: block;
 }
 
+.bio p, .speaking {
+  @include breakpoint($q-large) {
+    width: 80%;
+  }
+}
+
+.bio {
+  @include breakpoint($q-large) {
+    padding-bottom: $spacing-xl;
+    border-bottom: 1px solid rgba(0,0,0,.12);
+    margin-bottom: $spacing-xxl;
+  }
+}
+
 .speaking, .topics, .interviews {
   ul {
       list-style-type: none;
       margin-left: 0;
       li {
         line-height: 14px;
+        @include breakpoint($q-large) {
+          line-height: 20px;
+        }
         .sans-s-bold {
           padding-right: 5px;
         }
@@ -91,7 +123,20 @@
       padding-left: 10px;
     }
   }
+  @include breakpoint($q-large) {
+    width: 50%;
+    float: left;
+  }
 }
+
+.interviews {
+  @include breakpoint($q-large) {
+    width: 45%;
+    margin-left: 5%;
+    float: right;
+  }
+}
+
 
 
 //Post list
@@ -101,12 +146,22 @@
     margin-bottom: $spacing-xxl;
     margin-left: 0;
     list-style: none;
+    @include breakpoint($q-xlarge) {
+      margin-top: $spacing-xxxl;
+    }
     > li {
       border-bottom: 1px solid rgba(0,0,0,.12);
       padding-bottom: $spacing-l;
       @include breakpoint($q-small) {
         padding-bottom: $spacing-xl;
       }
+      @include breakpoint($q-large) {
+        padding-bottom: $spacing-m;
+      }
+      @include breakpoint($q-xlarge) {
+        padding-bottom: $spacing-l;
+      }
+      @extend %clearfix;
     }
     > li:last-of-type {
         border-bottom: none;
@@ -164,9 +219,35 @@
   @include breakpoint($q-medium) {
     display: block;
   }
+  @include breakpoint($q-large) {
+    display: inline-block;
+    float: left;
+    width: 75%;
+  }
+  @include breakpoint($q-xlarge) {
+    width: 77%;
+  }
 }
 
-.post-meta-source {
+.post-meta-source { // same as sans-s-bold except stays small at $q-medium
+  @include fort;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  @include breakpoint($q-medium) {
+    display: block;
+  }
+  .post-list & {
+    @include breakpoint($q-large) {
+      display: inline-block;
+      float: left;
+      width: 75%;
+    }
+  }
+  @include breakpoint($q-xlarge) {
+    font-size: 14px;
+    line-height: 20px;
+  }
   color: $gray;
   a {
     color: $gray;
@@ -176,26 +257,419 @@
   }
 }
 
-.post-meta-category {
+p.back-link {
+  @include fort;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: $gray;
+  a {
+    color: $gray;
+    &:hover {
+      color: $text-color;
+    }
+  }
+  @include breakpoint($q-small) {
+    padding-bottom: $spacing-s;
+  }
+  @include breakpoint($q-medium) {
+    padding-bottom: $spacing-l;
+  }
+  @include breakpoint($q-xlarge) {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+.post-meta-category { // same as sans-s-bold except stays small at $q-medium
+  @include fort;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
   color: $text-color;
   text-transform: capitalize;
   margin-right: 5px;
   display: inline-block;
-}
-
-.post-meta-date {
-  color: $gray;
-  display: inline-block;
-  .post & {
-    padding-right: $spacing-m;
+  @include breakpoint($q-large) {
+    display: block;
+    text-align: right;
+    margin-right: 0;
+  }
+  @include breakpoint($q-xlarge) {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  a {
+    color: $text-color;
+    text-decoration: underline;
+    &:hover {
+      color: $link-color;
+    }
   }
 }
 
+.post-meta-date { // same as sans-s except stays small at $q-medium
+  @include fort;
+  font-size: 12px;
+  line-height: 16px;
+  color: $gray;
+  display: inline-block;
+  @include breakpoint($q-large) {
+    display: block;
+    text-align: right;
+  }
+  @include breakpoint($q-xlarge) {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+
+// Posts
+
+.post {
+
+  p.sans-xs-bold-all-caps {
+    @extend .sans-xs-bold-all-caps;
+  }
+  p.sans-s {
+    @extend .sans-s;
+  }
+  p.sans-s-italic {
+    @extend .sans-s-italic;
+  }
+  p.sans-s-bold {
+    @extend .sans-s-bold;
+  }
+
+  p.post-meta-source { // same as sans-s-bold except stays small at $q-medium
+    @include fort;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    @include breakpoint($q-xlarge) {
+      font-size: 14px;
+      line-height: 20px;
+    }
+    color: $gray;
+    a {
+      color: $gray;
+      &:hover {
+        color: $text-color;
+      }
+    }
+  }
+
+  .post-header {
+    margin: 0 -9999rem;
+    padding: $spacing-l 9999rem $spacing-l;
+    background-color: $cream;
+    @include breakpoint($q-small) {
+      padding-top: $spacing-xxl;
+    }
+    @include breakpoint($q-medium) {
+      padding-bottom: $spacing-xxl;
+    }
+    @include breakpoint($q-xxlarge) {
+      margin-top: $spacing-l;
+      &:before {
+        content: '';
+        background-color: #ffffff;
+        width: $spacing-l;
+        height: 500px;
+        display: block;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+      }
+      &:after {
+        content: '';
+        background-color: #ffffff;
+        width: $spacing-l;
+        height: 500px;
+        display: block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+      }
+    }
+   .post-title, .post-meta-subtitle {
+     color: $link-color;
+    }
+    .post-title {
+      padding-bottom: $spacing-m;
+      border-bottom: 1px solid rgba(0,0,0,.12);
+      margin-bottom: $spacing-xs;
+      @include breakpoint($q-small) {
+        padding-bottom: $spacing-l;
+      }
+    }
+    .post-meta-category { // same as sans-s-bold except stays small at $q-medium
+      @include fort;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 16px;
+      margin-bottom: 0;
+      padding-bottom: 0;
+      color: $text-color;
+      text-transform: capitalize;
+      margin-right: 5px;
+      display: inline-block;
+      @include breakpoint($q-xlarge) {
+        font-size: 14px;
+        line-height: 20px;
+      }
+      a {
+        color: $text-color;
+        text-decoration: underline;
+        &:hover {
+          color: $link-color;
+        }
+      }
+    }
+    .post-meta-date { // same as sans-s except stays small at $q-medium
+      @include fort;
+      font-size: 12px;
+      line-height: 16px;
+      color: $gray;
+      display: inline-block;
+      padding-right: $spacing-m;
+      margin-bottom: 0;
+      @include breakpoint($q-xlarge) {
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+    .post-meta-role {
+      @include fort;
+      font-style: italic;
+      font-size: 12px;
+      line-height: 16px;
+      margin-top: $spacing-xs;
+      @include breakpoint($q-small) {
+        max-width: 60%;
+      }
+      @include breakpoint($q-xlarge) {
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+  }
+}
+
+// post longform markdown classes
+
+.post {
+  h1 { @extend .sans-xl-bold; }
+
+  h2 {
+    @extend .sans-l-bold;
+    margin-bottom: $spacing-s;
+  }
+
+  h3 {
+    @extend .sans-m-bold;
+    margin-bottom: $spacing-xxs;
+  }
+
+  h2 + h3 {
+    margin-top: $spacing-m;
+  }
+
+  p {
+    @extend .serif-s;
+    margin-bottom: $spacing-m;
+    strong {
+      font-family: "Fort", Arial, Helvetica, sans-serif;
+      font-weight: bold;
+    }
+    &.caption {
+      @extend .sans-s-bold;
+      em {
+        font-weight: normal;
+        font-style: normal;
+      }
+      @include breakpoint($q-medium) {
+        width: 80%;
+        margin-bottom: $spacing-l;
+      }
+      @include breakpoint($q-large) {
+        width: 90%;
+      }
+    }
+  }
+
+  p + h2 {
+    margin-top: $spacing-l;
+  }
+
+  p + h3 {
+    margin-top: $spacing-m;
+  }
+
+  p + ol, p + ul {
+    margin-top: $spacing-m;
+    @include breakpoint($q-medium) {
+      margin-top: $spacing-l;
+    }
+  }
+
+  ol, ul {
+    @extend .sans-s;
+    list-style-type: none;
+    margin-bottom: $spacing-m;
+    @include breakpoint($q-medium) {
+      margin-bottom: $spacing-l;
+    }
+    li {
+      margin-bottom: $spacing-s;
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  ul {
+    li:before {
+    	content: "-";
+      color: rgba(0,0,0,0.3);
+      font-weight: bold;
+      display: inline-block;
+      margin-left: -10px;
+    	width: 10px;
+      @include breakpoint($q-medium) {
+        margin-left: -15px;
+        width: 15px;
+      }
+    }
+    li {
+      padding-left: 10px;
+      @include breakpoint($q-medium) {
+        padding-left: 30px;
+      }
+      ul {
+        margin-top: $spacing-xs;
+      }
+    }
+  }
+
+  ol {
+    li {
+      counter-increment: step-counter;
+      position: relative;
+      margin-left: 0;
+      padding-left: 30px;
+      &:before {
+        content: counter(step-counter);
+        color: $gray;
+        font-weight: bold;
+        width: 20px;
+        text-align: right;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+    }
+  }
+
+  ol + h2, ul + h2 {
+    margin-top: $spacing-l;
+  }
+
+  ol + h3, ul + h3 {
+    margin-top: $spacing-m;
+  }
+
+}
+
+.post-content {
+    margin-top: $spacing-l;
+    margin-bottom: $spacing-l;
+    @include breakpoint($q-medium) {
+      margin-top: $spacing-xl;
+      margin-bottom: $spacing-xl;
+    }
+    @include breakpoint($q-large) {
+      p {
+        width: 90%;
+      }
+    }
+    img {
+      margin-top: $spacing-s;
+      @include breakpoint($q-medium) {
+        margin-bottom: $spacing-s;
+      }
+    }
+}
+
+.post .post-meta-source {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  padding-top: $spacing-s;
+  margin-bottom: $spacing-m;
+  @include breakpoint($q-medium) {
+    padding-top: $spacing-m;
+    margin-bottom: $spacing-l;
+  }
+  a {
+    color: $gray;
+    &:hover {
+      color: $link-hover-color;
+    }
+  }
+}
+
+p.caption + .project-credits {
+  margin-top: $spacing-l;
+  @include breakpoint($q-medium) {
+    margin-top: $spacing-xl;
+  }
+}
+
+.project-credits {
+  a {
+    color: $gray;
+    &:hover {
+      color: $link-hover-color;
+    }
+  }
+  p {
+    margin-bottom: 0;
+  }
+  p + ul {
+    margin-top: $spacing-xxs;
+  }
+  ul li {
+    margin-bottom: 0;
+  }
+  .sans-s, .sans-s-italic, .sans-s-bold {
+    @include breakpoint($q-medium) {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+  .collaborators {
+    a {
+      color: $black;
+      padding-right: $spacing-xs;
+      text-decoration: none;
+      &:hover {
+        color: $link-color;
+      }
+    }
+  }
+  .no-source {
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    padding-top: $spacing-s;
+  }
+}
 
 //Site footer
 
 .site-footer {
   padding-top: $spacing-m;
+  @include breakpoint($q-large) {
+    padding-top: $spacing-xxl;
+  }
 }
 
 .copyright {
@@ -231,221 +705,3 @@
       }
     }
 }
-
-
-// Posts
-
-.post-header {
-  margin: 0 -9999rem;
-  padding: $spacing-xxl 9999rem $spacing-l;
-  background-color: $cream;
-  @include breakpoint($q-small) {
-    padding-top: $spacing-xxxl;
-  }
-  @include breakpoint($q-medium) {
-    padding-top: $spacing-xxxxl;
-  }
-  @include breakpoint($q-large) {
-    margin-top: $spacing-l;
-    &:before {
-      content: '';
-      background-color: #ffffff;
-      width: $spacing-l;
-      height: 500px;
-      display: block;
-      position: absolute;
-      left: 0px;
-      top: 0px;
-    }
-    &:after {
-      content: '';
-      background-color: #ffffff;
-      width: $spacing-l;
-      height: 500px;
-      display: block;
-      position: absolute;
-      right: 0px;
-      top: 0px;
-    }
-  }
- .post-title, .post-meta-subtitle {
-  color: $link-color;
-  }
-  .post-title {
-  padding-bottom: $spacing-m;
-  border-bottom: 1px solid rgba(0,0,0,.12);
-  margin-bottom: $spacing-xs;
-  }
-  .post-meta-category, .post-meta-date {
-    display: inline-block;
-  }
-  .post-meta-category {
-      @extend .sans-s-bold;
-      margin-bottom: 0;
-      padding-bottom: 0;
-  }
-  .post-meta-date {
-      @extend .sans-s;
-      margin-bottom: 0;
-      padding-bottom: 0;
-  }
-}
-
-.post-content {
-    margin-top: $spacing-l;
-    margin-bottom: $spacing-l;
-}
-
-.post .post-meta-source {
-  @extend .sans-s-bold;
-  border-top: 1px solid rgba(0, 0, 0, 0.12);
-  padding-top: $spacing-s;
-  margin-bottom: $spacing-m;
-  a {
-    color: $gray;
-    &:hover {
-      color: $link-hover-color;
-    }
-  }
-}
-
-.post-meta-role {
-  line-height: 16px;
-  display: block;
-  margin-top: $spacing-xs;
-  @include breakpoint($q-small) {
-    display: inline;
-    margin-top: 0;
-  }
-}
-
-p.caption + .project-credits {
-  margin-top: $spacing-l;
-}
-
-.project-credits {
-  a {
-    color: $gray;
-    &:hover {
-      color: $link-hover-color;
-    }
-  }
-  p {
-    margin-bottom: 0;
-  }
-  p + ul {
-    margin-top: $spacing-xxs;
-  }
-  ul li {
-    margin-bottom: 0;
-  }
-  .collaborators {
-    a {
-      color: $black;
-      padding-right: $spacing-xs;
-      text-decoration: none;
-      &:hover {
-        color: $link-color;
-      }
-    }
-  }
-  .no-source {
-    border-top: 1px solid rgba(0, 0, 0, 0.12);
-    padding-top: $spacing-s;
-    margin-bottom: $spacing-m;
-  }
-}
-
-
-/*
-
-// Site header
-.site-header {
-    border-top: 5px solid $gray;
-    border-bottom: 1px solid $gray;
-    min-height: 56px;
-
-    // Positioning context for the mobile navigation icon
-    position: relative;
-}
-.site-title {
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-
-    &,
-    &:visited {
-        color: $gray;
-    }
-}
-
-.site-nav {
-    float: right;
-    line-height: 56px;
-
-    .menu-icon {
-        display: none;
-    }
-
-    .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the last one
-        &:not(:last-child) {
-            margin-right: 20px;
-        }
-    }
-
-    @include breakpoint($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $gray;
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $gray;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-
-            &:not(:last-child) {
-                margin-right: 0;
-            }
-            margin-left: 20px;
-        }
-    }
-} */

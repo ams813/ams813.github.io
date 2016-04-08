@@ -1,5 +1,6 @@
 ---
 layout: post
+short-name: garces
 title:  Translating an Iron Chef’s dishes and hospitality to event planning
 subtitle:  Garces Events
 date:   2013-05-01
@@ -25,24 +26,3 @@ Image: Venue Detail
 Image: Occasions
 
 <p class="caption">Photography plays a critical role in positioning Garces Events as a caterer for all occasions, so we equipped the Garces team with guidelines to balance action and still shots, event styling and food presentation, and showing a human touch without seeming overly posed.</p>
-
-<div class="project-credits spacing-m">
-  <p class="sans-s-bold post-meta-source">Designed at <a href="http://happycog.com/">Happy Cog</a></p>
-  <div>
-    <p class="sans-xs-bold-all-caps">Live site</p>
-    <p class="sans-s"><a href="http://philadelphi.garcesevents.com/">philadelphia.garcesevents.com</a></p>
-  </div>
-  <div class="collaborators">
-    <p class="sans-xs-bold-all-caps">Collaborators</p>
-    <ul class="spacing-xxs">
-      <li class="sans-s-italic"><a class="sans-s-bold" href="http://patrickmarsceill.com/">Patrick Marsceill</a> Architecture &amp; user experience, content strategy</li>
-      <li class="sans-s-italic"><a class="sans-s-bold" href="http://www.jasonhead.com/">Jason Head</a> Front-end development</li>
-      <li class="sans-s-italic"><a class="sans-s-bold" href="http://alliwagner.com/">Allison Wagner</a> Front-end development</li>
-      <li class="sans-s-italic"><a class="sans-s-bold" href="https://about.me/katiehigh">Katie High</a> Project management</li>
-    </ul>
-  </div>
-  <div>
-    <p class="sans-xs-bold-all-caps">Typefaces</p>
-    <p class="sans-s">Freight Display, DIN Condensed, Abril Text</p>
-  </div>
-</div>

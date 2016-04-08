@@ -1,5 +1,6 @@
 ---
 layout: post
+short-name: tc
 title:  Teaching how to pair typefaces—with a sense of humor
 date:   2012-01-01
 categories:   project
@@ -41,30 +42,3 @@ Image: Meet the Matches page
 Images: 7 images from current website
 
 <p class="caption">To promote Type Connection in the student community and celebrate the site, I designed an exhibition at Maryland Institute College of Art to coincide with the launch.</p>
-
-<div class="project-credits spacing-m">
-  <p class="sans-s-bold post-meta-source">Designed at <a href="http://mica.edu">Maryland Institute College of Art</a></p>
-  <div>
-    <p class="sans-xs-bold-all-caps">Live site</p>
-    <p class="sans-s"><a href="http://typeconnection.com/">typeconnection.com</a></p>
-  </div>
-  <div>
-    <p class="sans-xs-bold-all-caps">Typefaces</p>
-    <p class="sans-s">FF Tisa</p>
-  </div>
-  <div>
-    <p class="sans-xs-bold-all-caps">Related writing</p>
-    <ul>
-      <li><a href="{% post_url 2012-05-23-pairing-typefaces %}">Pairing Typefaces</a></li>
-    </ul>
-  </div>
-  <div>
-    <p class="sans-xs-bold-all-caps">Published elsewhere</p>
-    <ul>
-      <li>Mohawk’s Felt & Wire, <a href="http://www.mohawkconnects.com/feltandwire/2012/04/11/have-you-made-a-type-connection/">“Have you made a type connection?”</a> (4/11/12)</li>
-      <li>Abovethefoldbook.com, <a href="http://abovethefoldbook.com/interview-with-above-the-fold-best-in-show-winner-aura-seltzer/">“Interview with 2012 Above the Fold Best in Show Winner, Aura Seltzer”</a></li>
-      <li>How Magazine, <a href="http://www.howdesign.com/design-creativity/type-connection-typography-game/">“Above the Fold Awards Winner: Type Connection”</a> (6/29/12)</li>
-      <li>Typorn.org, <a href="http://www.typorn.org/article/interview-aura-seltzer-her-amazing-typographic-dating-game">“An interview with Aura Seltzer on her amazing typographic dating game”</a> (7/15/14)</li>
-    </ul>
-  </div>
-</div>

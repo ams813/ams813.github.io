@@ -16,10 +16,9 @@ $content-width:    1108px;
 // Media queries
 $q-small: 500px;
 $q-medium: 700px;
-$q-large: 900px;
-$on-palm: 600px;
-$on-laptop: 800px;
-
+$q-large: 800px;
+$q-xlarge: 900px;
+$q-xxlarge: 1100px;
 
 // Variables
 $base-font-weight: 400;
@@ -39,7 +38,7 @@ $link-color: $raspberry;
 $link-hover-color: $eggplant;
 $background-color: $white;
 
-$spacing-xxs: 3px;
+$spacing-xxs: 2px;
 $spacing-xs: 6px;
 $spacing-s: 8px;
 $spacing-m: 12px;
@@ -50,7 +49,15 @@ $spacing-xxxl: 45px;
 $spacing-xxxxl: 60px;
 
 
-.spacing-xxs > * + * { margin-top: 2px; }
+.spacing-xxs > * + * {
+  margin-top: 2px;
+  @include breakpoint($q-medium) {
+    margin-top: 4px;
+  }
+  @include breakpoint($q-xlarge) {
+    margin-top: 6px;
+  }
+}
 .spacing-xs > * + * { margin-top: 6px; }
 .spacing-s > * + * { margin-top: 8px; }
 .spacing-m > * + * { margin-top: 12px; }
@@ -61,6 +68,18 @@ $spacing-xxxxl: 60px;
   margin-top: $spacing-l;
   @include breakpoint($q-small) {
     margin-top: $spacing-xl;
+  }
+}
+.spacing-l-xl-at-large > * + * {
+  margin-top: $spacing-l;
+  @include breakpoint($q-large) {
+    margin-top: $spacing-xl;
+  }
+}
+.spacing-xxs-s-at-medium > * + * {
+  margin-top: $spacing-xxs;
+  @include breakpoint($q-medium) {
+    margin-top: $spacing-s;
   }
 }
 
@@ -79,24 +98,16 @@ $spacing-xxxxl: 60px;
   font-weight: normal;
 }
 
-.serif-l {
-  @include dolly;
-  font-size: 21px;
-  line-height: 28px;
-  @include breakpoint($q-medium) {
-    font-size: 28px;
-    line-height: 40px;
-  }
-}
+// SERIF
 
-.serif-m-italic {
+.serif-xs {
   @include dolly;
-  font-style: italic;
-  font-size: 17px;
-  line-height: 20px;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: .02em;
   @include breakpoint($q-medium) {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 14px;
+    line-height: 20px;
   }
 }
 
@@ -104,7 +115,7 @@ $spacing-xxxxl: 60px;
   @include dolly;
   font-size: 17px;
   line-height: 28px;
-  @include breakpoint($q-medium) {
+  @include breakpoint($q-xlarge) {
     font-size: 18px;
     line-height: 30px;
   }
@@ -116,57 +127,43 @@ $spacing-xxxxl: 60px;
   line-height: 28px;
   font-style: italic;
   @include breakpoint($q-medium) {
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 19px;
+    line-height: 24px;
   }
 }
 
-.serif-xs {
+//.serif-m-italic {}
+
+.serif-l {
   @include dolly;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: .02em;
-  @include breakpoint($q-medium) {
-    font-size: 18px;
-    line-height: 30px;
-  }
-}
-
-.sans-xl-bold {
-  @include fort;
-  font-weight: bold;
-  font-size: 24px;
+  font-size: 21px;
   line-height: 28px;
   @include breakpoint($q-medium) {
-    font-size: 36px;
+    font-size: 24px;
+    line-height: 32px;
   }
-}
-
-.sans-l-bold {
-  @include fort;
-  font-weight: bold;
-  font-size: 21px;
-  line-height: 23px;
-  @include breakpoint($q-medium) {
+  @include breakpoint($q-xlarge) {
     font-size: 28px;
-    line-height: 33px;
+    line-height: 40px;
   }
 }
 
-.sans-m-bold {
+
+
+
+// SANS
+
+.sans-xs-bold-all-caps {
   @include fort;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
-  @include breakpoint($q-medium) {
-    font-size: 20px;
-    line-height: 33px;
-  }
+  font-size: 11px;
+  line-height: 15px;
+  text-transform: uppercase;
+  letter-spacing: .07em;
 }
 
-.sans-s-bold, .post p.sans-s-bold {
+.sans-s {
   @include fort;
-  font-weight: bold;
   font-size: 12px;
   line-height: 16px;
   @include breakpoint($q-medium) {
@@ -175,15 +172,7 @@ $spacing-xxxxl: 60px;
   }
 }
 
-.sans-s-bold a {
-  color: $text-color;
-  text-decoration: underline;
-  &:hover {
-    color: $link-color;
-  }
-}
-
-.sans-s-italic, .post p.sans-s-italic {
+.sans-s-italic {
   @include fort;
   font-style: italic;
   font-size: 12px;
@@ -194,8 +183,9 @@ $spacing-xxxxl: 60px;
   }
 }
 
-.sans-s, .post p.sans-s {
+.sans-s-bold {
   @include fort;
+  font-weight: bold;
   font-size: 12px;
   line-height: 16px;
   @include breakpoint($q-medium) {
@@ -204,118 +194,48 @@ $spacing-xxxxl: 60px;
   }
 }
 
-.sans-xs-bold-all-caps, .post p.sans-xs-bold-all-caps {
+.sans-m-bold {
   @include fort;
   font-weight: bold;
-  font-size: 11px;
-  line-height: 15px;
-  text-transform: uppercase;
-  letter-spacing: .07em;
+  font-size: 16px;
+  line-height: 20px;
+  @include breakpoint($q-medium) {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  @include breakpoint($q-xlarge) {
+    font-size: 20px;
+    line-height: 33px;
+  }
 }
 
-// post markdown classes
-
-.post {
-  h1 { @extend .sans-xl-bold; }
-
-  h2 {
-    @extend .sans-l-bold;
-    margin-bottom: $spacing-s;
+.sans-l-bold {
+  @include fort;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 23px;
+  @include breakpoint($q-medium) {
+    font-size: 24px;
+    line-height: 30px;
   }
-
-  h3 {
-    @extend .sans-m-bold;
-    margin-bottom: $spacing-xxs;
+  @include breakpoint($q-xlarge) {
+    font-size: 28px;
+    line-height: 33px;
   }
+}
 
-  h2 + h3 {
-    margin-top: $spacing-m;
+.sans-xl-bold {
+  @include fort;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  @include breakpoint($q-medium) {
+    font-size: 30px;
+    line-height: 34px;
   }
-
-  p {
-    @extend .serif-s;
-    margin-bottom: $spacing-m;
-    strong {
-      font-family: "Fort", Arial, Helvetica, sans-serif;
-      font-weight: bold;
-    }
-    &.caption {
-      @extend .sans-s-bold;
-      em {
-        font-weight: normal;
-        font-style: normal;
-      }
-    }
+  @include breakpoint($q-xlarge) {
+    font-size: 36px;
   }
-
-  p + h2 {
-    margin-top: $spacing-l;
-  }
-
-  p + h3 {
-    margin-top: $spacing-m;
-  }
-
-  p + ol, p + ul {
-    margin-top: $spacing-m;
-  }
-
-  ol, ul {
-    @extend .sans-s;
-    list-style-type: none;
-    margin-bottom: $spacing-m;
-    li {
-      margin-bottom: $spacing-s;
-      &:last-of-type {
-        margin-bottom: 0;
-      }
-    }
-  }
-
-  ul {
-    li:before {
-    	content: "-";
-      color: rgba(0,0,0,0.3);
-      font-weight: bold;
-      display: inline-block;
-      margin-left: -10px;
-    	width: 10px;
-    }
-    li {
-      padding-left: 10px;
-      ul {
-        margin-top: $spacing-xs;
-      }
-    }
-  }
-
-  ol {
-    li {
-      counter-increment: step-counter;
-      position: relative;
-      margin-left: 0;
-      padding-left: 30px;
-      &:before {
-        content: counter(step-counter);
-        color: $gray;
-        font-weight: bold;
-        width: 20px;
-        text-align: right;
-        position: absolute;
-        left: 0;
-        top: 0;
-      }
-    }
-  }
-
-  ol + h2, ul + h2 {
-    margin-top: $spacing-l;
-  }
-
-  ol + h3, ul + h3 {
-    margin-top: $spacing-m;
-  }
-
 }
 
 

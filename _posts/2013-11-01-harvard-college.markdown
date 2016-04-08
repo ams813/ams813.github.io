@@ -1,5 +1,6 @@
 ---
 layout: post
+short-name: harvard
 title:  Merging three sites into one Harvard
 subtitle:  "Harvard College, Admissions & Financial Aid"
 date:   2013-11-01
@@ -37,34 +38,3 @@ Image: Admitted Students (design)
 Image: Implementation Google Doc, sitemap template layouts
 
 <p class="caption">We collaborated with the Harvard team to map our 26 templates to all site pages and capture page-by-page requirements for the Drupal build. Diagrams illustrated high-level layouts of each template.</p>
-
-<div class="project-credits spacing-m">
-  <p class="sans-s-bold post-meta-source">Designed at <a href="http://happycog.com/">Happy Cog</a></p>
-  <div>
-    <p class="sans-xs-bold-all-caps">Live site</p>
-    <p class="sans-s"><a href="http://college.harvard.edu/">college.harvard.edu</a></p>
-  </div>
-  <div class="collaborators">
-    <p class="sans-xs-bold-all-caps">Collaborators</p>
-    <ul class="spacing-xxs">
-      <li class="sans-s-italic"><a class="sans-s-bold" href="http://mleland.com/">Michael Johnson</a> Project definition, architecture, design concept, creative direction</li>
-      <li class="sans-s-italic"><a class="sans-s-bold" href="https://www.sarawb.com/">Sara Wachter-Boettcher</a> Project definition, architecture, content strategy &amp; writing</li>
-      <li class="sans-s-italic"><a class="sans-s-bold" href="http://www.chriscashdollar.com/">Chris Cashdollar</a> Project definition</li>
-      <li class="sans-s-italic"><a class="sans-s-bold" href="http://meghanseawell.com/">Meghan Seawell</a> Writing</li>
-      <li class="sans-s-italic"><a class="sans-s-bold" href="http://brandonrosage.com/">Brandon Rosage</a> Front-end development</li>
-      <li class="sans-s-italic"><a class="sans-s-bold" href="https://twitter.com/markhuot">Mark Huot</a> Back-end development</li>
-      <li class="sans-s-italic"><a class="sans-s-bold" href="http://samhernandez.me/">Sam Hernandez</a> Back-end development</li>
-      <li class="sans-s-italic"><a class="sans-s-bold" href="https://twitter.com/allisin/">Allison Fegel</a> Project management</li>
-    </ul>
-  </div>
-  <div>
-    <p class="sans-xs-bold-all-caps">Typefaces</p>
-    <p class="sans-s">Arial, Georgia</p>
-  </div>
-  <div>
-    <p class="sans-xs-bold-all-caps">Published elsewhere</p>
-    <ul>
-      <li>Confab Central, <a href="http://www.slideshare.net/Saraboettcher/all-together-now-content-collaboration-in-a-responsive-redesign">“All Together Now: Content & Collaboration in a Responsive Redesign”</a> (5/14)</li>
-    </ul>
-  </div>
-</div>

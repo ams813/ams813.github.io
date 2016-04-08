@@ -1,5 +1,6 @@
 ---
 layout: post
+short-name: kaplan
 title:  Prepping an educational company to score higher with customers
 subtitle:  Kaplan Test Prep
 date:   2013-01-01
@@ -27,24 +28,3 @@ Image: PDP
 Images: Cart (design) / checkout (review & submit design)
 
 <p class="caption">A streamlined cart and checkout flow clearly list items being purchased with corresponding metadata, as well as surface add-ons to supplement studying. Pastel colors supplement the brand palette to call out options with limited availability or promotions.</p>
-
-<div class="project-credits spacing-m">
-  <p class="sans-s-bold post-meta-source">Designed at <a href="http://happycog.com/">Happy Cog</a></p>
-  <div class="collaborators">
-    <p class="sans-xs-bold-all-caps">Collaborators</p>
-    <ul class="spacing-xxs">
-      <li class="sans-s-italic"><a class="sans-s-bold" href="http://www.chriscashdollar.com/">Chris Cashdollar</a> Project definition, creative direction</li>
-      <li class="sans-s-italic"><a class="sans-s-bold" href="http://jessicaivins.net/">Jessica Ivins</a> Project definition, architecture</li>
-      <li class="sans-s-italic"><a class="sans-s-bold" href="http://patrickmarsceill.com/">Patrick Marsceill</a> Architecture &amp; user experience</li>
-      <li class="sans-s-italic"><a class="sans-s-bold" href="http://www.stephaniehay.com/">Stephanie Hay</a> Content strategy</li>
-      <li class="sans-s-italic"><a class="sans-s-bold" href="http://mleland.com/">Michael Johnson</a> Design concept, creative direction</li>
-      <li class="sans-s-italic"><a class="sans-s-bold" href="http://stephencaver.com/">Stephen Caver</a> Front-end development</li>
-      <li class="sans-s-italic"><a class="sans-s-bold" href="http://jasonweaver.name/">Jason Weaver</a> Front-end development</li>
-      <li class="sans-s-italic"><a class="sans-s-bold" href="http://brettharned.com/">Brett Harned</a> Project management</li>
-    </ul>
-  </div>
-  <div>
-    <p class="sans-xs-bold-all-caps">Typefaces</p>
-    <p class="sans-s">Meta, Facit</p>
-  </div>
-</div>
