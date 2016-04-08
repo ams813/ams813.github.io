@@ -39,3 +39,25 @@ Image(s): Experts, Notable Profile
 Image(s): Topic Landing, Topic Detail, Explore Drawer
 
 <p class="caption">A taxonomy of topics—big-picture, broad economics concepts that described an area of the Institute’s focus—threaded through the site’s content, but were also given spaces to frame work and add context.</p>
+
+<div class="project-credits spacing-m">
+  <p class="sans-s-bold post-meta-source">Designed at <a href="http://happycog.com/">Happy Cog</a></p>
+  <div>
+    <p class="sans-xs-bold-all-caps">Live site</p>
+    <p class="sans-s"><a href="http://ineteconomics.org/ ">ineteconomics.org</a></p>
+  </div>
+  <div class="collaborators">
+    <p class="sans-xs-bold-all-caps">Collaborators</p>
+    <ul class="spacing-xxs">
+      <li class="sans-s-italic"><a class="sans-s-bold" href="http://www.jasondziak.com/">Jason Dziak</a> Project definition</li>
+      <li class="sans-s-italic"><a class="sans-s-bold" href="http://sophieshepherd.com/">Sophie Shepherd</a> Project definition, design concept</li>
+      <li class="sans-s-italic"><a class="sans-s-bold" href="https://www.sarawb.com/">Sara Wachter-Boettcher</a> Content strategy</li>
+      <li class="sans-s-italic"><a class="sans-s-bold" href="https://twitter.com/markhuot">Mark Huot</a> Front-end development, back-end development</li>
+      <li class="sans-s-italic"><a class="sans-s-bold" href="http://abbyfretz.com/">Abby Fretz</a> Project management</li>
+    </ul>
+  </div>
+  <div>
+    <p class="sans-xs-bold-all-caps">Typefaces</p>
+    <p class="sans-s">Atlas Grotesk, Freight Text Pro</p>
+  </div>
+</div>

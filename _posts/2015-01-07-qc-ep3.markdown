@@ -15,4 +15,4 @@ categories:   podcast
 * Tumble dry low
 * Button-down problems
 
-Hashtag: #jeansurrogacy
+<p class="sans-s"><strong>Hashtag:</strong> #jeansurrogacy</p>

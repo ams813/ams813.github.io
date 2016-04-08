@@ -164,7 +164,7 @@ $spacing-xxxxl: 60px;
   }
 }
 
-.sans-s-bold {
+.sans-s-bold, .post p.sans-s-bold {
   @include fort;
   font-weight: bold;
   font-size: 12px;
@@ -173,16 +173,17 @@ $spacing-xxxxl: 60px;
     font-size: 14px;
     line-height: 20px;
   }
-  a {
-    color: $text-color;
-    text-decoration: underline;
-    &:hover {
-      color: $link-color;
-    }
+}
+
+.sans-s-bold a {
+  color: $text-color;
+  text-decoration: underline;
+  &:hover {
+    color: $link-color;
   }
 }
 
-.sans-s-italic {
+.sans-s-italic, .post p.sans-s-italic {
   @include fort;
   font-style: italic;
   font-size: 12px;
@@ -193,7 +194,7 @@ $spacing-xxxxl: 60px;
   }
 }
 
-.sans-s {
+.sans-s, .post p.sans-s {
   @include fort;
   font-size: 12px;
   line-height: 16px;
@@ -203,11 +204,11 @@ $spacing-xxxxl: 60px;
   }
 }
 
-.sans-xs-bold-all-caps {
+.sans-xs-bold-all-caps, .post p.sans-xs-bold-all-caps {
   @include fort;
   font-weight: bold;
   font-size: 11px;
-  line-height: 20px;
+  line-height: 15px;
   text-transform: uppercase;
   letter-spacing: .07em;
 }
@@ -282,6 +283,9 @@ $spacing-xxxxl: 60px;
     }
     li {
       padding-left: 10px;
+      ul {
+        margin-top: $spacing-xs;
+      }
     }
   }
 

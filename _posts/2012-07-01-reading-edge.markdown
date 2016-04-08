@@ -28,3 +28,21 @@ Image: Essay selection
 Image: Detail of the paired specimens
 
 <p class="caption">To showcase the faces in a variety of potential moods and applications, I designed HTML specimens that paired each RE typeface with larger-set accompaniments from Font Bureau’s Webtype catalog.</p>
+
+<div class="project-credits spacing-m">
+  <div>
+    <p class="sans-xs-bold-all-caps no-source">Live site</p>
+    <p class="sans-s"><a href="http://www.fontbureau.com/ReadingEdge/">fontbureau.com/ReadingEdge/</a></p>
+  </div>
+  <div class="collaborators">
+    <p class="sans-xs-bold-all-caps">Collaborators</p>
+    <ul class="spacing-xxs">
+      <li class="sans-s-italic"><a class="sans-s-bold" href="http://nicksherman.com/">Nick Sherman</a> Creative direction, typography consultation</li>
+      <li class="sans-s-italic"><a class="sans-s-bold" href="http://chrissam42.com/">Chris Lewis</a> Front-end development</li>
+    </ul>
+  </div>
+  <div>
+    <p class="sans-xs-bold-all-caps">Typefaces</p>
+    <p class="sans-s">Antenna, Antenna RE, Ibis RE</p>
+  </div>
+</div>

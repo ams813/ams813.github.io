@@ -17,3 +17,25 @@ Images: Homepage (design)
 Image: Homepage mobile (design)
 
 <p class="caption">We designed for small screens at the same time as large to help focus on readability and content priority. The feature area served as a way to quickly change the tone of the page.</p>
+
+<div class="project-credits spacing-m">
+  <p class="sans-s-bold post-meta-source">Designed at <a href="http://happycog.com/">Happy Cog</a></p>
+  <div>
+    <p class="sans-xs-bold-all-caps">Live site</p>
+    <p class="sans-s"><a href="http://nyit.edu/">nyit.edu</a></p>
+  </div>
+  <div class="collaborators">
+    <p class="sans-xs-bold-all-caps">Collaborators</p>
+    <ul class="spacing-xxs">
+      <li class="sans-s-italic"><a class="sans-s-bold" href="http://mleland.com/">Michael Johnson</a> Project definition, architecture, user experience, creative direction</li>
+      <li class="sans-s-italic"><a class="sans-s-bold" href="http://nicolefenton.com/">Nicole Fenton</a> Architecture, content strategy</li>
+      <li class="sans-s-italic"><a class="sans-s-bold" href="http://www.iamdavedawson.com/">Dave Dawson</a> User experience, design system</li>
+      <li class="sans-s-italic"><a class="sans-s-bold" href="http://alliwagner.com/">Allison Wagner</a> Front-end development</li>
+      <li class="sans-s-italic"><a class="sans-s-bold" href="http://abbyfretz.com/">Abby Fretz</a> Project management, project definition</li>
+    </ul>
+  </div>
+  <div>
+    <p class="sans-xs-bold-all-caps">Typefaces</p>
+    <p class="sans-s">Times New Roman, Source Code Pro, Arial</p>
+  </div>
+</div>

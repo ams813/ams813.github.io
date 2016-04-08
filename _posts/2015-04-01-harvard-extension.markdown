@@ -23,3 +23,31 @@ Image: Design concept: Academics, Academics tool open
 <p class="caption">My selected design concept combined the University’s neutral palette with bold, professional typography. The Academics page presents all the ways students can learn through the School. A “What are you interested in?” tool used keyword search to surface options by area of interest. Concept revisions and design system by Dana Pavlichko.</p>
 
 To vet our work and prepare for the School’s in-house implementation, I ran remote usability testing sessions of our design comps. Once the designs were revised, I drafted a document to summarize the site’s content model, taxonomy, custom Drupal panels, and recommendations for configuring back-end fields.
+
+<div class="project-credits spacing-m">
+  <p class="sans-s-bold post-meta-source">Designed at <a href="http://happycog.com/">Happy Cog</a></p>
+  <div>
+    <p class="sans-xs-bold-all-caps">Live site</p>
+    <p class="sans-s"><a href="https://www.extension.harvard.edu/ ">extension.harvard.edu</a></p>
+  </div>
+  <div class="collaborators">
+    <p class="sans-xs-bold-all-caps">Collaborators</p>
+    <ul class="spacing-xxs">
+      <li class="sans-s-italic"><a class="sans-s-bold" href="http://mleland.com/">Michael Johnson</a> Project definition, creative direction</li>
+      <li class="sans-s-italic"><a class="sans-s-bold" href="http://danapavlichko.com/">Dana Pavlichko</a> User experience, design system</li>
+      <li class="sans-s-italic"><a class="sans-s-bold" href="http://stephencaver.com/">Stephen Caver</a> Front-end development</li>
+      <li class="sans-s-italic"><a class="sans-s-bold" href="https://twitter.com/allisin">Allison Fegel</a> Project management</li>
+      <li class="sans-s-italic"><a class="sans-s-bold" href="http://brettharned.com/">Brett Harned</a> Project management</li>
+    </ul>
+  </div>
+  <div>
+    <p class="sans-xs-bold-all-caps">Typefaces</p>
+    <p class="sans-s">Tablet Gothic, Utopia</p>
+  </div>
+  <div>
+    <p class="sans-xs-bold-all-caps">Published elsewhere</p>
+    <ul>
+      <li><a href="https://pv.webbyawards.com/2016/mobile-sites-apps/general-sites-apps/schooluniversity">Webby Honoree in School/University Mobile Sites &amp; Apps</a> (2016)</li>
+    </ul>
+  </div>
+</div>

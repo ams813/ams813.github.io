@@ -31,7 +31,7 @@ categories:   podcast
 * Don't underestimate the power of a croissant as the bread
 * Bagel sandwiches
 
-BONUS: Bahn Mi. Try it. You'll like it.
+<p class="sans-s"><strong>Bonus:</strong> Bahn Mi. Try it. You'll like it.</p>
 
 ##  Referenced Vendors
 * [Sarcone's Bakery](http://www.sarconesbakery.com/)

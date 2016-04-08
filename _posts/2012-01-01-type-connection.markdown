@@ -11,7 +11,7 @@ There are an extensive number of articles, books, and even interactive games to 
 
 The seed of Type Connection began with the notion that like human beings, typefaces are built with common DNA; they share basic anatomies that can be analyzed and compared. When anthropomorphized, the structure of a typeface gives a picture of a its physique, voice, and personality. Just like when searching for a potential mate, combining typefaces calls for a certain harmony.
 
-In the first week of going live, Type Connection received over 62,000 unique visitors. Since 2012, the site has attracted over 500,000 unique users. The site has also been featured by Lifehacker, Fast Company, Smashing Magazine, How Magazine, The Next Web, Dexigner, Swissmiss, Minimalsites, Notcot, Designboom, and others.
+In the first week of going live, Type Connection received over 62,000 unique visitors. Since 2012, the site has attracted over 500,000 unique users. The site has also been featured by [Lifehacker](http://lifehacker.com/5897805/type-connection-teaches-you-how-to-pair-fonts-in-your-designs-by-sending-them-on-dates), [Fast Company](http://www.fastcodesign.com/3027932/type-connection-helps-you-find-matching-typefaces), [Smashing Magazine](http://www.smashingmagazine.com/smashing-newsletter-issue-56/#a8), [How Magazine](http://www.howdesign.com/design-creativity/top-10-sites-for-designers/top-10-websites-for-designers-april-2012/), [The Next Web](http://thenextweb.com/dd/2012/03/27/this-typographic-dating-game-teaches-designers-how-to-pair-typefaces/), [Dexigner](http://www.dexigner.com/news/24892), Swissmiss, Minimalsites, Notcot, Designboom, and others.
 
 Images:
 Homepage
@@ -41,3 +41,30 @@ Image: Meet the Matches page
 Images: 7 images from current website
 
 <p class="caption">To promote Type Connection in the student community and celebrate the site, I designed an exhibition at Maryland Institute College of Art to coincide with the launch.</p>
+
+<div class="project-credits spacing-m">
+  <p class="sans-s-bold post-meta-source">Designed at <a href="http://mica.edu">Maryland Institute College of Art</a></p>
+  <div>
+    <p class="sans-xs-bold-all-caps">Live site</p>
+    <p class="sans-s"><a href="http://typeconnection.com/">typeconnection.com</a></p>
+  </div>
+  <div>
+    <p class="sans-xs-bold-all-caps">Typefaces</p>
+    <p class="sans-s">FF Tisa</p>
+  </div>
+  <div>
+    <p class="sans-xs-bold-all-caps">Related writing</p>
+    <ul>
+      <li><a href="{% post_url 2012-05-23-pairing-typefaces %}">Pairing Typefaces</a></li>
+    </ul>
+  </div>
+  <div>
+    <p class="sans-xs-bold-all-caps">Published elsewhere</p>
+    <ul>
+      <li>Mohawk’s Felt & Wire, <a href="http://www.mohawkconnects.com/feltandwire/2012/04/11/have-you-made-a-type-connection/">“Have you made a type connection?”</a> (4/11/12)</li>
+      <li>Abovethefoldbook.com, <a href="http://abovethefoldbook.com/interview-with-above-the-fold-best-in-show-winner-aura-seltzer/">“Interview with 2012 Above the Fold Best in Show Winner, Aura Seltzer”</a></li>
+      <li>How Magazine, <a href="http://www.howdesign.com/design-creativity/type-connection-typography-game/">“Above the Fold Awards Winner: Type Connection”</a> (6/29/12)</li>
+      <li>Typorn.org, <a href="http://www.typorn.org/article/interview-aura-seltzer-her-amazing-typographic-dating-game">“An interview with Aura Seltzer on her amazing typographic dating game”</a> (7/15/14)</li>
+    </ul>
+  </div>
+</div>

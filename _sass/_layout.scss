@@ -186,6 +186,9 @@
 .post-meta-date {
   color: $gray;
   display: inline-block;
+  .post & {
+    padding-right: $spacing-m;
+  }
 }
 
 
@@ -222,7 +225,7 @@
     li {
       display: inline-block;
       float: right;
-      margin-left: $spacing-s;
+      margin-left: $spacing-m;
       &:last-of-type {
         padding-right: 0;
       }
@@ -265,7 +268,7 @@
       top: 0px;
     }
   }
- .post-title, .post .post-meta-subtitle {
+ .post-title, .post-meta-subtitle {
   color: $link-color;
   }
   .post-title {
@@ -278,9 +281,13 @@
   }
   .post-meta-category {
       @extend .sans-s-bold;
+      margin-bottom: 0;
+      padding-bottom: 0;
   }
   .post-meta-date {
       @extend .sans-s;
+      margin-bottom: 0;
+      padding-bottom: 0;
   }
 }
 
@@ -299,6 +306,53 @@
     &:hover {
       color: $link-hover-color;
     }
+  }
+}
+
+.post-meta-role {
+  line-height: 16px;
+  display: block;
+  margin-top: $spacing-xs;
+  @include breakpoint($q-small) {
+    display: inline;
+    margin-top: 0;
+  }
+}
+
+p.caption + .project-credits {
+  margin-top: $spacing-l;
+}
+
+.project-credits {
+  a {
+    color: $gray;
+    &:hover {
+      color: $link-hover-color;
+    }
+  }
+  p {
+    margin-bottom: 0;
+  }
+  p + ul {
+    margin-top: $spacing-xxs;
+  }
+  ul li {
+    margin-bottom: 0;
+  }
+  .collaborators {
+    a {
+      color: $black;
+      padding-right: $spacing-xs;
+      text-decoration: none;
+      &:hover {
+        color: $link-color;
+      }
+    }
+  }
+  .no-source {
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    padding-top: $spacing-s;
+    margin-bottom: $spacing-m;
   }
 }
 

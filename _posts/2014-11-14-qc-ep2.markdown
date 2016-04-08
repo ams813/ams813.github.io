@@ -14,4 +14,4 @@ categories:   podcast
 * Closets vs. drawers
 * Seasonal storage
 
-Hashtag: #seasonalstorage
+<p class="sans-s"><strong>Hashtag:</strong> #seasonalstorage</span>
