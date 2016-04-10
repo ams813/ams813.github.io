@@ -49,6 +49,7 @@ $spacing-xxl: 30px;
 $spacing-xxxl: 45px;
 $spacing-xxxxl: 60px;
 $spacing-vl: 80px;
+$spacing-vxl: 100px;
 
 
 .spacing-xxs > * + * {
@@ -141,6 +142,10 @@ $spacing-vl: 80px;
   @include breakpoint($q-medium) {
     font-size: 19px;
     line-height: 24px;
+  }
+  @include breakpoint($q-xxxlarge) { // only difference with .serif-s
+    font-size: 21px;
+    line-height: 26px;
   }
 }
 

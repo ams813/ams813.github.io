@@ -34,7 +34,7 @@
     }
   }
   @include breakpoint($q-xxxlarge) {
-    padding-top: $spacing-vl;
+    padding-top: $spacing-vxl;
   }
   .serif-l {
     @include breakpoint($q-small) {
@@ -134,9 +134,16 @@
       display: inline-block;
       margin-left: -10px;
     	width: 10px;
+      @include breakpoint($q-medium) {
+        margin-left: -15px;
+        width: 15px;
+      }
     }
-    li {
+    li { // slightly more indented than the project credits li
       padding-left: 10px;
+      @include breakpoint($q-medium) {
+        padding-left: 15px;
+      }
     }
   }
   @include breakpoint($q-large) {
@@ -423,9 +430,9 @@ p.back-link {
         top: 0px;
       }
     }
-    .post-meta-subtitle {
+    .post-subtitle-title {
       @include breakpoint($q-xxxlarge) {
-        margin-top: $spacing-xxxl;
+        margin-top: $spacing-vl;
       }
     }
     .post-title, .post-meta-subtitle {
@@ -446,7 +453,7 @@ p.back-link {
           width: 80%;
         }
         @include breakpoint($q-xxxlarge) {
-          width: 75%;
+          width: 100%;
         }
       }
     }
@@ -540,6 +547,9 @@ p.back-link {
 
   p + h2 {
     margin-top: $spacing-l;
+    @include breakpoint ($q-xxxlarge) {
+      margin-top: $spacing-xxl;
+    }
   }
 
   p + h3 {
@@ -613,6 +623,9 @@ p.back-link {
 
   ol + h2, ul + h2 {
     margin-top: $spacing-l;
+    @include breakpoint ($q-xxxlarge) {
+      margin-top: $spacing-xxl;
+    }
   }
 
   ol + h3, ul + h3 {
@@ -631,7 +644,7 @@ p.back-link {
     @include breakpoint($q-xlarge) {
       margin-top: $spacing-xxxl;
     }
-    p {
+    p, ul, ol {
       @include breakpoint($q-large) {
         width: 90%;
       }
@@ -650,6 +663,13 @@ p.back-link {
   figure {
     margin-top: $spacing-l;
     margin-bottom: $spacing-s;
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+    &.center-image {
+      border-bottom:  0;
+    }
+    img {
+      border: 1px solid rgba(0,0,0,0.12);
+    }
     @include breakpoint($q-medium) {
       margin-top: $spacing-xl;
       margin-bottom: $spacing-m;
@@ -677,6 +697,24 @@ p.back-link {
       margin-bottom: -6px;
     }
   }
+}
+
+.scrollable {
+  height: 550px;
+  overflow: scroll;
+}
+
+.center-image {
+  height: 550px;
+  overflow: scroll;
+  img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.full-width-image {
+  width: 100%;
 }
 
 .post .post-meta-source {
@@ -776,16 +814,33 @@ p.back-link {
   }
 }
 
-.contact-list,
-.social-media-list {
-    list-style: none;
+.legal {
+  width: 65%;
+  float: left;
+  @include breakpoint($q-large) {
+    width: 70%;
+  }
+}
+
+.social-media {
+  width: 35%;
+  float: right;
+  @include breakpoint($q-large) {
+    width: 30%;
+  }
+  .social-media-list {
+    text-align: right;
     margin-left: 0;
     li {
+      list-style: none;
       display: inline-block;
-      float: right;
       margin-left: $spacing-m;
       &:last-of-type {
         padding-right: 0;
       }
+      @include breakpoint($q-xxlarge) {
+        margin-left: $spacing-l;
+      }
     }
+  }
 }

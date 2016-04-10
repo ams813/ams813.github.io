@@ -23,7 +23,7 @@ Regardless of how you create artboards, you can always resize them to accommodat
 
 ## Naming
 
-You can name your artboards (e.g. Desktop and Mobile, Listing and Detail) by double-clicking the name of each artboard in the Layers panel. Names also appear as small labels above the upper left corner of your boards. If you’re storing multiple artboards in a single file, naming will not only make navigating your Layers panel easier, but also help you jump more accurately between artboards in [Adobe’s Preview app])(https://itunes.apple.com/us/app/adobe-preview-cc/id973272286?mt=8).
+You can name your artboards (e.g. Desktop and Mobile, Listing and Detail) by double-clicking the name of each artboard in the Layers panel. Names also appear as small labels above the upper left corner of your boards. If you’re storing multiple artboards in a single file, naming will not only make navigating your Layers panel easier, but also help you jump more accurately between artboards in [Adobe’s Preview app](https://itunes.apple.com/us/app/adobe-preview-cc/id973272286?mt=8).
 
 ## Showing guides
 
@@ -46,7 +46,8 @@ What happens when your art falls beyond the frame of an artboard? Moving assets 
 * Moving a layer from artboard to artboard on the canvas will automatically relocate that layer to the top of the new-home-artboard’s folder in the Layers panel.
 * Turning off layer auto-selection in the tool options bar will help you keep track of any layer(s) you’re moving.
 * Avoid reordering layers across artboards using just the Layers panel. Doing so can change the relative position of your artwork if the artboards aren’t the same size.
-* Moving a layer off your artboard area will automatically relocate the layer to the top of your Layers panel, outside of any artboard folder. You can prevent this auto-nesting by clicking the artboard-shaped icon in your Layers panel right next to the lock.
+* Moving a layer off your artboard area will automatically relocate the layer to the top of your Layers panel, outside of any artboard folder. You can prevent this auto-nesting by clicking the artboard-shaped icon in your Layers panel right next to the lock.<br><img src="../../../../a/img/articles/artboard-nesting.png" alt="Screenshot of Photoshop's artboard auto-nesting lock">
+
 
 ## Exporting
 

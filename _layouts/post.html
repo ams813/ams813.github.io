@@ -5,12 +5,14 @@ layout: default
 
   <header class="post-header spacing-xxs-s-at-medium">
     <p class="back-link">< <a href="/../../index.html">Back</a></p>
+    <div class="post-subtitle-title spacing-xxs-s-at-medium">
       {% if page.subtitle  %}
       <span class="serif-s-italic post-meta-subtitle">{{ page.subtitle}}</span>
       {% endif %}
       <div class="post-title">
         <h1 itemprop="name headline">{{ page.title }}</h1>
       </div>
+    </div>
     <div>
       <p class="post-meta-category"><a href="#">{{ page.categories }}</a></p>
       {% if page.categories contains "project" %}
