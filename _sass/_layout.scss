@@ -436,7 +436,7 @@ p.back-link {
       }
     }
     .post-title, .post-meta-subtitle {
-      color: $link-color;
+      color: #40071f;;
     }
     .post-title {
       padding-bottom: $spacing-m;
@@ -662,17 +662,16 @@ p.back-link {
   position: relative;
   figure {
     margin-top: $spacing-l;
-    margin-bottom: $spacing-s;
-    border-bottom: 1px solid rgba(0,0,0,0.12);
-    &.center-image {
-      border-bottom:  0;
-    }
-    img {
-      border: 1px solid rgba(0,0,0,0.12);
-    }
+    margin-bottom: $spacing-m;
     @include breakpoint($q-medium) {
       margin-top: $spacing-xl;
-      margin-bottom: $spacing-m;
+      margin-bottom: $spacing-l;
+    }
+    @include breakpoint($q-xlarge) {
+      width: 90%;
+    }
+    @include breakpoint($q-xxlarge) {
+      width: 80%;
     }
     @include breakpoint($q-xxxlarge) {
       width: 70%;
@@ -680,7 +679,6 @@ p.back-link {
   }
   .caption {
     @include breakpoint($q-medium) {
-      width: 80%;
       margin-bottom: $spacing-l;
     }
     @include breakpoint($q-large) {
@@ -700,21 +698,55 @@ p.back-link {
 }
 
 .scrollable {
-  height: 550px;
-  overflow: scroll;
-}
-
-.center-image {
-  height: 550px;
-  overflow: scroll;
-  img {
-    margin-left: auto;
-    margin-right: auto;
+  overflow: hidden;
+  @include breakpoint($q-large) {
+    overflow: scroll;
   }
 }
 
-.full-width-image {
+.full-width-image { // for full-width comps
   width: 100%;
+  border: 1px solid rgba(0,0,0,0.12);
+  @include breakpoint($q-small) {
+    height: 500px;
+  }
+  @include breakpoint($q-medium) {
+    height: 700px;
+  }
+}
+
+.center-image { // for small screens
+  border: 0;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.12);
+  margin-left: auto;
+  margin-right: auto;
+  @include breakpoint($q-xsmall) {
+    height: 450px;
+    width: 65%;
+  }
+  @include breakpoint($q-small) {
+    width: 50%;
+  }
+  @include breakpoint($q-medium) {
+    width: 40%;
+    height: 500px;
+  }
+  @include breakpoint($q-large) {
+    overflow: scroll;
+  }
+  @include breakpoint($q-xlarge) {
+    border: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    @include breakpoint($q-xlarge) {
+      border: 1px solid rgba(0,0,0,0.12);
+    }
+  }
 }
 
 .post .post-meta-source {

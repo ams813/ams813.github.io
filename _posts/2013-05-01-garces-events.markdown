@@ -15,14 +15,17 @@ Set on a compact timeline, we relied a collaborative workshop to establish site 
 
 Like a chef builds depth of flavor, the new identity relies on subtle layering and a palette of neutral, warm colors. We revised the logotype for consistency with the larger brand and introduced a narrowed set of brand typefaces that are sophisticated yet easy to read on the web.
 
-Image: Home, and with start our planner animating  (and small screens?)
+<div class="fig-with-cap">
+  <figure class="scrollable full-width-image"><img src="../../../../a/img/garces-1.jpg" alt="Homepage with contact form open"></figure>
+  <figcaption class="caption">Lead generation could happen at any step in the process—whether browsing food menus or filtering venues. Ultimately, the redesign would prove its worth if the new site could both survey offerings and drive leads.</figcaption>
+</div>
 
-<p class="caption">Lead generation could happen at any step in the process—whether browsing food menus or filtering venues. Ultimately, the redesign would prove its worth if the new site could both survey offerings and drive leads.</p>
+<div class="fig-with-cap">
+  <figure class="scrollable full-width-image"><img src="../../../../a/img/garces-2.jpg" alt="Venue Detail"></figure>
+  <figcaption class="caption">In order to establish an ongoing relationship with customers, the site needed to be detailed and comprehensive, so its own planners could use the site as a selling tool.</figcaption>
+</div>
 
-Image: Venue Detail
-
-<p class="caption">In order to establish an ongoing relationship with customers, the site needed to be detailed and comprehensive, so its own planners could use the site as a selling tool.</p>
-
-Image: Occasions
-
-<p class="caption">Photography plays a critical role in positioning Garces Events as a caterer for all occasions, so we equipped the Garces team with guidelines to balance action and still shots, event styling and food presentation, and showing a human touch without seeming overly posed.</p>
+<div class="fig-with-cap">
+  <figure class="scrollable full-width-image"><img src="../../../../a/img/garces-3.jpg" alt="Events"></figure>
+  <figcaption class="caption">Photography plays a critical role in positioning Garces Events as a caterer for all occasions, so we equipped the Garces team with guidelines to balance action and still shots, event styling and food presentation, and showing a human touch without seeming overly posed.</figcaption>
+</div>
