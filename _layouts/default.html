@@ -12,6 +12,32 @@
     </div>
 
     {% include footer.html %}
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="/a/jquery-ui.min.js"></script> <!-- for easing transitions -->
+    <script src="/a/owl.carousel.min.js"></script> <!-- for carousel -->
+
+    <script>
+      $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+          items: 1,
+          loop: true,
+          nav:true
+        })
+      });
+    </script>
+
+    <script>
+      $( ".show-more" ).click(function() {
+        $( ".about" ).slideToggle(700,"easeInOutSine");
+        $( ".show-more").hide();
+        $( ".show-less").show();
+      });
+      $( ".show-less" ).click(function() {
+        $( ".about" ).slideToggle(700,"easeInOutSine");
+        $( ".show-more").show();
+        $( ".show-less").hide();
+      });
+    </script>
 
   </body>
 

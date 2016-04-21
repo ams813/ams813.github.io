@@ -17,7 +17,7 @@ Like a chef builds depth of flavor, the new identity relies on subtle layering a
 
 <div class="fig-with-cap">
   <figure class="scrollable full-width-image"><img src="../../../../a/img/garces-1.jpg" alt="Homepage with contact form open"></figure>
-  <figcaption class="caption">Lead generation could happen at any step in the process—whether browsing food menus or filtering venues. Ultimately, the redesign would prove its worth if the new site could both survey offerings and drive leads.</figcaption>
+  <figcaption class="caption">Lead generation could happen at any step in the process—whether browsing food menus or filtering venues. Ultimately, the redesign would prove its worth if the new site could both survey offerings and drive leads. <em>All photos used in comps were FPO.</em></figcaption>
 </div>
 
 <div class="fig-with-cap">

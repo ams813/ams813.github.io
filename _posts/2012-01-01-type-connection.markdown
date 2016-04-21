@@ -2,6 +2,7 @@
 layout: post
 short-name: tc
 title:  Teaching how to pair typefaces—with a sense of humor
+subtitle:  Type Connection
 date:   2012-01-01
 categories:   project
 short-description:   "Type Connection is an online game that helps users learn how to pair typefaces. Like a conventional dating website, Type Connection presents its users with potential “dates” for each main character. Users are matchmakers; they decide what kind of match to look for by choosing among several strategies for combining typefaces."

@@ -2,6 +2,7 @@
 layout: post
 short-name: overnine
 title:  Recounting an immersion in various subcultures
+subtitle:  Over Nine Days
 date:   2011-01-01
 categories:   project
 short-description:   "Embracing the tradition of zines’ focused audiences, a fellow designer and I immersed ourselves in three subcultures in which we considered ourselves novices: chess, beer, and guns. Through our own zine, we set out to tell our experience through the stories of those we met."
@@ -14,12 +15,22 @@ We documented, inquired, interpreted, and experimented—just not always in that
 
 Our zine is a visualization of vernacular that tells our own experience through the stories of those we met. Our zine reveals how, especially as designers, we grasp for a wider understanding of the world around us.
 
-Images: Zine shots from portfolio
+<div class="fig-with-cap">
+  <div class="owl-carousel">
+    <div class="item"><img src="../../../../a/img/ond-1.jpg" alt="Zine cover"></div>
+    <div class="item"><img src="../../../../a/img/ond-2.jpg" alt="Zine spread"></div>
+    <div class="item"><img src="../../../../a/img/ond-3.jpg" alt="Zine spread"></div>
+    <div class="item"><img src="../../../../a/img/ond-4.jpg" alt="Zine spread"></div>
+    <div class="item"><img src="../../../../a/img/ond-5.jpg" alt="Zine spread"></div>
+    <div class="item"><img src="../../../../a/img/ond-6.jpg" alt="Zine spread"></div>
+    <div class="item"><img src="../../../../a/img/ond-7.jpg" alt="Zine spread"></div>
+    <div class="item"><img src="../../../../a/img/ond-8.jpg" alt="Zine spread"></div>
+    <div class="item"><img src="../../../../a/img/ond-9.jpg" alt="Zine back cover"></div>
+  </div>
+  <figcaption class="caption">Printing offset on newsprint, we had to account for low-quality paper, absorbency issues, and a limited color palette to fit our budget. We chose imagery and icons that would shine in just black ink and were conservative with type size and weight.</figcaption>
+</div>
 
-Image: Zine detail shot of hours of exposure
-
-<p class="caption">Inspired by the use of classification in field guides, for each activity, we recorded our hours of exposure to the topic and a list of vocabulary we learned.</p>
-
-Images: Production
-
-<p class="caption">Printing offset on newsprint, we had to account for low-quality paper, absorbency issues, and a limited color palette to fit our budget. We chose imagery and icons that would shine in just black ink and were conservative with type size and weight.</p>
+<div class="fig-with-cap">
+  <figure class="scrollable full-width-image"><img src="../../../../a/img/ond-10.jpg" alt="Detail of iconography"></figure>
+  <figcaption class="caption">Inspired by the use of classification in field guides, for each activity, we recorded our hours of exposure to the topic and a list of vocabulary we learned.</figcaption>
+</div>

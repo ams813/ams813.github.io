@@ -660,7 +660,7 @@ p.back-link {
 .fig-with-cap {
   clear: left;
   position: relative;
-  figure {
+  figure, .owl-carousel {
     margin-top: $spacing-l;
     margin-bottom: $spacing-m;
     @include breakpoint($q-medium) {
@@ -708,10 +708,10 @@ p.back-link {
   width: 100%;
   border: 1px solid rgba(0,0,0,0.12);
   @include breakpoint($q-small) {
-    height: 500px;
+    max-height: 500px;
   }
   @include breakpoint($q-medium) {
-    height: 700px;
+    max-height: 700px;
   }
 }
 
@@ -722,7 +722,7 @@ p.back-link {
   margin-left: auto;
   margin-right: auto;
   @include breakpoint($q-xsmall) {
-    height: 450px;
+    max-height: 450px;
     width: 65%;
   }
   @include breakpoint($q-small) {
@@ -730,7 +730,7 @@ p.back-link {
   }
   @include breakpoint($q-medium) {
     width: 40%;
-    height: 500px;
+    max-height: 500px;
   }
   @include breakpoint($q-large) {
     overflow: scroll;
@@ -746,6 +746,16 @@ p.back-link {
     @include breakpoint($q-xlarge) {
       border: 1px solid rgba(0,0,0,0.12);
     }
+  }
+}
+
+.owl-carousel .item {
+  border: 1px solid rgba(0,0,0,0.12);
+}
+
+.owl-carousel .owl-controls {
+  .owl-dots span {
+    display: none;
   }
 }
 

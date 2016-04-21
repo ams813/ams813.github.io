@@ -2,6 +2,7 @@
 layout: post
 short-name: fb
 title:  Promoting a font series designed for small sizes on screen
+subtitle:  Font Bureau
 date:   2012-07-01
 categories:   project
 short-description:   "This microsite introduces Font Bureau’s Reading Edge™ (RE) series, a first-of-its-kind group of typefaces designed from scratch to serve highly readable small text on screen. The site aims to impart a deeper understanding of the anatomy of readable type while directing users to purchase the fonts."
