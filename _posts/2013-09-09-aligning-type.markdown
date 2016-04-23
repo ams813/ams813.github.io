@@ -23,15 +23,17 @@ If that voice is chirpy and candid, the voice of your type should be, too. You c
 
 If that voice is husky and intellectual, look at durable faces like [Acuta](https://typekit.com/fonts/acuta) and [JAF Lapture](https://typekit.com/fonts/jaf-lapture), whose defined edges and texture give the sense that they have a few stories under their belt.
 
-Image
-
-<p class="caption">JetBlue applies FF Din on its site’s most important labels, flight information, and pricing to create visual consistency with the brand’s logotype. They save page weight by relying on Arial for microcopy, paragraph text, and form styles.</p>
+<div class="fig-with-cap">
+  <figure class="center-image-wider"><img src="../../../../a/img/typekit-02-01.jpg" alt="JetBlue screenshot"></figure>
+  <figcaption class="caption">JetBlue applies FF Din on its site’s most important labels, flight information, and pricing to create visual consistency with the brand’s logotype. They save page weight by relying on Arial for microcopy, paragraph text, and form styles.</figcaption>
+</div>
 
 You may find that using a single (super)family’s weights, widths, and styles—along with introducing color and scale to further hierarchize your content—can be enough to convey your brand’s voice. Working within a restricted palette automatically introduces brand consistency, making every piece of content feel like it’s coming from the same mouthpiece. [JetBlue](http://www.jetblue.com/#/) built its recent redesign around FF DIN (served via Typekit), which lends itself to friendly, clear labels that emphasize UI. Meanwhile, [McSweeney’s](http://www.mcsweeneys.net/tendency) uses Adobe Garamond to evoke the site’s publishing roots while nodding to the innate humor of using a traditional print face with such emphasis on the web.
 
-Image
-
-<p class="caption">McSweeney’s fills its hierarchical needs with <a href="https://typekit.com/fonts/adobe-garamond-pro">Adobe Garamond Pro‘s</a> regular and italic, letter-spaced uppercase, and a restrained link style. Ornamental dividers section the content and emphasize the site’s bookish feel.</p>
+<div class="fig-with-cap">
+  <figure class="center-image-wider"><img src="../../../../a/img/typekit-02-02.png" alt="McSweeney's screenshot"></figure>
+  <figcaption class="caption">McSweeney’s fills its hierarchical needs with <a href="https://typekit.com/fonts/adobe-garamond-pro">Adobe Garamond Pro‘s</a> regular and italic, letter-spaced uppercase, and a restrained link style. Ornamental dividers section the content and emphasize the site’s bookish feel.</figcaption>
+</div>
 
 Some typefaces may not have enough flexibility to handle all of your content, or your brand may have multiple voices, each warranting its own treatment—and that’s totally fine, too. In its most simple manifestation, you could find one typeface to serve for your headlines and another for your body copy. But it’s important to exercise restraint. Beware of creating overly complex systems, whose patterns can be difficult for users to decipher and may add unnecessary page weight to your site.
 

@@ -17,9 +17,10 @@ One of the simplest techniques for combining typefaces is to pair typefaces that
 
 Typekit offers several superfamilies in its collection. [FF Dax](https://typekit.com/fonts/ff-dax-web-pro?utm_source=typekit-blog&utm_medium=blog&utm_content=blog120523&utm_campaign=education) and [Nimbus Sans](https://typekit.com/fonts/nimbus-sans?utm_source=typekit-blog&utm_medium=blog&utm_content=blog120523&utm_campaign=education) come with extended weights and widths. [Abril](https://typekit.com/fonts/abril-text?utm_source=typekit-blog&utm_medium=blog&utm_content=blog120523&utm_campaign=education), [Aviano](https://typekit.com/fonts/aviano?utm_source=typekit-blog&utm_medium=blog&utm_content=blog120523&utm_campaign=education), and [Calluna](https://typekit.com/fonts/calluna?utm_source=typekit-blog&utm_medium=blog&utm_content=blog120523&utm_campaign=education) all feature a sans serif and serif companion. Let’s look at one of Typekit’s superfamilies, [Freight Sans](https://typekit.com/fonts/freight-sans-pro?utm_source=typekit-blog&utm_medium=blog&utm_content=blog120523&utm_campaign=education) and [Freight Text](https://typekit.com/fonts/freight-text-pro?utm_source=typekit-blog&utm_medium=blog&utm_content=blog120523&utm_campaign=education), and visualize some of the aspects that lend it to pairing.
 
-Image
-
-<p class="caption">Letters of Freight Sans Pro and Freight Text, when overlaid, show similar structure.</p>
+<div class="fig-with-cap">
+  <figure class="center-image-wider"><img src="../../../../a/img/typekit-01-01.png" alt="Freight Sans Pro vs. Freight Text"></figure>
+  <figcaption class="caption">Letters of Freight Sans Pro and Freight Text, when overlaid, show similar structure.</figcaption>
+</div>
 
 Freight Sans and Freight Text each come equipped with six weights with corresponding italics. They were built with the same chiseled edges, cap height, x-height (the height of the lowercase letters typically illustrated by the letter x), and baseline. Because each was designed with the other in mind, text occupies the same line length and height no matter which face is used; this means either can take the lead as a headline and you can mix them together seamlessly.
 
@@ -37,15 +38,17 @@ Let’s take a look at two pairing possibilities using “Gaboscegqtf” and tal
 
 Below, I’ve paired [Apolline STD](https://typekit.com/fonts/apolline-std?utm_source=typekit-blog&utm_medium=blog&utm_content=blog120523&utm_campaign=education) and [Calluna](https://typekit.com/fonts/calluna?utm_source=typekit-blog&utm_medium=blog&utm_content=blog120523&utm_campaign=education). Both are small, serif text faces that lean forward horizontally and have slightly-inclined crossbars (see the lowercase letter <em>e</em>?). They share a fairly high x-height and mix pointy edges with curved terminals. But, you can see that when the two typefaces are used together, it’s very hard to tell the difference. They are so similar I might as well just have used one of the two typefaces exclusively.
 
-Image
-
-<p class="caption">Letters set in Apolline and Calluna show how the two typefaces are too similar to be paired.</p>
+<div class="fig-with-cap">
+  <figure class="center-image-wider"><img src="../../../../a/img/typekit-01-02.png" alt="Apolline vs. Calluna"></figure>
+  <figcaption class="caption">Letters set in Apolline and Calluna show how the two typefaces are too similar to be paired.</figcaption>
+</div>
 
 But, if we look at [Rooney](https://typekit.com/fonts/rooney-web?utm_source=typekit-blog&utm_medium=blog&utm_content=blog120523&utm_campaign=education) and [Skolar](https://typekit.com/fonts/skolar-web?utm_source=typekit-blog&utm_medium=blog&utm_content=blog120523&utm_campaign=education), we can see how pairing with look alikes can be seamless and also add pep to the page. Skolar is grittier with its sharp edges, but thick strokes and similar letter widths make this pairing work well. Also, notice how I’ve selected two typefaces with diagonally-protruding “ears” on the lowercase <em>g</em>. It’s all about the details with this technique.
 
-Image
-
-<p class="caption">Letters set in Rooney and Skolar reveal that the two typefaces are a good match.</p>
+<div class="fig-with-cap">
+  <figure class="center-image-wider"><img src="../../../../a/img/typekit-01-03.png" alt="Rooney vs. Skolar"></figure>
+  <figcaption class="caption">Letters set in Rooney and Skolar reveal that the two typefaces are a good match.</figcaption>
+</div>
 
 ## Bump up the contrast
 
@@ -55,23 +58,26 @@ What are some reliable ways to evaluate contrast? Take a look at differences in 
 
 The first pairing below features [Brandon Grotesque](https://typekit.com/fonts/brandon-grotesque?utm_source=typekit-blog&utm_medium=blog&utm_content=blog120523&utm_campaign=education) and [Proxima Nova](https://typekit.com/fonts/proxima-nova), which both land between humanist and geometric sans serifs. Even though there is a difference in x-height, counter size, and the lowercase g, this pairing isn’t the best for showing contrast. The warm touch on their geometric curves makes them too similar.
 
-Image
-
-<p class="caption">Letters set in Brandon Grotesque and Proxima Nova exhibit how there is not enough contrast between the two typefaces.</p>
+<div class="fig-with-cap">
+  <figure class="center-image-wider"><img src="../../../../a/img/typekit-01-04.png" alt="Brandon Grotesque vs. Proxima Nova"></figure>
+  <figcaption class="caption">Letters set in Brandon Grotesque and Proxima Nova exhibit how there is not enough contrast between the two typefaces.</figcaption>
+</div>
 
 On the other hand, [FF Meta Serif](https://typekit.com/fonts/ff-meta-serif-web-pro?utm_source=typekit-blog&utm_medium=blog&utm_content=blog120523&utm_campaign=education) and [Urbana](https://typekit.com/fonts/urbana?utm_source=typekit-blog&utm_medium=blog&utm_content=blog120523&utm_campaign=education) nicely contrast condensed, illustrative lettering with cleaner curves and angles.
 
-Image
-
-<p class="caption">Letters set in FF Meta Serif and Urbana illustrate contrast. The two typefaces make a balanced but dynamic pair.</p>
+<div class="fig-with-cap">
+  <figure class="center-image-wider"><img src="../../../../a/img/typekit-01-05.png" alt="FF Meta Serif vs. Urbana"></figure>
+  <figcaption class="caption">Letters set in FF Meta Serif and Urbana illustrate contrast. The two typefaces make a balanced but dynamic pair.</figcaption>
+</div>
 
 ## The rest is history
 
 One last technique for pairing typefaces is to focus on the backstory of each typeface — the context for its creation. You can combine typefaces that were informed by the same tool, output medium, historic era, or concept. For example, you can pair typefaces that were both inspired by calligraphic brushwork, were both designed for low-resolution printers, were both designed in the early 1900s, or were both conceived to address legibility. More specifically, Old Style serif typefaces typically go well with humanist sans serifs despite being years apart, because both were inspired by the pen. Here is one example of how we might visualize that pairing using [Dederon Sans](https://typekit.com/fonts/dederon-sans-web?utm_source=typekit-blog&utm_medium=blog&utm_content=blog120523&utm_campaign=education) and [Minion](https://typekit.com/fonts/minion-pro?utm_source=typekit-blog&utm_medium=blog&utm_content=blog120523&utm_campaign=education).
 
-Image
-
-<p class="caption">Letters set in Dederon Sans and Minion reveal their shared inspiration.</p>
+<div class="fig-with-cap">
+  <figure class="center-image-wider"><img src="../../../../a/img/typekit-01-06.png" alt="Dederon Sans vs. Minion"></figure>
+  <figcaption class="caption">Letters set in Dederon Sans and Minion reveal their shared inspiration.</figcaption>
+</div>
 
 With this historic method, it’s important to be mindful of anachronism and to acknowledge the historic likelihood of a typeface appearing in a particular context. Because this strategy is more research-focused than visual, it is not mutually exclusive with the preceding methods. Feel free to examine typographic anatomy, look for similarity or contrast, and experiment with hierarchy just like you would with the preceding techniques. It will only make your pairings stronger.
 

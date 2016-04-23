@@ -19,9 +19,10 @@ No matter where you are in your process, these four objectives will help you get
 
 Before the days of the web, specimens were printed on pages, typically bound together in a book. Many early specimens set their fonts using Latin text, like the opening remarks of Cicero’s Catiline Orations: *“Quo usque tandem abutere, Catilina, patientia nostra?”* Printers and type designers also relied on alphabetized uppercase and lowercase character sets, which enabled viewers to examine a font’s letterforms without getting caught up in meaning.
 
-Image
-
-<p class="caption">William Caslon’s first specimen from 1734 shows self-named Caslon set in the Latin text from Cicero’s Catiline Orations.</p>
+<div class="fig-with-cap">
+  <figure class="scrollable full-width-image"><img src="../../../../a/img/typekit-03-01.jpg" alt="First Caslon specimen"></figure>
+  <figcaption class="caption">William Caslon’s first specimen from 1734 shows self-named Caslon set in the Latin text from Cicero’s Catiline Orations.</figcaption>
+</div>
 
 Latin text, pangrams, and sequential alphabet sets still pervade the language of web specimens today. But these approaches are misguided for our needs; *we should want to read a specimen’s content*. After all, we’re looking to select typefaces that encourage our users to do the same. We shouldn’t make decisions in the context of unrealistic typesetting expectations.
 
@@ -29,9 +30,12 @@ To better imagine how a font will function outside the life of a specimen, look 
 
 Styling meaningful, relevant content may mean you’ll have to devise at least an *idea* of what your website’s content will be before you try to select your typographic palette — but that definitely doesn’t mean all of your *final* content has to be ready. Let’s say you’re designing a website for a local burger spot called *The Bun Shop*, which prides itself on a selection of tasty toppings and side dishes. You could jump into the browser or a test-driving tool like [Typecast](http://typecast.com/), and start by evaluating how a specimen would treat those menu items. If your chosen words happen to also accentuate and align with the unique parts of the font’s letterforms, you’re headed in the right direction.
 
-Codepen iframe
-
-<p class="caption">Here’s how we might start playing around with <em>The Bun Shop</em> site’s typography. We’ll try out Alpha Echo for a big, spunky header, and De Walpergen’s Pica for the menu text.</p>
+<div class="fig-with-cap">
+  <figure class="visual codepen codepen-1">
+    <iframe id="cp_embed_Hntqv" src="//codepen.io/aurams/embed/Hntqv?height=1200&amp;theme-id=5232&amp;slug-hash=Hntqv&amp;default-tab=result&amp;user=aurams" scrolling="no" frameborder="0" height="1200" allowtransparency="true" allowfullscreen="true" name="CodePen Embed" title="CodePen Embed" class="cp_embed_iframe " style="width: 100%; overflow: hidden;"></iframe>
+  </figure>
+  <figcaption class="caption">Here’s how we might start playing around with <em>The Bun Shop</em> site’s typography. We’ll try out Alpha Echo for a big, spunky header, and De Walpergen’s Pica for the menu text.</figcaption>
+</div>
 
 ## Survey styling options extensively (and practically)
 
@@ -48,9 +52,12 @@ When surveying your styling options (especially as browsers [slowly gain support
 * **An acknowledgment of capitals and/or small-caps:** Does the typeface offer both? If you’re planning to apply the font beyond discrete, one-word phrases, or you’re alternating all-caps text with lowercase, be sure to examine how text looks when it is set in all capitals. Are the characters legible across sizes? Does spacing feel natural or forced?
 * **The visual goodies:** Contextual alternates, small caps, swashes, and an array of numbers – proportional, tabular, oldstyle, lining, etc. – add rich detail to a palette.
 
-Codepen iframe
-
-<p class="caption">De Walpergen’s Pica feels even more refined with these additional glyphs in play, contrasting well with the heading’s grit. However, the additional glyphs do add to the weight of the page.</p>
+<div class="fig-with-cap">
+  <figure class="visual codepen codepen-2">
+    <iframe id="cp_embed_Cpgjf" src="//codepen.io/aurams/embed/fJvht?height=800&amp;theme-id=5232&amp;slug-hash=fJvht&amp;default-tab=result&amp;user=aurams" scrolling="no" frameborder="0" height="800" allowtransparency="true" allowfullscreen="true" name="CodePen Embed" title="CodePen Embed" class="cp_embed_iframe " style="width: 100%; overflow: hidden;"></iframe>
+  </figure>
+  <figcaption class="caption">De Walpergen’s Pica feels even more refined with these additional glyphs in play, contrasting well with the heading’s grit. However, the additional glyphs do add to the weight of the page.</figcaption>
+</div>
 
 ## Examine type at a variety of appropriate sizes
 
@@ -58,9 +65,12 @@ Chances are, your design won’t call for only one size of type. Using a range o
 
 When it comes to presenting type at different sizes, many specimens lay out a font in a successive, regimented scale — a waterfall. This approach has evolved from punch-cutting days, when text was only shown at the sizes in which the font was available, and it continues to be very useful: [web font specimens](web font specimens) that include waterfalls plainly show a font at various sizes, so that we can see how it renders and decide on the sizes at which a font will look its best.
 
-Codepen iframe
-
-<p class="caption">By laying out De Walpergen’s Pica in a waterfall of sizes, we can get a sense for how much space the same line of text occupies as it scales up. And we can gauge how the type size feels: the text becomes difficult to read when the font is set smaller than 14px; setting the font at larger sizes accentuates the letterforms’ old punches and “inkiness” on screen.</p>
+<div class="fig-with-cap">
+  <figure class="visual codepen codepen-3">
+    <iframe id="cp_embed_Cpgjf" src="//codepen.io/aurams/embed/Cpgjf?height=800&amp;theme-id=5232&amp;slug-hash=Cpgjf&amp;default-tab=result&amp;user=aurams" scrolling="no" frameborder="0" height="800" allowtransparency="true" allowfullscreen="true" name="CodePen Embed" title="CodePen Embed" class="cp_embed_iframe " style="width: 100%; overflow: hidden;"></iframe>
+  </figure>
+  <figcaption class="caption">By laying out De Walpergen’s Pica in a waterfall of sizes, we can get a sense for how much space the same line of text occupies as it scales up. And we can gauge how the type size feels: the text becomes difficult to read when the font is set smaller than 14px; setting the font at larger sizes accentuates the letterforms’ old punches and “inkiness” on screen.</figcaption>
+</div>
 
 With many specimens today, size may not be presented at distinct values or sequenced as a waterfall from largest to smallest setting. Stacked lines of justified text might alternate with more random sizes to create a more balanced visual design. This approach places emphasis on the overall gestalt of the layout and can give a better sense of how a variety of text sizes will interact. You can easily build your own justified, stacked specimens on the web with a plugin like [FitText.js](http://fittextjs.com/), or with [CSS viewport units](http://css-tricks.com/viewport-sized-typography/), which allow us to create scalable headlines that fit the width of their parent elements.
 
