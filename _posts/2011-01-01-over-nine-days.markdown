@@ -17,15 +17,15 @@ Our zine is a visualization of vernacular that tells our own experience through 
 
 <div class="fig-with-cap">
   <div class="carousel">
-    <div><img src="../../../../a/img/ond-1.jpg" alt="Zine cover"></div>
-    <div><img src="../../../../a/img/ond-2.jpg" alt="Zine spread"></div>
-    <div><img src="../../../../a/img/ond-3.jpg" alt="Zine spread"></div>
-    <div><img src="../../../../a/img/ond-4.jpg" alt="Zine spread"></div>
-    <div><img src="../../../../a/img/ond-5.jpg" alt="Zine spread"></div>
-    <div><img src="../../../../a/img/ond-6.jpg" alt="Zine spread"></div>
-    <div><img src="../../../../a/img/ond-7.jpg" alt="Zine spread"></div>
-    <div><img src="../../../../a/img/ond-8.jpg" alt="Zine spread"></div>
-    <div><img src="../../../../a/img/ond-9.jpg" alt="Zine back cover"></div>
+    <div><img src="../../../../a/img/ond-01.jpg" alt="Zine cover"></div>
+    <div><img src="../../../../a/img/ond-02.jpg" alt="Zine spread"></div>
+    <div><img src="../../../../a/img/ond-03.jpg" alt="Zine spread"></div>
+    <div><img src="../../../../a/img/ond-04.jpg" alt="Zine spread"></div>
+    <div><img src="../../../../a/img/ond-05.jpg" alt="Zine spread"></div>
+    <div><img src="../../../../a/img/ond-06.jpg" alt="Zine spread"></div>
+    <div><img src="../../../../a/img/ond-07.jpg" alt="Zine spread"></div>
+    <div><img src="../../../../a/img/ond-08.jpg" alt="Zine spread"></div>
+    <div><img src="../../../../a/img/ond-09.jpg" alt="Zine back cover"></div>
   </div>
   <div class="caption">
     <div class="carousel-arrows"></div>

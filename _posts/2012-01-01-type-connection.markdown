@@ -24,13 +24,15 @@ Dating profiles lineup
 Congratulations
 Caption: After selecting a main character, a pairing strategy, and one of three daters to evaluate, the website prompts users to send their chosen couple on a date. If the match is correct, users see a congratulatory page that explains why the match works.
 
-Image: Process shot picking typefaces
+<div class="fig-with-cap">
+  <figure class="scrollable full-width-image"><img src="../../../../a/img/tc-02-01.jpg" alt="Process sketch choosing typefaces"></figure>
+  <figcaption class="caption">I chose typefaces that came from different time periods, had a variety of inspirations, and didn’t overlap in classification. Also, I made sure to pick workhorse typefaces that I thought young designers would have access to through their schools.</figcaption>
+</div>
 
-<p class="caption">I chose typefaces that came from different time periods, had a variety of inspirations, and didn’t overlap in classification. Also, I made sure to pick workhorse typefaces that I thought young designers would have access to through their schools.</p>
-
-Image: Process shot editing profiles
-
-<p class="caption">I began by writing dating profiles for typefaces, specifically experimenting with the balance between personified narrative and typographic fact. These dating profiles double as type specimens, showing each face’s weights and styles.</p>
+<div class="fig-with-cap">
+  <figure class="scrollable full-width-image"><img src="../../../../a/img/tc-02-02.jpg" alt="Process sketch designing specimens"></figure>
+  <figcaption class="caption">I began by writing dating profiles for typefaces, specifically experimenting with the balance between personified narrative and typographic fact. These dating profiles double as type specimens, showing each face’s weights and styles.</figcaption>
+</div>
 
 Image: Animated turning on/off of letter comparison and bubbles
 
@@ -40,6 +42,18 @@ Image: Meet the Matches page
 
 <p class="caption">I imagined design applications (e.g. a menu, newspaper, poster) that also allude to activities the typefaces would enjoy if they were people: a wine tasting, dinner and a show, or a lecture. All 20 successful pairings appear on a “Meet the Matches” page to serve as a standalone reference.</p>
 
-Images: 7 images from current website
-
-<p class="caption">To promote Type Connection in the student community and celebrate the site, I designed an exhibition at Maryland Institute College of Art to coincide with the launch.</p>
+<div class="fig-with-cap">
+  <div class="carousel">
+    <div><img src="../../../../a/img/tc-03-01.jpg" alt="Exhibition photo"></div>
+    <div><img src="../../../../a/img/tc-03-02.jpg" alt="Exhibition photo"></div>
+    <div><img src="../../../../a/img/tc-03-03.jpg" alt="Exhibition photo"></div>
+    <div><img src="../../../../a/img/tc-03-04.jpg" alt="Exhibition photo"></div>
+    <div><img src="../../../../a/img/tc-03-05.jpg" alt="Exhibition photo"></div>
+    <div><img src="../../../../a/img/tc-03-06.jpg" alt="Exhibition photo"></div>
+    <div><img src="../../../../a/img/tc-03-07.jpg" alt="Exhibition photo"></div>
+  </div>
+  <div class="caption">
+    <div class="carousel-arrows"></div>
+    <figcaption>To promote Type Connection in the student community and celebrate the site, I designed an exhibition at Maryland Institute College of Art to coincide with the launch.</figcaption>
+  </div>
+</div>
