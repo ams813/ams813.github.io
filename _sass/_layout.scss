@@ -660,7 +660,7 @@ p.back-link {
 .fig-with-cap {
   clear: left;
   position: relative;
-  figure, .owl-carousel {
+  figure, .carousel {
     margin-top: $spacing-l;
     margin-bottom: $spacing-m;
     @include breakpoint($q-medium) {
@@ -677,7 +677,12 @@ p.back-link {
       width: 70%;
     }
   }
+  .carousel {
+    margin-bottom: $spacing-xs;
+    @include breakpoint($q-medium);
+  }
   .caption {
+    position: relative;
     @include breakpoint($q-medium) {
       margin-bottom: $spacing-l;
     }
@@ -693,7 +698,87 @@ p.back-link {
       bottom: 0;
       right: 0;
       margin-bottom: -6px;
+      .carousel-arrows + figcaption {
+        margin-bottom: $spacing-xxxl;
+        margin-top: 0;
+      }
     }
+  }
+}
+
+.carousel-arrows {
+  display: block;
+  height: 30px;
+  margin-bottom: $spacing-xs;
+  @include breakpoint($q-xlarge) {
+    width: 75px;
+    height: 60px;
+    float: left;
+  }
+  @include breakpoint($q-xxxlarge) {
+    position: absolute;
+    bottom: -10px;
+    height: auto;
+    margin-bottom: 0px;
+  }
+  .slick-prev {
+    height: 30px;
+    left: 45%;
+    @include breakpoint($q-small) {
+      left: 44%;
+    }
+    @include breakpoint($q-medium) {
+      left: 48%;
+    }
+    @include breakpoint($q-large) {
+      left: 25px;
+    }
+    @include breakpoint($q-xxxlarge) {
+      left: 0;
+      bottom: 0;
+    }
+    &:before {
+      content: "<";
+    }
+  }
+  .slick-next {
+    height: 30px;
+    left: 59%;
+    @include breakpoint($q-small) {
+      left: 58%;
+    }
+    @include breakpoint($q-medium) {
+      left: 55%;
+    }
+    @include breakpoint($q-large) {
+      left: 50px;
+    }
+    @include breakpoint($q-xxxlarge) {
+      left: 30px;
+      bottom: 0;
+    }
+    &:before {
+      content: ">";
+    }
+  }
+  .slick-prev:before, .slick-next:before {
+    @include fort;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 1;
+    color: $black;
+    left: -15px;
+    position: absolute;
+    @include breakpoint($q-xxxlarge) {
+      left: 0px;
+      bottom: 0px;
+    }
+  }
+  .slick-prev:hover,
+  .slick-prev:focus,
+  .slick-next:hover,
+  .slick-next:focus {
+      color: $link-hover-color;
   }
 }
 
@@ -715,7 +800,7 @@ p.back-link {
   }
 }
 
-.center-image { // for small screens
+.center-image { // for small screen comps
   border: 0;
   overflow: hidden;
   border: 1px solid rgba(0,0,0,0.12);
@@ -749,14 +834,8 @@ p.back-link {
   }
 }
 
-.owl-carousel .item {
+.carousel {
   border: 1px solid rgba(0,0,0,0.12);
-}
-
-.owl-carousel .owl-controls {
-  .owl-dots span {
-    display: none;
-  }
 }
 
 .post .post-meta-source {
@@ -825,6 +904,50 @@ p.back-link {
     border-top: 1px solid rgba(0, 0, 0, 0.12);
     padding-top: $spacing-s;
   }
+}
+
+// Listings
+
+.list-header {
+  margin: 0 -9999rem;
+  padding: $spacing-l 9999rem $spacing-l;
+  background-color: $cream;
+  @include breakpoint($q-small) {
+    padding-top: $spacing-xxl;
+  }
+  @include breakpoint($q-medium) {
+    padding-bottom: $spacing-xxl;
+  }
+  @include breakpoint($q-xxlarge) {
+    margin-top: $spacing-l;
+    &:before {
+      content: '';
+      background-color: #ffffff;
+      width: $spacing-l;
+      height: 500px;
+      display: block;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
+    &:after {
+      content: '';
+      background-color: #ffffff;
+      width: $spacing-l;
+      height: 500px;
+      display: block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+  }
+}
+
+.list-title {
+  @include breakpoint($q-xxxlarge) {
+    margin-top: $spacing-vl;
+  }
+  margin-bottom: $spacing-xs;
 }
 
 //Site footer

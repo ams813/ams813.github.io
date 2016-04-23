@@ -82,14 +82,16 @@ layout: default
           {% if post.source %}
           <p class="post-meta-source">Published on <a href="{{ post.source-url }}">{{ post.source }}</a></p>
           {% endif %}
-          <p class="post-meta-category"><a href="#">{{ post.categories }}</a></p>
           {% if post.categories contains "project" %}
+          <p class="post-meta-category"><a href="/../../list-project.html">{{ post.categories }}</a></p>
           <p class="post-meta-date">{{ post.date | date: "%Y"}}</p>
           {% endif %}
           {% if post.categories contains "article" %}
+          <p class="post-meta-category"><a href="/../../list-article.html">{{ post.categories }}</a></p>
           <p class="sans-s post-meta-date">{{ post.date | date: "%-m/%-d/%y"}}</p>
           {% endif %}
           {% if post.categories contains "podcast" %}
+          <p class="post-meta-category"><a href="/../../list-podcast.html">{{ post.categories }}</a></p>
           <p class="sans-s post-meta-date">{{ post.date | date: "%-m/%y"}}</p>
           {% endif %}
         </div>

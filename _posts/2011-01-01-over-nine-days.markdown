@@ -16,18 +16,21 @@ We documented, inquired, interpreted, and experimented—just not always in that
 Our zine is a visualization of vernacular that tells our own experience through the stories of those we met. Our zine reveals how, especially as designers, we grasp for a wider understanding of the world around us.
 
 <div class="fig-with-cap">
-  <div class="owl-carousel">
-    <div class="item"><img src="../../../../a/img/ond-1.jpg" alt="Zine cover"></div>
-    <div class="item"><img src="../../../../a/img/ond-2.jpg" alt="Zine spread"></div>
-    <div class="item"><img src="../../../../a/img/ond-3.jpg" alt="Zine spread"></div>
-    <div class="item"><img src="../../../../a/img/ond-4.jpg" alt="Zine spread"></div>
-    <div class="item"><img src="../../../../a/img/ond-5.jpg" alt="Zine spread"></div>
-    <div class="item"><img src="../../../../a/img/ond-6.jpg" alt="Zine spread"></div>
-    <div class="item"><img src="../../../../a/img/ond-7.jpg" alt="Zine spread"></div>
-    <div class="item"><img src="../../../../a/img/ond-8.jpg" alt="Zine spread"></div>
-    <div class="item"><img src="../../../../a/img/ond-9.jpg" alt="Zine back cover"></div>
+  <div class="carousel">
+    <div><img src="../../../../a/img/ond-1.jpg" alt="Zine cover"></div>
+    <div><img src="../../../../a/img/ond-2.jpg" alt="Zine spread"></div>
+    <div><img src="../../../../a/img/ond-3.jpg" alt="Zine spread"></div>
+    <div><img src="../../../../a/img/ond-4.jpg" alt="Zine spread"></div>
+    <div><img src="../../../../a/img/ond-5.jpg" alt="Zine spread"></div>
+    <div><img src="../../../../a/img/ond-6.jpg" alt="Zine spread"></div>
+    <div><img src="../../../../a/img/ond-7.jpg" alt="Zine spread"></div>
+    <div><img src="../../../../a/img/ond-8.jpg" alt="Zine spread"></div>
+    <div><img src="../../../../a/img/ond-9.jpg" alt="Zine back cover"></div>
   </div>
-  <figcaption class="caption">Printing offset on newsprint, we had to account for low-quality paper, absorbency issues, and a limited color palette to fit our budget. We chose imagery and icons that would shine in just black ink and were conservative with type size and weight.</figcaption>
+  <div class="caption">
+    <div class="carousel-arrows"></div>
+    <figcaption>Printing offset on newsprint, we had to account for low-quality paper, absorbency issues, and a limited color palette to fit our budget. We chose imagery and icons that would shine in just black ink and were conservative with type size and weight.</figcaption>
+  </div>
 </div>
 
 <div class="fig-with-cap">

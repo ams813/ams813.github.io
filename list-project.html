@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="listing">
+
+  <header class="list-header">
+    <p class="back-link">< <a href="/../../index.html">Home</a></p>
+    <div class="list-title">
+      <h1 class="serif-l-italic">All projects</h1>
+    </div>
+  </header>
+
+  <ul class="post-list spacing-l-xl-at-small">
+    {% for post in site.categories.project %}
+      <li class="spacing-m">
+        <a class="post-link spacing-xxs" href="{{ post.url | prepend: site.baseurl }}">
+          <span class="serif-s-italic post-meta-subtitle">{{ post.subtitle}}</span>
+          <h2 class="sans-l-bold">{{ post.title }}</h2>
+        </a>
+        <div class="spacing-xs">
+          <p class="serif-s post-short-description">{{ post.short-description }}</p>
+          <p class="post-meta-date">{{ post.date | date: "%Y"}}</p>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

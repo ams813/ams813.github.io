@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="listing">
+
+  <header class="list-header">
+    <p class="back-link">< <a href="/../../index.html">Home</a></p>
+    <div class="list-title">
+      <h1 class="serif-l-italic">All podcasts</h1>
+    </div>
+  </header>
+
+  <ul class="post-list spacing-l-xl-at-small">
+    {% for post in site.categories.podcast %}
+      <li class="spacing-m">
+        <a class="post-link spacing-xxs" href="{{ post.url | prepend: site.baseurl }}">
+          <span class="serif-s-italic post-meta-subtitle">{{ post.subtitle}}</span>
+          <h2 class="sans-l-bold">{{ post.title }}</h2>
+        </a>
+        <div class="spacing-xs">
+          {% if post.source %}
+          <p class="post-meta-source">Published on <a href="{{ post.source-url }}">{{ post.source }}</a></p>
+          {% endif %}
+          <p class="sans-s post-meta-date">{{ post.date | date: "%-m/%y"}}</p>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
