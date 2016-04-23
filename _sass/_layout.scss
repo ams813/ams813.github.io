@@ -944,10 +944,16 @@ p.back-link {
 }
 
 .list-title {
-  @include breakpoint($q-xxxlarge) {
-    margin-top: $spacing-vl;
+  margin-top: $spacing-xs;
+  @include breakpoint($q-medium) {
+    margin-top: 0;
   }
-  margin-bottom: $spacing-xs;
+  @include breakpoint($q-xlarge) {
+    margin-bottom: $spacing-xs;
+  }
+  @include breakpoint($q-xxxlarge) {
+    margin-top: 70px;
+  }
 }
 
 //Site footer
