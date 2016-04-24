@@ -13,19 +13,23 @@ Leading chef and restaurateur Jose Garces’ thriving event planning division wa
 
 Set on a compact timeline, we relied a collaborative workshop to establish site architecture and requirements early on. We developed HTML wireframes to document content hierarchy and functionality for our six site templates, then evolved the Garces Group brand aesthetic to define a sub-brand unique to Garces Events.
 
-Like a chef builds depth of flavor, the new identity relies on subtle layering and a palette of neutral, warm colors. We revised the logotype for consistency with the larger brand and introduced a narrowed set of brand typefaces that are sophisticated yet easy to read on the web.
-
 <div class="fig-with-cap">
-  <figure class="scrollable full-width-image"><img src="../../../../a/img/garces-1.jpg" alt="Homepage with contact form open"></figure>
-  <figcaption class="caption">Lead generation could happen at any step in the process—whether browsing food menus or filtering venues. Ultimately, the redesign would prove its worth if the new site could both survey offerings and drive leads. <em>All photos used in comps were FPO.</em></figcaption>
+  <figure class="scrollable full-width-image"><img src="../../../../a/img/garces-01.jpg" alt="Homepage"></figure>
+  <figcaption class="caption">Like a chef builds depth of flavor, the new identity relies on subtle layering and a palette of neutral, warm colors. We revised the logotype for consistency with the larger brand and introduced a narrowed set of brand typefaces that are sophisticated yet easy to read on the web. <em>All photos used in comps were FPO.</em></figcaption>
 </div>
 
 <div class="fig-with-cap">
-  <figure class="scrollable full-width-image"><img src="../../../../a/img/garces-2.jpg" alt="Venue Detail"></figure>
+  <figure class="center-image-wider"><img src="../../../../a/img/garces-02.gif" alt="Venue Detail"></figure>
+  <figcaption class="caption">Lead generation could happen at any step in the process—whether browsing food menus or filtering venues. Ultimately, the redesign would prove its worth if the new site could both survey offerings and drive leads.
+</figcaption>
+</div>
+
+<div class="fig-with-cap">
+  <figure class="scrollable full-width-image"><img src="../../../../a/img/garces-03.jpg" alt="Venue Detail"></figure>
   <figcaption class="caption">In order to establish an ongoing relationship with customers, the site needed to be detailed and comprehensive, so its own planners could use the site as a selling tool.</figcaption>
 </div>
 
 <div class="fig-with-cap">
-  <figure class="scrollable full-width-image"><img src="../../../../a/img/garces-3.jpg" alt="Events"></figure>
+  <figure class="scrollable full-width-image"><img src="../../../../a/img/garces-04.jpg" alt="Events"></figure>
   <figcaption class="caption">Photography plays a critical role in positioning Garces Events as a caterer for all occasions, so we equipped the Garces team with guidelines to balance action and still shots, event styling and food presentation, and showing a human touch without seeming overly posed.</figcaption>
 </div>

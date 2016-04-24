@@ -16,17 +16,23 @@ Instead of helping students to discover the options that best fit their needs, t
 We set out to streamline, prioritize, and integrate the Extension School’s text-heavy content, provide tools that would empower students to discover fitting options, and more closely connect the site’s visual identity to that of the University.
 
 <div class="fig-with-cap">
-  <figure class="full-width-image"><img src="../../../../a/img/hes-1.png" alt="HES sitemap"></figure>
-  <figcaption class="caption">Informed by my content audit, I developed a site structure and list of corresponding templates, and mapped templates and content types to site pages.</figcaption>
+  <div class="carousel">
+    <div><img src="../../../../a/img/hes-01-01.png" alt="HES sitemap"></div>      <div><img src="../../../../a/img/hes-01-02.png" alt="HES sketch"></div>
+    <div><img src="../../../../a/img/hes-01-03.png" alt="HES sketch"></div>
+  </div>
+  <div class="caption">
+    <div class="carousel-arrows"></div>
+    <figcaption>Informed by my content audit, I developed a site structure and list of corresponding templates, and mapped templates and content types to site pages. Meanwhile, we explored low-fidelity wireframes for a “What are you interested in?” tool that would use keyword search to surface options by area of interest.</figcaption>
+  </div>
 </div>
 
 <div class="fig-with-cap">
-  <figure class="scrollable full-width-image"><img src="../../../../a/img/hes-2.jpg" alt="HES academics page"></figure>
-  <figcaption class="caption">My selected design concept combined the University’s neutral palette with bold, professional typography. The Academics page presents all the ways students can learn through the School. A “What are you interested in?” tool used keyword search to surface options by area of interest. Concept revisions and design system by Dana Pavlichko.</figcaption>
+  <figure class="scrollable full-width-image"><img src="../../../../a/img/hes-02.jpg" alt="HES academics page"></figure>
+  <figcaption class="caption">My selected design concept combined the University’s neutral palette with bold, professional typography. The Academics page presents all the ways students can learn through the School. Concept revisions and design system by Dana Pavlichko.</figcaption>
 </div>
 
 <div class="fig-with-cap">
-  <figure class="scrollable center-image"><img src="../../../../a/img/hes-3.jpg" alt="HES academics page small screens"></figure>
+  <figure class="scrollable center-image"><img src="../../../../a/img/hes-03.jpg" alt="HES academics page small screens"></figure>
 </div>
 
 To vet our work and prepare for the School’s in-house implementation, I ran remote usability testing sessions of our design comps. Once the designs were revised, I drafted a document to summarize the site’s content model, taxonomy, custom Drupal panels, and recommendations for configuring back-end fields.
