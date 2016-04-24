@@ -13,20 +13,33 @@ Today’s screens impose many restrictions on web typography. Web designers, dev
 
 The RE site needed to balance educating users with conversion points—directing them to purchase the faces (and their larger-sized accompaniments) from Font Bureau’s Webtype catalog. Stylistically, the site needed to align with Font Bureau’s brand, standing in harmony with a series of other [typographic](http://georgiaverdana.com/) [microsites](http://www.fontbureau.com/nhg/) the company had launched. Most of all, small type had to be the hero.
 
-Image: Finished site (scroll)
+<div class="fig-with-cap">
+  <figure class="scrollable full-width-image"><img src="../../../../a/img/re-01.jpg" alt="Reading Edge type scaler"></figure>
+  <figcaption class="caption">With few assets other than the faces themselves, I jumped straight into sketching content ideas in the context of layout. Within our condensed timeline, we decided to keep the site constrained to a single page to feature controlled, art-directed outcomes and beautifully set type.</figcaption>
+</div>
 
-Image: Sketch iterations
+<div class="fig-with-cap">
+  <figure class="scrollable full-width-image"><img src="../../../../a/img/re-02.jpg" alt="Reading Edge type scaler"></figure>
+  <figcaption class="caption">A type scaler illustrates what to expect at different sizes depending on the rendering environment. I wrote new bios for each face to describe their characteristics.</figcaption>
+</div>
 
-<p class="caption">With few assets other than the faces themselves, I jumped straight into sketching content ideas in the context of layout. Within our condensed timeline, we decided to keep the site constrained to a single page to feature controlled, art-directed outcomes and beautifully set type.</p>
+<div class="fig-with-cap">
+  <figure class="scrollable full-width-image"><img src="../../../../a/img/re-03.jpg" alt="Reading Edge type scaler"></figure>
+  <figcaption class="caption">Edited by Nick Sherman, my feature essay that dives into how screens render type, historical references, and features common to the faces’ construction. Typeset with RE typefaces, the essay also demonstrates the typographic control users can expect from the series.</figcaption>
+</div>
 
-Image: Animation of the type scaler working
-
-<p class="caption">A type scaler illustrates what to expect at different sizes depending on the rendering environment. I wrote new bios for each face to describe their characteristics.</p>
-
-Image: Essay selection
-
-<p class="caption">Edited by Nick Sherman, my feature essay that dives into how screens render type, historical references, and features common to the faces’ construction. Typeset with RE typefaces, the essay also demonstrates the typographic control users can expect from the series.</p>
-
-Image: Detail of the paired specimens
-
-<p class="caption">To showcase the faces in a variety of potential moods and applications, I designed HTML specimens that paired each RE typeface with larger-set accompaniments from Font Bureau’s Webtype catalog.</p>
+<div class="fig-with-cap">
+  <div class="carousel">
+    <div><img src="../../../../a/img/re-04-01.png" alt="Specimen 1"></div>
+    <div><img src="../../../../a/img/re-04-02.png" alt="Specimen 2"></div>
+    <div><img src="../../../../a/img/re-04-03.png" alt="Specimen 3"></div>
+    <div><img src="../../../../a/img/re-04-04.png" alt="Specimen 4"></div>
+    <div><img src="../../../../a/img/re-04-05.png" alt="Specimen 5"></div>
+    <div><img src="../../../../a/img/re-04-06.png" alt="Specimen 6"></div>
+    <div><img src="../../../../a/img/re-04-07.png" alt="Specimen 7"></div>
+  </div>
+  <div class="caption">
+    <div class="carousel-arrows"></div>
+    <figcaption>To showcase the faces in a variety of potential moods and applications, I designed HTML specimens that paired each RE typeface with larger-set accompaniments from Font Bureau’s Webtype catalog.</figcaption>
+  </div>
+</div>

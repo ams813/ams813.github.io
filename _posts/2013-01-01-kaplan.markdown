@@ -13,18 +13,22 @@ As a world leader in test prep, Kaplan has been helping students succeed on exam
 
 Kaplan needed a new site structure and extensible presentation of its products that could extend across audiences and business units (pre-college, grad, health, bar review). Happy Cog was tasked with helping students make a more informed buying decision and reducing barriers to purchase. We brought thoughtfulness to copy, refreshed the site to align with recent brand work, and improved functionality so Kaplan could illustrate its role as a helpful study partner.
 
-Images: Wizard (design step 1, step 2, step 3, step 4)
+<div class="fig-with-cap">
+  <figure class="scrollable full-width-image"><img src="../../../../a/img/ktp-01.png" alt="Class schedule listing"></figure>
+  <figcaption class="caption">A multi-step wizard presented the most suitable prep option for customers based on their type of test, test date, and how they like to study. For in-person prep, customers would view schedules before proceeding to purchase.</figcaption>
+</div>
 
-<p class="caption">A multi-step wizard presented the most suitable prep option for customers based on their type of test, test date, and how they like to study. For in-person prep, customers would view schedules before proceeding to purchase.<p>
+<div class="fig-with-cap">
+  <figure class="scrollable full-width-image"><img src="../../../../a/img/ktp-02.png" alt="Class schedule listing"></figure>
+  <figcaption class="caption">Customers could narrow their prep options by how, when, and where they like to study. We introduced Facit as a new brand typeface to make content approachable and easy to scan.</figcaption>
+</div>
 
-Images: Schedule (template)
+<div class="fig-with-cap">
+  <figure class="scrollable full-width-image"><img src="../../../../a/img/ktp-03.jpg" alt="Product detail page"></figure>
+  <figcaption class="caption">Detail pages outline product benefits and tightly integrate video assets to improve customer understanding of branded product names.</figcaption>
+</div>
 
-<p class="caption">Customers could narrow their prep options by how, when, and where they like to study. We introduced Facit as a new brand typeface to make content approachable and easy to scan.</p>
-
-Image: PDP
-
-<p class="caption">Detail pages outline product benefits and tightly integrate video assets to improve customer understanding of branded product names.</p>
-
-Images: Cart (design) / checkout (review & submit design)
-
-<p class="caption">A streamlined cart and checkout flow clearly list items being purchased with corresponding metadata, as well as surface add-ons to supplement studying. Pastel colors supplement the brand palette to call out options with limited availability or promotions.</p>
+<div class="fig-with-cap">
+  <figure class="scrollable full-width-image"><img src="../../../../a/img/ktp-04.png" alt="Cart"></figure>
+  <figcaption class="caption">A streamlined cart and checkout flow clearly list items being purchased with corresponding metadata, as well as surface add-ons to supplement studying. Pastel colors supplement the brand palette to call out options with limited availability or promotions.</figcaption>
+</div>
