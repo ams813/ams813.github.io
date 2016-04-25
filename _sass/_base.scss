@@ -72,6 +72,31 @@ a {
     }
 }
 
+a.primary-button {
+  @extend .sans-xs-bold-all-caps;
+  color: $white;
+  text-decoration: none;
+  background-color: $link-color;
+  padding: $spacing-xxs;
+  padding: $spacing-s $spacing-m;
+  border-radius: $spacing-xs;
+  display: inline-block;
+  @include breakpoint($q-xlarge) {
+    padding: $spacing-s $spacing-l;
+  }
+  &:hover {
+    background-color: $link-hover-color;
+    text-decoration: none;
+  }
+}
+
+.spacing-above {  // used above primary buttons
+  margin-top: $spacing-l;
+  @include breakpoint($q-xlarge) {
+    margin-top: $spacing-xxl;
+  }
+}
+
 // Button
 
 button {

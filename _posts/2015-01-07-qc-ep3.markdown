@@ -16,3 +16,7 @@ categories:   podcast
 * Button-down problems
 
 <p class="sans-s"><strong>Hashtag:</strong> #jeansurrogacy</p>
+
+<div class="spacing-above">
+  <a href="http://www.quirksandcompulsions.com/4" class="primary-button">Listen to this episode</a>
+</div>

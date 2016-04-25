@@ -42,3 +42,7 @@ categories:   podcast
 * [Firehouse Subs](http://www.firehousesubs.com/)
 * [Paesano's Philly Style](http://www.paesanosphillystyle.com/)
 * [The Bagel Factory](http://www.bagelfactory.info/)
+
+<div class="spacing-above">
+  <a href="http://www.quirksandcompulsions.com/2" class="primary-button">Listen to this episode</a>
+</div>

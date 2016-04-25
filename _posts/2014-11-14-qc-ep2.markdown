@@ -15,3 +15,7 @@ categories:   podcast
 * Seasonal storage
 
 <p class="sans-s"><strong>Hashtag:</strong> #seasonalstorage</span>
+
+<div class="spacing-above">
+  <a href="http://www.quirksandcompulsions.com/3" class="primary-button">Listen to this episode</a>
+</div>

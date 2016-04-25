@@ -22,3 +22,7 @@ categories:   podcast
   * Eliminating cross-contamination
 * Unpacking upon arrival at destination
 * Unpacking upon return home
+
+<div class="spacing-above">
+  <a href="http://www.quirksandcompulsions.com/1" class="primary-button">Listen to this episode</a>
+</div>
