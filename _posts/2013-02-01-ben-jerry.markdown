@@ -15,20 +15,35 @@ Ben & Jerry’s wanted to dedicate its new site to its ice cream, socially respo
 
 To help their team embrace smaller screens, understand this new responsive approach, and champion a create-once-publish-everywhere attitude, we concentrated on a modular level to figure out what types of content needed to be elevated and reused across markets. Then, working through 12 core pages (templates) of the site, I collaborated with designer Sophie Shepherd to take our content ideas and transform them into responsive, HTML wireframes. The UX artifacts we created acted as blueprints for the graphic design, content creation, and development phases that followed.
 
-Images:  Homepage (animate to show open state of the flavor finder)
+<div class="fig-with-cap">
+  <div class="carousel">
+    <div><img src="../../../../a/img/bj-01-01.jpg" alt="Homepage sketch"></div>
+    <div><img src="../../../../a/img/bj-01-02.jpg" alt="Flavors listing sketch"></div>
+  </div>
+  <div class="caption">
+    <div class="carousel-arrows"></div>
+    <figcaption>We worked quickly and iteratively. We brainstormed, generated low-fidelity ideas, and vetted sketches with the client team to make sure we were on track.</figcaption>
+  </div>
+</div>
 
-Image: Sketches
+<div class="fig-with-cap">
+  <figure class="scrollable full-width-image"><img src="../../../../a/img/bj-02.png" alt="Homepage"></figure>
+  <figcaption class="caption">The homepage’s modularity could easily extend across markets depending on maturity and content needs.</figcaption>
+</div>
 
-<p class="caption">We worked quickly and iteratively. We brainstormed, generated low-fidelity ideas, and vetted sketches with the client team to make sure we were on track.</p>
+<div class="fig-with-cap">
+  <figure class="scrollable full-width-image"><img src="../../../../a/img/bj-03.png" alt="Flavor detail page"></figure>
+  <figcaption class="caption">We wanted customers not just to be able to locate flavors and information, but celebrate the stories behind them. We looked for page-specific opportunities to bake in sharing opportunities and feature user-created content. If Ben & Jerry’s fans could play a more inherent role in the content on the site, they would feel as connected to the brand there as they do on social networks.</figcaption>
+</div>
 
-Image: Flavor Detail
+<div class="fig-with-cap">
+  <figure class="scrollable center-image border-bottom"><img src="../../../../a/img/bj-04.png" alt="Homepage"></figure>
+  <figcaption class="caption">Using a marriage of predictive content and smart UX, a contact form anticipates fan needs and questions.</figcaption>
+</div>
 
-<p class="caption">We wanted customers not just to be able to locate flavors and information, but celebrate the stories behind them. We looked for page-specific opportunities to bake in sharing opportunities and feature user-created content. If Ben & Jerry’s fans could play a more inherent role in the content on the site, they would feel as connected to the brand there as they do on social networks.</p>
-
-Image: Contact FAQ (mobile?)
-
-<p class="caption">Using a marriage of predictive content and smart UX, a contact form anticipates fan needs and questions.</p>
-
-Vimeo video
-
-<p class="caption">Throughout our engagement, we worked closely with Ben & Jerry’s internal design department, web development team, and CMS partner.</p>
+<div class="fig-with-cap">
+  <figure class="responsive-video">
+      <iframe src="https://player.vimeo.com/video/75020654?color=ffffff&title=0&byline=0&portrait=0" width="815" height="458" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </figure>
+  <figcaption class="caption">Throughout our engagement, we worked closely with Ben & Jerry’s internal design department, web development team, and CMS partner.</figcaption>
+</div>

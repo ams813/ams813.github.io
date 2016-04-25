@@ -14,13 +14,21 @@
     {% include footer.html %}
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="/a/jquery-ui.min.js"></script> <!-- for easing transitions -->
-    <script type="text/javascript" src="/node_modules/slick-carousel/slick/slick.min.js"></script>
+    <script src="/a/jquery.fitvids.js"></script> <!-- for responsive video embeds -->
+    <script type="text/javascript" src="/node_modules/slick-carousel/slick/slick.min.js"></script> <!-- for carousels -->
 
     <script>
       $(document).ready(function(){
         $(".carousel").slick( {
           appendArrows: $(".carousel-arrows")
         });
+      });
+    </script>
+
+    <script>
+      $(document).ready(function(){
+        // Target your .container, .wrapper, .post, etc.
+        $(".responsive-video").fitVids();
       });
     </script>
 
