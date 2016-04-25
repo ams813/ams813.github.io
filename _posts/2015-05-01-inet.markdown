@@ -14,31 +14,52 @@ The Institute for New Economic Thinking, a nonpartisan research and education no
 The Institute needed a responsive website that would showcase its seven years of work, and make that work accessible to audiences across expertise levels. Our goal was to establish the Institute as the go-to source for new perspectives on economic issues.
 
 <div class="fig-with-cap">
-  <figure><img src="http://placehold.it/770x513?text=template+map"></figure>
+  <figure class="scrollable full-width-image"><img src="../../../../a/img/inet-01.jpg" alt="Taxonomy workshop card sort"></figure>
   <figcaption class="caption">Following an audit of the Institute’s content and analytics, I developed a content model and site structure that drove the organization of the Institute’s wealth of content. The new site structure made clear what the Institute is, the educational materials it offers, and the topical breadth it covers. From the site structure, I derived a list of templates for us to design and code.</figcaption>
 </div>
 
 <div class="fig-with-cap">
-  <figure><img src="http://placehold.it/770x513?text=taxonomy+workshop"></figure>
+  <figure class="scrollable full-width-image"><img src="../../../../a/img/inet-02.jpg" alt="Taxonomy workshop card sort"></figure>
   <figcaption class="caption">We worked collaboratively with the Institute’s staff and research fellows to derive our taxonomy.</figcaption>
 </div>
 
-Image: Wireframes
+<div class="fig-with-cap">
+  <div id="carousel-1">
+    <div><img src="../../../../a/img/inet-03-01.jpg" alt="Homepage wireframe"></div>      
+    <div><img src="../../../../a/img/inet-03-02.jpg" alt="About wireframe"></div>
+    <div><img src="../../../../a/img/inet-03-03.jpg" alt="Notable Profile wireframe"></div>
+  </div>
+  <div class="caption">
+    <div id="carousel-arrows-1"></div>
+    <figcaption>Annotated wireframes spoke to content hierarchy, showed how the content model and 20+ content types would display on the front-end, and documented requirements for the back-end build.</figcaption>
+  </div>
+</div>
 
-<p class="caption">Annotated wireframes spoke to content hierarchy, showed how the content model and 20+ content types would display on the front-end, and documented requirements for the back-end build.</p>
+<div class="fig-with-cap">
+  <div id="carousel-2">
+    <div><img src="../../../../a/img/inet-04-01.jpg" alt="Homepage"></div>      
+    <div><img src="../../../../a/img/inet-04-02.jpg" alt="About"></div>
+    <div><img src="../../../../a/img/inet-04-03.jpg" alt="Ideas & Papers"></div>
+    <div><img src="../../../../a/img/inet-04-04.jpg" alt="Video Detail"></div>
+  </div>
+  <div class="caption">
+    <div id="carousel-arrows-2"></div>
+    <figcaption>Resetting expectations called for a brand refresh. The design system was a hat tip to the Institute's independent rhythm and scholarly roots. A clean, predominantly warm and neutral palette strayed from beloved blues of think tanks and research nonprofits. Dense levels of text and thick rules kept elements well-structured.</figcaption>
+  </div>
+</div>
 
-Image(s): Homepage, About, Ideas & Papers, Video, Community, Events
+<div class="fig-with-cap">
+  <figure class="scrollable full-width-image"><img src="../../../../a/img/inet-05.jpg" alt="Blog"></figure>
+  <figcaption class="caption">Across the site, we relied on black-and-white photography to keep a unified, editorial look. Color photos were incorporated selectively to highlight features and video content.</figcaption>
+</div>
 
-<p class="caption">Resetting expectations called for a brand refresh. The design system was a hat tip to the Institute's independent rhythm and scholarly roots. A clean, predominantly warm and neutral palette strayed from beloved blues of think tanks and research nonprofits. Dense levels of text and thick rules kept elements well-structured.</p>
 
-Image(s): Blog, Blog Article
+<div class="fig-with-cap">
+  <figure class="scrollable full-width-image"><img src="../../../../a/img/inet-06.jpg" alt="Experts"></figure>
+  <figcaption class="caption">By elevating subject-matter experts and closely connecting individuals to their research, the website could become the go-to place for finding a comprehensive selection of a person’s papers and perspectives.</figcaption>
+</div>
 
-<p class="caption">Across the site, we relied on black-and-white photography to keep a unified, editorial look. Color photos were incorporated selectively to highlight features and video content.</p>
-
-Image(s): Experts, Notable Profile
-
-<p class="caption">By elevating subject-matter experts and closely connecting individuals to their research, the website could become the go-to place for finding a comprehensive selection of a person’s papers and perspectives.</p>
-
-Image(s): Topic Landing, Topic Detail, Explore Drawer
-
-<p class="caption">A taxonomy of topics—big-picture, broad economics concepts that described an area of the Institute’s focus—threaded through the site’s content, but were also given spaces to frame work and add context.</p>
+<div class="fig-with-cap">
+  <figure class="scrollable full-width-image"><img src="../../../../a/img/inet-07.jpg" alt="Experts"></figure>
+  <figcaption class="caption">A taxonomy of topics—big-picture, broad economics concepts that described an area of the Institute’s focus—threaded through the site’s content, but were also given spaces to frame work and add context.</figcaption>
+</div>

@@ -706,6 +706,10 @@ p.back-link {
   }
 }
 
+#carousel-1, #carousel-2, #carousel-3 {
+  @extend .carousel;
+}
+
 .carousel-arrows {
   display: block;
   height: 30px;
@@ -780,6 +784,10 @@ p.back-link {
   .slick-next:focus {
       color: $link-hover-color;
   }
+}
+
+#carousel-arrows-1, #carousel-arrows-2, #carousel-arrows-3 {
+  @extend .carousel-arrows;
 }
 
 .scrollable {

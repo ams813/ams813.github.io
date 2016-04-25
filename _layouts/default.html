@@ -20,7 +20,35 @@
     <script>
       $(document).ready(function(){
         $(".carousel").slick( {
-          appendArrows: $(".carousel-arrows")
+          appendArrows: $(".carousel-arrows"),
+          adaptiveHeight: true
+        });
+      });
+    </script>
+
+    <script>
+      $(document).ready(function(){
+        $("#carousel-1").slick( {
+          appendArrows: $("#carousel-arrows-1"),
+          adaptiveHeight: true
+        });
+      });
+    </script>
+
+    <script>
+      $(document).ready(function(){
+        $("#carousel-2").slick( {
+          appendArrows: $("#carousel-arrows-2"),
+          adaptiveHeight: true
+        });
+      });
+    </script>
+
+    <script>
+      $(document).ready(function(){
+        $("#carousel-3").slick( {
+          appendArrows: $("#carousel-arrows-3"),
+          adaptiveHeight: true
         });
       });
     </script>
