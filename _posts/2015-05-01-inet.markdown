@@ -40,7 +40,6 @@ The Institute needed a responsive website that would showcase its seven years of
     <div><img src="../../../../a/img/inet-04-01.jpg" alt="Homepage"></div>      
     <div><img src="../../../../a/img/inet-04-02.jpg" alt="About"></div>
     <div><img src="../../../../a/img/inet-04-03.jpg" alt="Ideas & Papers"></div>
-    <div><img src="../../../../a/img/inet-04-04.jpg" alt="Video Detail"></div>
   </div>
   <div class="caption">
     <div id="carousel-arrows-2"></div>

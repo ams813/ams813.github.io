@@ -68,6 +68,17 @@
   }
 }
 
+.show-more:after, .show-less:after {
+  content: url("../../../../a/img/arrow-down.svg");
+  display: inline-block;
+  width: 10px;
+  margin-left: $spacing-xs;
+}
+
+.show-less:after {
+  content: url("../../../../a/img/arrow-up.svg");
+}
+
 .show-less {
   display: none;
 }
@@ -674,13 +685,17 @@ p.back-link {
   figure {
     margin-bottom: $spacing-m;
   }
+  .background-image {
+    background-image: url("../../../../a/img/nrt-06.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
   .carousel {
     border: 1px solid rgba(0,0,0,0.12);
     margin-bottom: $spacing-xs;
   }
   figure, .carousel {
-    @include breakpoint($q-medium) {margin-bottom: $spacing-l;}
-    @include breakpoint($q-xlarge) {width: 90%;}
+    @include breakpoint($q-xlarge) {width: 90%; margin-bottom: $spacing-l;}
     @include breakpoint($q-xxlarge) {width: 80%;}
     @include breakpoint($q-xxxlarge) {width: 70%; margin-bottom: $spacing-xxxl;}
   }
@@ -801,10 +816,30 @@ p.back-link {
   width: 100%;
   border: 1px solid rgba(0,0,0,0.12);
   @include breakpoint($q-small) {
-    max-height: 500px;
+    max-height: 450px;
   }
   @include breakpoint($q-medium) {
     max-height: 650px;
+  }
+}
+
+.full-width-image-short { // for full-width comps that have a shorter max-height
+  width: 100%;
+  border: 1px solid rgba(0,0,0,0.12);
+  max-height: 245px;
+  @include breakpoint($q-small) {
+    max-height: 300px;
+  }@include breakpoint($q-small-medium) {
+    max-height: 380px;
+  }
+  @include breakpoint($q-medium) {
+    max-height: 450px;
+  }
+  @include breakpoint($q-xlarge) {
+    max-height: 500px;
+  }
+  @include breakpoint($q-xxxlarge) {
+    max-height: 550px;
   }
 }
 

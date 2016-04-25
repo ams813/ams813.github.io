@@ -15,30 +15,42 @@ In order to better serve its users and agents, unify the presentation of its bra
 
 We set out to build a web-app experience that would serve both agents and homebuyers, by providing the quickest and easiest path to relevant results. While HTML-prototyping and designing and coding over 20 templates, we worked closely with home-buyers, agents, and the NRT Web Services team to ensure the new experience felt intuitive, accounted for all property data scenarios, and could be implemented into a custom back-end.
 
-Image(s): Zone homepage (design 1, 2, 3, mobile
+<div class="fig-with-cap">
+  <figure class="scrollable full-width-image"><img src="../../../../a/img/nrt-01.jpg" alt="Homepage"></figure>
+  <figcaption class="caption">Powerful localization proved our strongest demonstration of personalization. Coldwellbankerhomes.com geolocated users by IP address, cookies, or search history to land them in an experience that felt local and specific to their search.</figcaption>
+</div>
 
-<p class="caption">Powerful localization proved our strongest demonstration of personalization. Coldwellbankerhomes.com geolocated users by IP address, cookies, or search history to land them in an experience that felt local and specific to their search. We placed the search front-and-center to put nothing in the user’s way from finding their dream home. Background photography and page content were tailored to the user’s regional zone. A modernized color palette brought Coldwell Banker into the 21st century.</p>
+<div class="fig-with-cap">
+  <figure class="scrollable center-image"><img src="../../../../a/img/nrt-02.jpg" alt="Homepage small screens"></figure>
+  <figcaption class="caption">We placed the search front-and-center to put nothing in the user’s way from finding their dream home. Background photography and page content were tailored to the user’s regional zone. A modernized color palette brought Coldwell Banker into the 21st century.</figcaption>
+</div>
 
-Image: HBIB drawer (design 1, 2)
+<div class="fig-with-cap">
+  <figure class="full-width-image"><img src="../../../../a/img/nrt-03.jpg" alt="Autocomplete wireframe"></figure>
+  <figcaption class="caption">An example of the complex user-experience thinking we lent to the project. This wireframe illustrates different scenarios for autocompleting search box queries.</figcaption>
+</div>
 
-<p class="caption">A drawer with recently viewed and saved properties and searches drove return visitors directly to properties and search results of interest.</p>
+<div class="fig-with-cap">
+  <figure class="full-width-image"><img src="../../../../a/img/nrt-04.jpg" alt="HomeBase InBox drawer"></figure>
+  <figcaption class="caption">A drawer with recently viewed and saved properties and searches drove return visitors directly to properties and search results of interest.</figcaption>
+</div>
 
-Image: Autocomplete wireframe
+<div class="fig-with-cap">
+  <figure class="scrollable full-width-image-short background-image"><img src="../../../../a/img/nrt-05.png" alt="Property Listing"></figure>
+  <figcaption class="caption">After conducting a competitive analysis and testing with users, we landed on a search results experience that truly synced the property list with a map, so that as you navigated one, the other adapted. On larger screens, users wouldn’t have to choose between property specifics and relative proximity, and could filter properties easily without leaving results. We chose the Whitney type family as a new brand typeface for its friendliness, onscreen legibility, and its clarity in densely packed metadata.</figcaption>
+</div>
 
-<p class="caption">An example of the complex user-experience thinking we lent to the project. This wireframe illustrates different scenarios for autocompleting search box queries.</p>
+<div class="fig-with-cap">
+  <figure class="center-image-wider"><img src="../../../../a/img/nrt-07.jpg" alt="Property Listing Small Screens"></figure>
+  <figcaption class="caption">On smaller screens, users would toggle between a list and map view, but could still access all property metadata, search filters, and map tools.</figcaption>
+</div>
 
-Image(s): Search results desktop animated search (live site)
+<div class="fig-with-cap">
+  <figure class="scrollable full-width-image"><img src="../../../../a/img/nrt-08.jpg" alt="Property Detail"></figure>
+  <figcaption class="caption">The property detail page put photos front and center, but was also flexible to account for varying availability of photo assets, maps, and agent information. By featuring agents and quick contact forms to request a viewing, we looked to facilitate a personal connection with a real individual.</figcaption>
+</div>
 
-<p class="caption">After conducting a competitive analysis and testing with users, we landed on a search results experience that truly synced the property list with a map, so that as you navigated one, the other adapted. On larger screens, users wouldn’t have to choose between property specifics and relative proximity, and could filter properties easily without leaving results. We chose the Whitney type family as a new brand typeface for its friendliness, onscreen legibility, and its clarity in densely packed metadata.</p>
-
-Image(s): Search results small screens
-
-<p class="caption">On smaller screens, users would toggle between a list and map view, but could still access all property metadata, search filters, and map tools.</p>
-
-Image: Property detail (design desktop, design mobile)
-
-<p class="caption">The property detail page put photos front and center, but was also flexible to account for varying availability of photo assets, maps, and agent information. By featuring agents and quick contact forms to request a viewing, we looked to facilitate a personal connection with a real individual.</p>
-
-Image(s): Agent profile
-
-<p class="caption">Agent biographies shined through well-structured, consistent content that also emphasized regional expertise.</p>
+<div class="fig-with-cap">
+  <figure class="scrollable full-width-image"><img src="../../../../a/img/nrt-09.jpg" alt="Agent Profile"></figure>
+  <figcaption class="caption">Agent biographies shined through well-structured, consistent content that also emphasized regional expertise.</figcaption>
+</div>
