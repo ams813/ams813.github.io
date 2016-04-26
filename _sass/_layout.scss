@@ -885,6 +885,9 @@ p.back-link {
 .border-bottom {
   @include breakpoint($q-xlarge) {
     border-bottom: 1px solid rgba(0,0,0,0.12);
+    img {
+      border-bottom: 0;
+    }
   }
 }
 
