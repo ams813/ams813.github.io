@@ -865,7 +865,8 @@ p.back-link {
     max-height: 500px;
   }
   @include breakpoint($q-large) {
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
   }
   @include breakpoint($q-xlarge) {
     border: 0;
