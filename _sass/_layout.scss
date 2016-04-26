@@ -812,7 +812,8 @@ p.back-link {
 .scrollable {
   overflow: hidden;
   @include breakpoint($q-large) {
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
   }
 }
 
