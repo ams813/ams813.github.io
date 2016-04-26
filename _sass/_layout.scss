@@ -714,8 +714,7 @@ p.back-link {
       right: 0;
       margin-bottom: -6px;
       .carousel-arrows + figcaption {
-        margin-bottom: $spacing-xxxl;
-        margin-top: 0;
+        margin-bottom: 40px;
       }
     }
   }
@@ -730,7 +729,7 @@ p.back-link {
   height: 30px;
   margin-bottom: $spacing-xs;
   @include breakpoint($q-xlarge) {
-    width: 75px;
+    width: 60px;
     height: 60px;
     float: left;
   }
@@ -738,20 +737,21 @@ p.back-link {
     position: absolute;
     bottom: -10px;
     height: auto;
-    margin-bottom: 0px;
+    margin-bottom: 40px;
   }
   .slick-prev {
     height: 30px;
-    width: 30px;
-    left: 45%;
+    width: 15px;
+    top: 15px;
+    left: 42%;
     @include breakpoint($q-small) {
       left: 44%;
     }
     @include breakpoint($q-medium) {
-      left: 48%;
+      left: 46%;
     }
     @include breakpoint($q-large) {
-      left: 25px;
+      left: 0px;
     }
     @include breakpoint($q-xxxlarge) {
       left: 0;
@@ -763,16 +763,17 @@ p.back-link {
   }
   .slick-next {
     height: 30px;
-    width: 30px;
-    left: 59%;
+    width: 15px;
+    top: 15px;
+    left: 54%;
     @include breakpoint($q-small) {
-      left: 58%;
+      left: 53%;
     }
     @include breakpoint($q-medium) {
-      left: 55%;
+      left: 52%;
     }
     @include breakpoint($q-large) {
-      left: 50px;
+      left: 25px;
     }
     @include breakpoint($q-xxxlarge) {
       left: 30px;
@@ -788,7 +789,8 @@ p.back-link {
     font-size: 35px;
     line-height: 1;
     color: $black;
-    left: -15px;
+    top: 0px;
+    left: 0px;
     position: absolute;
     @include breakpoint($q-xxxlarge) {
       left: 0px;
