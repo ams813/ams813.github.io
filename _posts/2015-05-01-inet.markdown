@@ -25,9 +25,9 @@ The Institute needed a responsive website that would showcase its seven years of
 
 <div class="fig-with-cap">
   <div id="carousel-1">
-    <div><img src="../../../../a/img/inet-03-01.jpg" alt="Homepage wireframe"></div>      
-    <div><img src="../../../../a/img/inet-03-02.jpg" alt="About wireframe"></div>
-    <div><img src="../../../../a/img/inet-03-03.jpg" alt="Notable Profile wireframe"></div>
+    <div><img data-lazy="../../../../a/img/inet-03-01.jpg" alt="Homepage wireframe"></div>      
+    <div><img data-lazy="../../../../a/img/inet-03-02.jpg" alt="About wireframe"></div>
+    <div><img data-lazy="../../../../a/img/inet-03-03.jpg" alt="Notable Profile wireframe"></div>
   </div>
   <div class="caption">
     <div id="carousel-arrows-1"></div>
@@ -37,9 +37,9 @@ The Institute needed a responsive website that would showcase its seven years of
 
 <div class="fig-with-cap">
   <div id="carousel-2">
-    <div><img src="../../../../a/img/inet-04-01.jpg" alt="Homepage"></div>      
-    <div><img src="../../../../a/img/inet-04-02.jpg" alt="About"></div>
-    <div><img src="../../../../a/img/inet-04-03.jpg" alt="Ideas & Papers"></div>
+    <div><img data-lazy="../../../../a/img/inet-04-01.jpg" alt="Homepage"></div>      
+    <div><img data-lazy="../../../../a/img/inet-04-02.jpg" alt="About"></div>
+    <div><img data-lazy="../../../../a/img/inet-04-03.jpg" alt="Ideas & Papers"></div>
   </div>
   <div class="caption">
     <div id="carousel-arrows-2"></div>

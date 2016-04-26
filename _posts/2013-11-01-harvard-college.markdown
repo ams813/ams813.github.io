@@ -17,8 +17,8 @@ With this responsive redesign, we set out to turn talented, diverse prospects in
 
 <div class="fig-with-cap">
   <div id="carousel-1">
-    <div><img src="../../../../a/img/harv-01-01.jpg" alt="Homepage wireframe"></div>
-    <div><img src="../../../../a/img/harv-01-02.jpg" alt="Affordability wireframe"></div>
+    <div><img data-lazy="../../../../a/img/harv-01-01.jpg" alt="Homepage wireframe"></div>
+    <div><img data-lazy="../../../../a/img/harv-01-02.jpg" alt="Affordability wireframe"></div>
   </div>
   <div class="caption">
     <div id="carousel-arrows-1"></div>
@@ -28,9 +28,9 @@ With this responsive redesign, we set out to turn talented, diverse prospects in
 
 <div class="fig-with-cap">
   <div id="carousel-2">
-    <div><img src="../../../../a/img/harv-02-01.jpg" alt="Homepage"></div>      
-    <div><img src="../../../../a/img/harv-02-02.jpg" alt="Admissions"></div>
-    <div><img src="../../../../a/img/harv-02-03.jpg" alt="Financial Aid"></div>
+    <div><img data-lazy="../../../../a/img/harv-02-01.jpg" alt="Homepage"></div>      
+    <div><img data-lazy="../../../../a/img/harv-02-02.jpg" alt="Admissions"></div>
+    <div><img data-lazy="../../../../a/img/harv-02-03.jpg" alt="Financial Aid"></div>
   </div>
   <div class="caption">
     <div id="carousel-arrows-2"></div>
@@ -55,8 +55,8 @@ With this responsive redesign, we set out to turn talented, diverse prospects in
 
 <div class="fig-with-cap">
   <div id="carousel-3">
-    <div><img src="../../../../a/img/harv-06-01.png" alt="Implementation Google Doc"></div>      
-    <div><img src="../../../../a/img/harv-06-02.jpg" alt="Template layouts"></div>
+    <div><img data-lazy="../../../../a/img/harv-06-01.png" alt="Implementation Google Doc"></div>      
+    <div><img data-lazy="../../../../a/img/harv-06-02.jpg" alt="Template layouts"></div>
   </div>
   <div class="caption">
     <div id="carousel-arrows-3"></div>

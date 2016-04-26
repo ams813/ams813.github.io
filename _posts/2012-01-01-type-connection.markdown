@@ -17,12 +17,12 @@ In the first week of going live, Type Connection received over 62,000 unique vis
 
 <div class="fig-with-cap">
   <div id="carousel-1">
-    <div><img src="../../../../a/img/tc-01-01.jpg" alt="Homepage"></div>
-    <div><img src="../../../../a/img/tc-01-02.jpg" alt="Main characters"></div>
-    <div><img src="../../../../a/img/tc-01-03.jpg" alt="Choosing a strategy"></div>
-    <div><img src="../../../../a/img/tc-01-04.jpg" alt="Meeting the daters"></div>
-    <div><img src="../../../../a/img/tc-01-05.jpg" alt="Dating profiles lineup"></div>
-    <div><img src="../../../../a/img/tc-01-06.jpg" alt="Congratulations"></div>
+    <div><img data-lazy="../../../../a/img/tc-01-01.jpg" alt="Homepage"></div>
+    <div><img data-lazy="../../../../a/img/tc-01-02.jpg" alt="Main characters"></div>
+    <div><img data-lazy="../../../../a/img/tc-01-03.jpg" alt="Choosing a strategy"></div>
+    <div><img data-lazy="../../../../a/img/tc-01-04.jpg" alt="Meeting the daters"></div>
+    <div><img data-lazy="../../../../a/img/tc-01-05.jpg" alt="Dating profiles lineup"></div>
+    <div><img data-lazy="../../../../a/img/tc-01-06.jpg" alt="Congratulations"></div>
   </div>
   <div class="caption">
     <div id="carousel-arrows-1"></div>
@@ -47,13 +47,13 @@ In the first week of going live, Type Connection received over 62,000 unique vis
 
 <div class="fig-with-cap">
   <div id="carousel-2">
-    <div><img src="../../../../a/img/tc-05-01.jpg" alt="Exhibition photo"></div>
-    <div><img src="../../../../a/img/tc-05-02.jpg" alt="Exhibition photo"></div>
-    <div><img src="../../../../a/img/tc-05-03.jpg" alt="Exhibition photo"></div>
-    <div><img src="../../../../a/img/tc-05-04.jpg" alt="Exhibition photo"></div>
-    <div><img src="../../../../a/img/tc-05-05.jpg" alt="Exhibition photo"></div>
-    <div><img src="../../../../a/img/tc-05-06.jpg" alt="Exhibition photo"></div>
-    <div><img src="../../../../a/img/tc-05-07.jpg" alt="Exhibition photo"></div>
+    <div><img data-lazy="../../../../a/img/tc-05-01.jpg" alt="Exhibition photo"></div>
+    <div><img data-lazy="../../../../a/img/tc-05-02.jpg" alt="Exhibition photo"></div>
+    <div><img data-lazy="../../../../a/img/tc-05-03.jpg" alt="Exhibition photo"></div>
+    <div><img data-lazy="../../../../a/img/tc-05-04.jpg" alt="Exhibition photo"></div>
+    <div><img data-lazy="../../../../a/img/tc-05-05.jpg" alt="Exhibition photo"></div>
+    <div><img data-lazy="../../../../a/img/tc-05-06.jpg" alt="Exhibition photo"></div>
+    <div><img data-lazy="../../../../a/img/tc-05-07.jpg" alt="Exhibition photo"></div>
   </div>
   <div class="caption">
     <div id="carousel-arrows-2"></div>

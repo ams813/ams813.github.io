@@ -17,8 +17,8 @@ To help their team embrace smaller screens, understand this new responsive appro
 
 <div class="fig-with-cap">
   <div class="carousel">
-    <div><img src="../../../../a/img/bj-01-01.jpg" alt="Homepage sketch"></div>
-    <div><img src="../../../../a/img/bj-01-02.jpg" alt="Flavors listing sketch"></div>
+    <div><img data-lazy="../../../../a/img/bj-01-01.jpg" alt="Homepage sketch"></div>
+    <div><img data-lazy="../../../../a/img/bj-01-02.jpg" alt="Flavors listing sketch"></div>
   </div>
   <div class="caption">
     <div class="carousel-arrows"></div>

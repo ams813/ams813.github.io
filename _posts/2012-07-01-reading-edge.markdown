@@ -30,13 +30,13 @@ The RE site needed to balance educating users with conversion points—directing
 
 <div class="fig-with-cap">
   <div class="carousel">
-    <div><img src="../../../../a/img/re-04-01.png" alt="Specimen 1"></div>
-    <div><img src="../../../../a/img/re-04-02.png" alt="Specimen 2"></div>
-    <div><img src="../../../../a/img/re-04-03.png" alt="Specimen 3"></div>
-    <div><img src="../../../../a/img/re-04-04.png" alt="Specimen 4"></div>
-    <div><img src="../../../../a/img/re-04-05.png" alt="Specimen 5"></div>
-    <div><img src="../../../../a/img/re-04-06.png" alt="Specimen 6"></div>
-    <div><img src="../../../../a/img/re-04-07.png" alt="Specimen 7"></div>
+    <div><img data-lazy="../../../../a/img/re-04-01.png" alt="Specimen 1"></div>
+    <div><img data-lazy="../../../../a/img/re-04-02.png" alt="Specimen 2"></div>
+    <div><img data-lazy="../../../../a/img/re-04-03.png" alt="Specimen 3"></div>
+    <div><img data-lazy="../../../../a/img/re-04-04.png" alt="Specimen 4"></div>
+    <div><img data-lazy="../../../../a/img/re-04-05.png" alt="Specimen 5"></div>
+    <div><img data-lazy="../../../../a/img/re-04-06.png" alt="Specimen 6"></div>
+    <div><img data-lazy="../../../../a/img/re-04-07.png" alt="Specimen 7"></div>
   </div>
   <div class="caption">
     <div class="carousel-arrows"></div>

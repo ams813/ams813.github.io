@@ -17,8 +17,8 @@ We set out to streamline, prioritize, and integrate the Extension School’s tex
 
 <div class="fig-with-cap">
   <div class="carousel">
-    <div><img src="../../../../a/img/hes-01-01.png" alt="HES sitemap"></div>      <div><img src="../../../../a/img/hes-01-02.png" alt="HES sketch"></div>
-    <div><img src="../../../../a/img/hes-01-03.png" alt="HES sketch"></div>
+    <div><img data-lazy="../../../../a/img/hes-01-01.png" alt="HES sitemap"></div>      <div><img src="../../../../a/img/hes-01-02.png" alt="HES sketch"></div>
+    <div><img data-lazy="../../../../a/img/hes-01-03.png" alt="HES sketch"></div>
   </div>
   <div class="caption">
     <div class="carousel-arrows"></div>
