@@ -34,6 +34,6 @@ Our zine is a visualization of vernacular that tells our own experience through 
 </div>
 
 <div class="fig-with-cap">
-  <figure class="scrollable full-width-image"><img src="../../../../a/img/ond-10.jpg" alt="Detail of iconography"></figure>
+  <figure class="center-image-wider"><img src="../../../../a/img/ond-10.jpg" alt="Detail of iconography"></figure>
   <figcaption class="caption">Inspired by the use of classification in field guides, for each activity, we recorded our hours of exposure to the topic and a list of vocabulary we learned.</figcaption>
 </div>

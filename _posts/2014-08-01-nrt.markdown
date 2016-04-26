@@ -26,12 +26,12 @@ We set out to build a web-app experience that would serve both agents and homebu
 </div>
 
 <div class="fig-with-cap">
-  <figure class="full-width-image"><img src="../../../../a/img/nrt-03.jpg" alt="Autocomplete wireframe"></figure>
+  <figure class="center-image-wider"><img src="../../../../a/img/nrt-03.jpg" alt="Autocomplete wireframe"></figure>
   <figcaption class="caption">An example of the complex user-experience thinking we lent to the project. This wireframe illustrates different scenarios for autocompleting search box queries.</figcaption>
 </div>
 
 <div class="fig-with-cap">
-  <figure class="full-width-image"><img src="../../../../a/img/nrt-04.jpg" alt="HomeBase InBox drawer"></figure>
+  <figure class="center-image-wider"><img src="../../../../a/img/nrt-04.jpg" alt="HomeBase InBox drawer"></figure>
   <figcaption class="caption">A drawer with recently viewed and saved properties and searches drove return visitors directly to properties and search results of interest.</figcaption>
 </div>
 

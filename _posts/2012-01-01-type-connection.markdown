@@ -36,12 +36,12 @@ In the first week of going live, Type Connection received over 62,000 unique vis
 </div>
 
 <div class="fig-with-cap">
-  <figure class="scrollable full-width-image"><img src="../../../../a/img/tc-03.jpg" alt="Process sketch designing specimens"></figure>
+  <figure class="center-image-wider"><img src="../../../../a/img/tc-03.jpg" alt="Process sketch designing specimens"></figure>
   <figcaption class="caption">I began by writing dating profiles for typefaces, specifically experimenting with the balance between personified narrative and typographic fact. These dating profiles double as type specimens, showing each face’s weights and styles.</figcaption>
 </div>
 
 <div class="fig-with-cap">
-  <figure class="scrollable full-width-image"><img src="../../../../a/img/tc-04.jpg" alt="Process sketch choosing typefaces"></figure>
+  <figure class="center-image-wider"><img src="../../../../a/img/tc-04.jpg" alt="Process sketch choosing typefaces"></figure>
   <figcaption class="caption">I chose typefaces that came from different time periods, had a variety of inspirations, and didn’t overlap in classification. Also, I made sure to pick workhorse typefaces that I thought young designers would have access to through their schools.</figcaption>
 </div>
 
