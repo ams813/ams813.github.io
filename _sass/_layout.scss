@@ -72,13 +72,18 @@
   content: url("../../../../a/img/arrow-down.svg");
   display: inline-block;
   width: 10px;
-  margin-left: $spacing-xs;
+  position: absolute;
+  top: 0;
+  right: -15px;
 }
 
 .show-less:after {
   content: url("../../../../a/img/arrow-up.svg");
 }
 
+.show-more, .show-less {
+  position: relative;
+}
 .show-less {
   display: none;
 }
