@@ -14,7 +14,7 @@ categories:   podcast
 * Closets vs. drawers
 * Seasonal storage
 
-<p class="sans-s"><strong>Hashtag:</strong> #seasonalstorage</span>
+<p class="sans-s"><strong>Hashtag:</strong> #seasonalstorage</p>
 
 <div class="spacing-above">
   <a href="http://www.quirksandcompulsions.com/3" class="primary-button">Listen to this episode</a>

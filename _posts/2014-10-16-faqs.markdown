@@ -7,7 +7,7 @@ date:   2014-10-16
 categories:   article
 ---
 
-No matter the client, FAQs are often a topic of conversation during many site redesigns. Maybe they are legacy content and deemed a new requirement for the get-go. Maybe stakeholders raise them as a potential solution during the course of the engagement. Sometimes, they even creep up on us (unplanned) after launch.
+No matter the client, FAQs are often a topic of conversation during many site redesigns. Maybe they are legacy content and deemed a new requirement from the get-go. Maybe stakeholders raise them as a potential solution during the course of the engagement. Sometimes, they even creep up on us (unplanned) after launch.
 
 It’s encouraging that clients are invested in their content. But, being invested in content means fully understanding your users and the shortcomings of your existing site before prescribing tactical solutions. FAQs can very easily become bandaid solutions for poor information architecture. They can serve as a dumping ground for content that seemingly has no other place to live, can turn away users from wanting to engage, and can shift to the least frequently accessed page on your site.
 

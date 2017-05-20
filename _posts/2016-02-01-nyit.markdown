@@ -5,11 +5,11 @@ title:  Going outside the box of higher education
 subtitle:  New York Institute of Technology
 date:   2016-02-01
 categories:   project
-short-description:   "With its students graduating to become engineers, physicians, architects, and designers, NYIT wanted a new website that matched the energy and innovation embedded in its campuses. My design concept was selected and applied across the site’s 13 templates for the upcoming redesign."
+short-description:   "With its students graduating to become engineers, physicians, architects, and designers, NYIT wanted a new website that matched the energy and innovation embedded in its campuses. My design concept was selected and applied across the site’s 13 templates for the redesign."
 role:   Creative direction, design concept
 ---
 
-NYIT is a global, dynamic, and forward-thinking university with five (soon to be six) campuses and seven schools/colleges. Its students graduate profession-ready and become engaged physicians, scientists, architects, engineers, and more. While technology and innovation underscore everything it does, NYIT’s website wasn’t showing it. Through this redesign, NYIT wanted to build its reputation, instill trust in potential applicants, and embrace its newly revised brand guidelines.
+NYIT is a global, dynamic, and forward-thinking university with six campuses and seven schools/colleges. Its students graduate profession-ready and become engaged physicians, scientists, architects, engineers, and more. While technology and innovation underscore everything it does, NYIT’s website wasn’t showing it. Through this redesign, NYIT wanted to build its reputation, instill trust in potential applicants, and embrace its newly revised brand guidelines.
 
 <div class="fig-with-cap">
   <figure class="scrollable full-width-image"><img src="../../../../a/img/nyit-1.jpg" alt="NYIT homepage"></figure>

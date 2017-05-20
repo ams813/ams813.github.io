@@ -6,7 +6,7 @@ subtitle:  Over Nine Days
 date:   2011-01-01
 categories:   project
 short-description:   "Embracing the tradition of zines’ focused audiences, a fellow designer and I immersed ourselves in three subcultures in which we considered ourselves novices: chess, beer, and guns. Through our own zine, we set out to tell our experience through the stories of those we met."
-role: Creative direction, content strategy & writing, design & illustration, print production
+role: Creative direction, content strategy & writing, publication design, illustration, print production
 ---
 
 Tasked with publishing a zine in graduate school, fellow designer Jessica Karle and I wanted to  tap into the tradition of zines’ subcultures. Over nine days, we set out to learn as much as we could about the arenas of chess, beer, and guns.

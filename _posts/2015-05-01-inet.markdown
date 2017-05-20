@@ -5,7 +5,7 @@ title:  Establishing a hub for innovative research and thinkers
 subtitle:  Institute for New Economic Thinking
 date:   2015-05-01
 categories:   project
-short-description:   "With years of grants, events, and research under its belt, the Institute for New Economic Thinking had outgrown both its website architecture and its CMS. To justify itself to donors and the academic community, the Institute needed a new website that could connect its disparate content to prove and amplify its work."
+short-description:   "With years of grants, events, and research under its belt, the Institute for New Economic Thinking had outgrown both its website architecture and its CMS. To justify itself to donors and the academic community, the Institute needed a new website that could connect its disparate content and amplify its work."
 role:   Project definition, architecture & user experience, content strategy, creative direction, design concept & system, digital style guide
 ---
 

@@ -11,7 +11,7 @@ categories:   podcast
 * Origin Story: [Patrick’s Packing List](https://github.com/pmarsceill/packing-list/blob/master/packing-list.md)
 * Luggage options
   * Looking cool vs. utility
-  * Short vs.long trips
+  * Short vs. long trips
   * To check or not to check?
 * Packing methods
   * Rolling vs. folding

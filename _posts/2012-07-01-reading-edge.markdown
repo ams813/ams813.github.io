@@ -20,12 +20,12 @@ The RE site needed to balance educating users with conversion points—directing
 
 <div class="fig-with-cap">
   <figure class="scrollable full-width-image"><img src="../../../../a/img/re-02.jpg" alt="Reading Edge type scaler"></figure>
-  <figcaption class="caption">A type scaler illustrates what to expect at different sizes depending on the rendering environment. I wrote new bios for each face to describe their characteristics.</figcaption>
+  <figcaption class="caption">A type scaler illustrated what to expect at different sizes depending on the rendering environment. I wrote new bios for each face to describe their characteristics.</figcaption>
 </div>
 
 <div class="fig-with-cap">
   <figure class="scrollable full-width-image"><img src="../../../../a/img/re-03.jpg" alt="Reading Edge type scaler"></figure>
-  <figcaption class="caption">Edited by Nick Sherman, my feature essay that dives into how screens render type, historical references, and features common to the faces’ construction. Typeset with RE typefaces, the essay also demonstrates the typographic control users can expect from the series.</figcaption>
+  <figcaption class="caption">Edited by Nick Sherman, my feature essay dove into how screens render type, historical references, and features common to the faces’ construction. Typeset with RE typefaces, the essay also demonstrated the typographic control users could expect from the series.</figcaption>
 </div>
 
 <div class="fig-with-cap">
