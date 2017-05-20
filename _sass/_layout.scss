@@ -215,35 +215,41 @@
 }
 
 .post-list {
-  li:nth-of-type(1) {.post-link {color: #40071f;}}
-  li:nth-of-type(2) {.post-link {color: #480720;}}
-  li:nth-of-type(3) {.post-link {color: #510721;}}
-  li:nth-of-type(4) {.post-link {color: #580723;}}
-  li:nth-of-type(5) {.post-link {color: #620724;}}
-  li:nth-of-type(6) {.post-link {color: #6a0726;}}
-  li:nth-of-type(7) {.post-link {color: #730728;}}
-  li:nth-of-type(8) {.post-link {color: #720d2a;}}
-  li:nth-of-type(9) {.post-link {color: #88142c;}}
-  li:nth-of-type(10) {.post-link {color: #931d2f;}}
-  li:nth-of-type(11) {.post-link {color: #9f2732;}}
-  li:nth-of-type(12) {.post-link {color: #ac3134;}}
-  li:nth-of-type(13) {.post-link {color: #b73d38;}}
-  li:nth-of-type(14) {.post-link {color: #c5493b;}}
-  li:nth-of-type(15) {.post-link {color: #d3573f;}}
-  li:nth-of-type(16) {.post-link {color: #de6242;}}
-  li:nth-of-type(17) {.post-link {color: #e96f46;}}
-  li:nth-of-type(18) {.post-link {color: #f37c4c;}}
-  li:nth-of-type(19) {.post-link {color: #f88450;}}
-  li:nth-of-type(20) {.post-link {color: #fb8d56;}}
-  li:nth-of-type(21) {.post-link {color: #fc915a;}}
-  li:nth-of-type(22) {.post-link {color: #fb965f;}}
-  li:nth-of-type(23) {.post-link {color: #f79965;}}
-  li:nth-of-type(24) {.post-link {color: #f29c6c;}}
-  li:nth-of-type(25) {.post-link {color: #ec9e71;}}
-  li:nth-of-type(26) {.post-link {color: #e4a077;}}
-  li:nth-of-type(27) {.post-link {color: #dca17f;}}
-  li:nth-of-type(28) {.post-link {color: #d2a385;}}
-  li:nth-of-type(29) {.post-link {color: #c4a38f;}}
+  li:nth-of-type(1) {.post-link {color: #30071e;}}
+  li:nth-of-type(2) {.post-link {color: #38071f;}}
+  li:nth-of-type(3) {.post-link {color: #40071f;}}
+  li:nth-of-type(4) {.post-link {color: #480720;}}
+  li:nth-of-type(5) {.post-link {color: #510721;}}
+  li:nth-of-type(6) {.post-link {color: #580723;}}
+  li:nth-of-type(7) {.post-link {color: #620724;}}
+  li:nth-of-type(8) {.post-link {color: #6a0726;}}
+  li:nth-of-type(9) {.post-link {color: #730728;}}
+  li:nth-of-type(10) {.post-link {color: #720d2a;}}
+  li:nth-of-type(11) {.post-link {color: #88142c;}}
+  li:nth-of-type(12) {.post-link {color: #931d2f;}}
+  li:nth-of-type(13) {.post-link {color: #9f2732;}}
+  li:nth-of-type(14) {.post-link {color: #ac3134;}}
+  li:nth-of-type(15) {.post-link {color: #b73d38;}}
+  li:nth-of-type(16) {.post-link {color: #c5493b;}}
+  li:nth-of-type(17) {.post-link {color: #d3573f;}}
+  li:nth-of-type(18) {.post-link {color: #de6242;}}
+  li:nth-of-type(19) {.post-link {color: #e96f46;}}
+  li:nth-of-type(20) {.post-link {color: #f37c4c;}}
+  li:nth-of-type(21) {.post-link {color: #f88450;}}
+  li:nth-of-type(22) {.post-link {color: #fb8d56;}}
+  li:nth-of-type(23) {.post-link {color: #fc915a;}}
+  li:nth-of-type(24) {.post-link {color: #fb965f;}}
+  li:nth-of-type(25) {.post-link {color: #f79965;}}
+  li:nth-of-type(26) {.post-link {color: #f29c6c;}}
+  li:nth-of-type(27) {.post-link {color: #ec9e71;}}
+  li:nth-of-type(28) {.post-link {color: #e4a077;}}
+  li:nth-of-type(29) {.post-link {color: #dca17f;}}
+  li:nth-of-type(30) {.post-link {color: #d2a385;}}
+  li:nth-of-type(31) {.post-link {color: #cba48b;}}
+  li:nth-of-type(32) {.post-link {color: #c4a38f;}}
+  li:nth-of-type(33) {.post-link {color: #bda594;}}
+  li:nth-of-type(34) {.post-link {color: #b6a599;}}
+  li:nth-of-type(35) {.post-link {color: #b0a69e;}}
 }
 
 .post-link {
@@ -557,8 +563,9 @@ p.back-link {
   .caption {
     @extend .sans-s-bold;
     em {
-      font-weight: normal;
-      font-style: normal;
+      @include fort;
+      font-style: italic;
+      font-weight: bold;
     }
   }
 
@@ -676,7 +683,9 @@ p.back-link {
         width: 80%;
       }
       @include breakpoint($q-xxxlarge) {
-        width: 70%;
+        width: 77%;
+        margin-left: auto;
+        margin-right: auto;
       }
     }
 }
@@ -688,6 +697,9 @@ p.back-link {
   @include breakpoint($q-medium) {
     margin-bottom: $spacing-xxl;
   }
+  @include breakpoint($q-xxxlarge) {
+    margin-bottom: $spacing-xxxxl;
+  }
   figure {
     margin-bottom: $spacing-m;
   }
@@ -697,13 +709,15 @@ p.back-link {
     background-size: 100%;
   }
   .carousel {
-    border: 1px solid rgba(0,0,0,0.12);
     margin-bottom: $spacing-xs;
-  }
+    & .carousel-border {
+      border: 1px solid rgba(0,0,0,0.12);
+    }
+   }
   figure, .carousel {
     @include breakpoint($q-xlarge) {width: 90%; margin-bottom: $spacing-l;}
     @include breakpoint($q-xxlarge) {width: 80%;}
-    @include breakpoint($q-xxxlarge) {width: 70%; margin-bottom: $spacing-xxxl;}
+    @include breakpoint($q-xxxlarge) {width: 100%; margin-bottom: $spacing-s;}
   }
   .caption { // refers to the div enclosing slideshow arrows + caption as well as the figcaption class if solo
     position: relative;
@@ -713,7 +727,7 @@ p.back-link {
     @include breakpoint($q-xlarge) {
       width: 80%;
     }
-    @include breakpoint($q-xxxlarge) {
+    @include breakpoint($q-xxlarge) {
       width: 28%;
       position: absolute;
       bottom: 0;
@@ -721,6 +735,16 @@ p.back-link {
       margin-bottom: -6px;
       .carousel-arrows + figcaption {
         margin-bottom: 40px;
+      }
+    }
+    @include breakpoint($q-xxxlarge) {
+      width: 77%;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      margin-bottom: 0;
+      .carousel-arrows + figcaption {
+        margin-bottom: 0;
       }
     }
   }
@@ -739,11 +763,19 @@ p.back-link {
     height: 60px;
     float: left;
   }
-  @include breakpoint($q-xxxlarge) {
+  @include breakpoint($q-xxlarge) {
     position: absolute;
     bottom: -10px;
     height: auto;
     margin-bottom: 40px;
+  }
+  @include breakpoint($q-xxxlarge) {
+    display: block;
+    height: 30px;
+    margin: 0 auto $spacing-m;
+    bottom: 0;
+    float: none;
+    position: relative;
   }
   .slick-prev {
     height: 30px;
@@ -831,6 +863,9 @@ p.back-link {
   }
   @include breakpoint($q-medium) {
     max-height: 650px;
+  }
+  @include breakpoint($q-xxxlarge) {
+    max-height: 800px;
   }
 }
 

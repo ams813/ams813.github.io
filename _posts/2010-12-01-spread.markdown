@@ -1,0 +1,57 @@
+---
+layout: post
+short-name: spread
+title:  Cooking up a food and design magazine
+subtitle:  Spread
+date:   2010-12-01
+categories:   project
+short-description:   "This hypothetical magazine presents the proliferation of “things” designed around what we eat. Targeting designers and foodies, <em>Spread</em> underscores that good design can elevate our food experience. Its pilot issue features current designs that stand out on the shelf or in the marketplace."
+role:   Creative direction, editorial strategy, identity design, publication design
+
+---
+
+<em>Spread</em>, a hypothetical magazine, is a smorgasbord of food and design. The magazine serves up food-related design inspiration from commercial to environmental realms while showing how design choices affect perceptions of food—what we buy and where we eat. For <em>Spread</em>’s (partial) pilot issue, I designed a cover, table of contents, two features, and eight departments—each comprising placeholder content and imagery for the purpose of the assignment.
+
+<div class="fig-with-cap">
+  <div id="carousel-1">
+    <div><img data-lazy="../../../../a/img/spread-01-01.jpg" alt="Magazine cover"></div>      
+    <div><img data-lazy="../../../../a/img/spread-01-02.jpg" alt="Magazine spread"></div>
+    <div><img data-lazy="../../../../a/img/spread-01-03.jpg" alt="Magazine spread"></div>
+    <div><img data-lazy="../../../../a/img/spread-01-04.jpg" alt="Magazine spread"></div>
+    <div><img data-lazy="../../../../a/img/spread-01-05.jpg" alt="Magazine spread"></div>
+  </div>
+  <div class="caption">
+    <div id="carousel-arrows-1"></div>
+    <figcaption><em>Spread</em>’s clean design is grounded in its strict grid, flavorful color palette, and variety of modern yet rhythmic type styles. </figcaption>
+  </div>
+</div>
+
+<div class="fig-with-cap">
+  <div id="carousel-2">
+    <div><img data-lazy="../../../../a/img/spread-02-01.jpg" alt="Table of contents"></div>      
+    <div><img data-lazy="../../../../a/img/spread-02-02.jpg" alt="Table of contents"></div>
+  </div>
+  <div class="caption">
+    <div id="carousel-arrows-2"></div>
+    <figcaption>To demonstrate the magazine’s depth, I composed witty department titles covering a wealth of topics ranging from lettering to favorite recipes.</figcaption>
+  </div>
+</div>
+
+<div class="fig-with-cap">
+  <div id="carousel-3">
+    <div><img data-lazy="../../../../a/img/spread-03-01.jpg" alt="Feature spread"></div>      
+    <div><img data-lazy="../../../../a/img/spread-03-02.jpg" alt="Feature spread"></div>
+    <div><img data-lazy="../../../../a/img/spread-03-03.jpg" alt="Feature spread"></div>
+    <div><img data-lazy="../../../../a/img/spread-03-04.jpg" alt="Feature spread"></div>
+    <div><img data-lazy="../../../../a/img/spread-03-05.jpg" alt="Feature spread"></div>
+  </div>
+  <div class="caption">
+    <div id="carousel-arrows-3"></div>
+    <figcaption>Features are intent on standing out with their warmer background color and graphic title treatments.</figcaption>
+  </div>
+</div>
+
+<div class="fig-with-cap">
+  <figure class="center-image-wider"><img src="../../../../a/img/spread-04.jpg" alt="Alternate cover"></figure>
+  <figcaption class="caption">A second cover provides a glimpse into a potential subsequent issue.</figcaption>
+</div>

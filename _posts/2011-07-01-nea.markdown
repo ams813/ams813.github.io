@@ -1,0 +1,59 @@
+---
+layout: post
+short-name: nea
+title:  Increasing appetite for affordable, healthy food
+subtitle:  Supplying Demand
+date:   2011-07-01
+categories:   project
+short-description:   "As part of an interdisciplinary design studio, I researched and tested designs to encourage healthy eating in Baltimore’s food deserts. We collaborated with a virtual supermarket program—where residents could order/pick up groceries at their local library or school—to run a month-long promotion that incentivized purchases of fresh and frozen greens."
+role:   Project definition, research design, implementation & synthesis, writing, publication design
+---
+
+When city residents do not own cars or have full-service supermarkets nearby, they rely on fast food, carryout, and corner stores within walking distance for food. In 2008, 65% of Baltimore’s neighborhoods had low or medium healthy food availability. Through a grant awarded by the National Endowment for the Arts, Maryland Institute College of Art’s Center for Social Design ran a design studio that would use research and engagement with the Baltimore community to encourage healthy eating in its food deserts. The studio was led by the Center’s director with support by graduate students. To implement and test our designs, we partnered with Real Food Farm, a local urban farm, and Baltimarket, a Virtual Supermarket Program run by the Baltimore City Health Department that enables residents in food deserts to place and receive grocery orders at a local library/school for free.
+
+Our initial design concepts revolved around creating more incentives for residents to purchase healthy food; making shopping fun with participatory games or tools; highlighting the potential of often new or foreign foods with taste tests, free samples, and recipes; and engaging other health-related resources in the community to help spread the word.
+
+<div class="fig-with-cap">
+  <figure class="center-image-wider"><img src="../../../../a/img/inet-01.jpg" alt="Taxonomy workshop card sort"></figure>
+  <figcaption class="caption">We decided to test our most immediately actionable idea: a “Food of the Month” concept. Baltimarket would offer month-long discounts on greens; and we’d supply recipe cards, free samples, and educational materials in person at Baltimarket’s ordering sessions to promote the discount.</figcaption>
+</div>
+
+<div class="fig-with-cap">
+  <div id="carousel-1">
+    <div><img data-lazy="../../../../a/img/inet-03-01.jpg" alt="Tk"></div>      
+    <div><img data-lazy="../../../../a/img/inet-03-02.jpg" alt="Tk"></div>
+  </div>
+  <div class="caption">
+    <div id="carousel-arrows-1"></div>
+    <figcaption>Recipe cards and free samples would introduce healthy-food tangibility otherwise missing from Baltimarket’s shopping experience. Free food and the opportunity to try something new would create a buzz in the library during ordering sessions and make the experience more fun for customers.</figcaption>
+  </div>
+</div>
+
+<div class="fig-with-cap">
+  <figure class="center-image-wider"><img src="../../../../a/img/inet-01.jpg" alt="Taxonomy workshop card sort"></figure>
+  <figcaption class="caption">While food samples provided an entry point for talking about affordable and available healthy food, we found that the most influential way to communicate a discount to customers wasn’t to offer printed $1-off coupons, but rather to promote those discounts as part a real shopping experience—in the store’s shopping circular.</figcaption>
+</div>
+
+After trying to increase demand for healthy food at Baltimarket’s ordering sites, we took a step back and thought about ways to increase demand for healthy foods in a space with a much larger customer base: the supermarket itself. If customers did not buy or demand healthy food when it was available, we could not expect food desert communities to demand healthy food when it wasn’t accessible.
+
+<div class="fig-with-cap">
+  <div id="carousel-2">
+    <div><img data-lazy="../../../../a/img/inet-03-01.jpg" alt="Tk"></div>      
+    <div><img data-lazy="../../../../a/img/inet-03-02.jpg" alt="Tk"></div>
+  </div>
+  <div class="caption">
+    <div id="carousel-arrows-2"></div>
+    <figcaption>Some possibilities for future explorations included concepts for a grocery cart redesign, supermarket environmental graphics, or new models for online grocery store interfaces and weekly sales ads.</figcaption>
+  </div>
+</div>
+
+<div class="fig-with-cap">
+  <div id="carousel-3">
+    <div><img data-lazy="../../../../a/img/inet-03-01.jpg" alt="Tk"></div>      
+    <div><img data-lazy="../../../../a/img/inet-03-02.jpg" alt="Tk"></div>
+  </div>
+  <div class="caption">
+    <div id="carousel-arrows-3"></div>
+    <figcaption>We self-published a book at the conclusion of the grant period to summarize our activities and share process notes, high-fidelity design samples, photographs, and conclusions.</figcaption>
+  </div>
+</div>
