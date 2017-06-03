@@ -14,14 +14,14 @@ When city residents do not own cars or have full-service supermarkets nearby, th
 Our initial design concepts revolved around creating more incentives for residents to purchase healthy food; making shopping fun with participatory games or tools; highlighting the potential of often new or foreign foods with taste tests, free samples, and recipes; and engaging other health-related resources in the community to help spread the word.
 
 <div class="fig-with-cap">
-  <figure class="center-image-wider"><img src="../../../../a/img/inet-01.jpg" alt="Taxonomy workshop card sort"></figure>
+  <figure class="center-image-wider"><img src="../../../../a/img/nea-01.jpg" alt="Onsite at library"></figure>
   <figcaption class="caption">We decided to test our most immediately actionable idea: a “Food of the Month” concept. Baltimarket would offer month-long discounts on greens; and we’d supply recipe cards, free samples, and educational materials in person at Baltimarket’s ordering sessions to promote the discount.</figcaption>
 </div>
 
 <div class="fig-with-cap">
   <div id="carousel-1">
-    <div><img data-lazy="../../../../a/img/inet-03-01.jpg" alt="Tk"></div>      
-    <div><img data-lazy="../../../../a/img/inet-03-02.jpg" alt="Tk"></div>
+    <div><img data-lazy="../../../../a/img/nea-02-01.jpg" alt="Recipe samples with recipe cards on table"></div>      
+    <div><img data-lazy="../../../../a/img/nea-02-02.jpg" alt="Coupons"></div>
   </div>
   <div class="caption">
     <div id="carousel-arrows-1"></div>
@@ -30,7 +30,7 @@ Our initial design concepts revolved around creating more incentives for residen
 </div>
 
 <div class="fig-with-cap">
-  <figure class="center-image-wider"><img src="../../../../a/img/inet-01.jpg" alt="Taxonomy workshop card sort"></figure>
+  <figure class="center-image-wider"><img src="../../../../a/img/nea-03.jpg" alt="Customers placing orders at library"></figure>
   <figcaption class="caption">While food samples provided an entry point for talking about affordable and available healthy food, we found that the most influential way to communicate a discount to customers wasn’t to offer printed $1-off coupons, but rather to promote those discounts as part a real shopping experience—in the store’s shopping circular.</figcaption>
 </div>
 
@@ -38,8 +38,9 @@ After trying to increase demand for healthy food at Baltimarket’s ordering sit
 
 <div class="fig-with-cap">
   <div id="carousel-2">
-    <div><img data-lazy="../../../../a/img/inet-03-01.jpg" alt="Tk"></div>      
-    <div><img data-lazy="../../../../a/img/inet-03-02.jpg" alt="Tk"></div>
+    <div><img data-lazy="../../../../a/img/nea-04-01.jpg" alt="Shopping cart sketches"></div>      
+    <div><img data-lazy="../../../../a/img/nea-04-02.jpg" alt="Store end-of-aisle interface"></div>
+    <div><img data-lazy="../../../../a/img/nea-04-03.jpg" alt="Sales ads and store interface"></div>
   </div>
   <div class="caption">
     <div id="carousel-arrows-2"></div>
@@ -49,8 +50,9 @@ After trying to increase demand for healthy food at Baltimarket’s ordering sit
 
 <div class="fig-with-cap">
   <div id="carousel-3">
-    <div><img data-lazy="../../../../a/img/inet-03-01.jpg" alt="Tk"></div>      
-    <div><img data-lazy="../../../../a/img/inet-03-02.jpg" alt="Tk"></div>
+    <div><img data-lazy="../../../../a/img/nea-05-01.jpg" alt="Book cover"></div>      
+    <div><img data-lazy="../../../../a/img/nea-05-02.jpg" alt="Map of food deserts"></div>      
+    <div><img data-lazy="../../../../a/img/nea-05-03.jpg" alt="Chapter front"></div>
   </div>
   <div class="caption">
     <div id="carousel-arrows-3"></div>

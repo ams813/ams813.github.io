@@ -28,19 +28,19 @@ With the urgency to fix issues on the live site, we prioritized pages by user fl
 </div>
 
 <div class="fig-with-cap">
-  <figure class="scrollable full-width-image"><img src="../../../../a/img/inet-01.jpg" alt="Taxonomy workshop card sort"></figure>
+  <figure class="scrollable full-width-image"><img src="../../../../a/img/db-03.jpg" alt="Bride Detail"></figure>
   <figcaption class="caption">Detail pages highlight new product photography and David's unique breadth of colors and sizes. Our typographic system weaves in David's brand voice, but otherwise remains utilitarian to account for a complex sea of metadata. Real bride photos and product recommendations help users envision their completed look.</figcaption>
 </div>
 
 <div class="fig-with-cap">
-  <div id="carousel">
-    <div><img data-lazy="../../../../a/img/inet-03-01.jpg" alt="Event Tracker sample flow 2"></div>      
-    <div><img data-lazy="../../../../a/img/inet-03-02.jpg" alt="Event Tracker sample flow 2"></div>
-    <div><img data-lazy="../../../../a/img/inet-03-03.jpg" alt="Event Tracker sample flow 3"></div>
-    <div><img data-lazy="../../../../a/img/inet-03-03.jpg" alt="Event Tracker sample flow 4"></div>
+  <div class="carousel">
+    <div><img data-lazy="../../../../a/img/db-04-01.jpg" alt="Event Tracker Flow 1"></div>      
+    <div><img data-lazy="../../../../a/img/db-04-02.jpg" alt="Event Tracker Flow 2"></div>
+    <div><img data-lazy="../../../../a/img/db-04-03.jpg" alt="Event Tracker Flow 3"></div>
+    <div><img data-lazy="../../../../a/img/db-04-04.jpg" alt="Event Tracker Flow 4"></div>
   </div>
   <div class="caption">
-    <div id="carousel-arrows"></div>
+    <div class="carousel-arrows"></div>
     <figcaption>Our team defined, designed, and user-tested new functionality that—much like a wedding registry—would enable brides to set color and/or style options for their bridesmaid dresses. Using this same tool, bridesmaids could select and order their dresses in the right size, and David’s would keep the bride updated as purchases were made. As a deliverable to aid David’s implementation, we annotated our designs through various user flows that the site would need to accommodate.</figcaption>
   </div>
 </div>

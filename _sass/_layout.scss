@@ -683,9 +683,7 @@ p.back-link {
         width: 80%;
       }
       @include breakpoint($q-xxxlarge) {
-        width: 77%;
-        margin-left: auto;
-        margin-right: auto;
+        width: 70%;
       }
     }
 }
@@ -696,9 +694,6 @@ p.back-link {
   margin-bottom: $spacing-l;
   @include breakpoint($q-medium) {
     margin-bottom: $spacing-xxl;
-  }
-  @include breakpoint($q-xxxlarge) {
-    margin-bottom: $spacing-xxxxl;
   }
   figure {
     margin-bottom: $spacing-m;
@@ -717,7 +712,7 @@ p.back-link {
   figure, .carousel {
     @include breakpoint($q-xlarge) {width: 90%; margin-bottom: $spacing-l;}
     @include breakpoint($q-xxlarge) {width: 80%;}
-    @include breakpoint($q-xxxlarge) {width: 100%; margin-bottom: $spacing-s;}
+    @include breakpoint($q-xxxlarge) {width: 70%; margin-bottom: $spacing-xxxl;}
   }
   .caption { // refers to the div enclosing slideshow arrows + caption as well as the figcaption class if solo
     position: relative;
@@ -727,7 +722,7 @@ p.back-link {
     @include breakpoint($q-xlarge) {
       width: 80%;
     }
-    @include breakpoint($q-xxlarge) {
+    @include breakpoint($q-xxxlarge) {
       width: 28%;
       position: absolute;
       bottom: 0;
@@ -735,16 +730,6 @@ p.back-link {
       margin-bottom: -6px;
       .carousel-arrows + figcaption {
         margin-bottom: 40px;
-      }
-    }
-    @include breakpoint($q-xxxlarge) {
-      width: 77%;
-      margin-left: auto;
-      margin-right: auto;
-      position: relative;
-      margin-bottom: 0;
-      .carousel-arrows + figcaption {
-        margin-bottom: 0;
       }
     }
   }
@@ -763,19 +748,11 @@ p.back-link {
     height: 60px;
     float: left;
   }
-  @include breakpoint($q-xxlarge) {
+  @include breakpoint($q-xxxlarge) {
     position: absolute;
     bottom: -10px;
     height: auto;
     margin-bottom: 40px;
-  }
-  @include breakpoint($q-xxxlarge) {
-    display: block;
-    height: 30px;
-    margin: 0 auto $spacing-m;
-    bottom: 0;
-    float: none;
-    position: relative;
   }
   .slick-prev {
     height: 30px;
@@ -863,9 +840,6 @@ p.back-link {
   }
   @include breakpoint($q-medium) {
     max-height: 650px;
-  }
-  @include breakpoint($q-xxxlarge) {
-    max-height: 800px;
   }
 }
 
