@@ -5,7 +5,7 @@ title:  Increasing appetite for affordable, healthy food
 subtitle:  Supplying Demand
 date:   2011-07-01
 categories:   project
-short-description:   "As part of an interdisciplinary design studio, I researched and tested designs to encourage healthy eating in Baltimore’s food deserts. We collaborated with a virtual supermarket program—where residents could order/pick up groceries at their local library or school—to run a month-long promotion that incentivized purchases of fresh and frozen greens."
+short-description:   "As part of an interdisciplinary design studio, I researched and tested designs to encourage healthy eating in Baltimore’s food deserts. We collaborated with a virtual supermarket program—where residents could order and pick up groceries at their local library or school—to run a month-long promotion."
 role:   Project definition, research design, implementation & synthesis, writing, publication design
 ---
 

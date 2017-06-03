@@ -38,10 +38,16 @@
   }
   .serif-l {
     @include breakpoint($q-small) {
-      width: 85%;
+      width: 86%;
     }
     @include breakpoint($q-medium) {
-      width: 75%;
+      width: 94%;
+    }
+    @include breakpoint($q-large) {
+      width: 87%;
+    }
+    @include breakpoint($q-xlarge) {
+      width: 72%;
     }
   }
  }

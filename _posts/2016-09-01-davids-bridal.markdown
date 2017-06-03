@@ -15,7 +15,7 @@ Buying a wedding dress isn’t a straightforward transaction. David’s needed a
 
 We set out to simulate the ultimate in-store sales associate and meet users where they are in the planning/shopping process—the majority being first-time visitors, or just browsing. We’d seamlessly guide users through all David’s has to offer and educate them so they’d feel empowered to make their own selections.
 
-With the urgency to fix issues on the live site, we prioritized pages by user flow—product exploration, account management, checkout, store locations and appointments, etc. Wireframes served as testable prototypes and provided implementation guidance, while our polished comps and InVision flows illustrated the workings of our design system. Our work culminated with a library of coded patterns spanning an entire e-commerce experience.
+With the urgency to fix issues on the live site, we prioritized pages by user flow—product exploration, account management, checkout, store locations, appointments, etc. Wireframes served as testable prototypes and provided implementation guidance, while our polished comps and InVision flows illustrated the workings of our design system. Our work culminated with a library of coded patterns spanning an entire e-commerce experience.
 
 <div class="fig-with-cap">
   <figure class="scrollable center-image"><img src="../../../../a/img/db-01.jpg" alt="Homepage"></figure>
