@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  It's like a zoo in here
+title:  It’s like a zoo in here
 subtitle:  Laundry (Part 2)
 source: "Quirks & Compulsions"
 source-url: http://www.quirksandcompulsions.com/4

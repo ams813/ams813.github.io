@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Knowing what's next
+title:  Knowing what’s next
 source: SuperYesMore
 source-url: https://superyesmore.com/
 date:   2017-10-01
