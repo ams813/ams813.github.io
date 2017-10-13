@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Knowing what’s next
-source: SuperYesMore
-source-url:
+source: The Human In The Machine
+source-url: https://superyesmore.com/knowing-whate28099s-next-a3869453baf3274d0d05fc0c4839d998
 date:   2017-10-13
 categories:   article
 ---
