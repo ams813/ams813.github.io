@@ -6,13 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Aura Seltzer
-email: aura.seltzer@gmail.com
+title: Aura Weiner
+email: aura.weiner@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
- I’m a designer making content both beautiful and approachable, busy crafting systems and experiences for the web.
+ I’m a methodical designer and strategic thinker, busy crafting digital systems and experiences.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://auraseltzer.com" # the base hostname & protocol for your site
-twitter_username: auraseltzer
+twitter_username: auraweiner
 
 # Build settings
 markdown: kramdown
