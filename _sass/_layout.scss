@@ -4,9 +4,9 @@
   margin: 0 -9999rem;
   padding: $spacing-xxl 9999rem 1px;
   background-color: $cream;
-  @include breakpoint($q-small) {
-    padding-top: $spacing-xxxl;
-  }
+  //@include breakpoint($q-small) {
+    //padding-top: $spacing-xxxl;
+  //}
   @include breakpoint($q-medium) {
     padding-top: $spacing-xxxxl;
   }
